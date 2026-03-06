@@ -1,0 +1,6 @@
+[submodule "gide-ro-crate"]
+	path = gide-ro-crate
+	url = https://github.com/BioImage-Archive/gide-ro-crate.git
+[submodule "idr_study_crates"]
+	path = idr_study_crates
+	url = https://github.com/German-BioImaging/idr_study_crates.git
