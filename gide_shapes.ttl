@@ -61,6 +61,13 @@ gide:DatasetShape
         sh:message "Dataset MUST have at least one dwciri:measurementMethod" ;
     ] ;
     # SHOULD
+        sh:property [
+        sh:path schema:datePublished ;
+        sh:severity sh:Warning ;
+        sh:datatype xsd:date ;
+        sh:pattern "^\\d{4}-\\d{2}-\\d{2}$" ;
+        sh:message "Dataset schema:datePublished SHOULD be a valid xsd:date in YYYY-MM-DD format" ;
+    ] ;
     sh:property [
         sh:path schema:thumbnailUrl ;
         sh:minCount 1 ;
