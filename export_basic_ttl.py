@@ -3008,6 +3008,14 @@ def write_merged_ttl(output_path: Path, gide_crates_folder: Path) -> None:
             graph.remove((s, p, o))
             graph.add((new_s, p, o))
 
+    # Bind human-readable prefixes so Turtle output uses them instead of ns1, ns2, …
+    graph.bind("schema1", "http://schema.org/", override=True)
+    graph.bind("obo", "http://purl.obolibrary.org/obo/", override=True)
+    graph.bind("dwc", "http://rs.tdwg.org/dwc/terms/", override=True)
+    graph.bind("dwciri", "http://rs.tdwg.org/dwc/iri/", override=True)
+    graph.bind("dct", "http://purl.org/dc/terms/", override=True)
+    graph.bind("bao", "http://www.bioassayontology.org/bao#", override=True)
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     graph.serialize(destination=str(output_path), format="turtle")
     print(f"Merged TTL written to: {output_path}")
@@ -3015,6 +3023,12 @@ def write_merged_ttl(output_path: Path, gide_crates_folder: Path) -> None:
     # Export a version removing all statements about any "a sdo:Person" and "sdo:keywords" for simplicity
     simplified_output_path = output_path.with_name(output_path.stem + "_simplified.ttl")
     simplified_graph = Graph()
+    simplified_graph.bind("schema1", "http://schema.org/", override=True)
+    simplified_graph.bind("obo", "http://purl.obolibrary.org/obo/", override=True)
+    simplified_graph.bind("dwc", "http://rs.tdwg.org/dwc/terms/", override=True)
+    simplified_graph.bind("dwciri", "http://rs.tdwg.org/dwc/iri/", override=True)
+    simplified_graph.bind("dct", "http://purl.org/dc/terms/", override=True)
+    simplified_graph.bind("bao", "http://www.bioassayontology.org/bao#", override=True)
 
     import rdflib
 

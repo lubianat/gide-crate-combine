@@ -1,3 +1,4 @@
 GIDE_crates
 ontologies/raw
 merged_output*.ttl
+gide*.ttl
