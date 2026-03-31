@@ -1,4 +1,10 @@
-GIDE_crates
-ontologies/raw
-merged_output*.ttl
-gide*.ttl
+data_deliverable/GIDE_crates
+src/ontologies/raw
+src/merged_output*.ttl
+src/gide*.ttl
+src/gide-ro-crate-openssbd
+src/idr_study_crates
+src/gide-ro-crate
+.vscode
+.venv
+.github

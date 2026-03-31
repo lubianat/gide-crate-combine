@@ -12,8 +12,7 @@ BIA_CRATES_FOLDER = HERE / "gide-ro-crate" / "study_ro_crates"
 IDR_CRATES_FOLDER = HERE / "idr_study_crates" / "ro-crates"
 SSBD_DB_FOLDER = HERE / "gide-ro-crate-openssbd" / "project-ro-crate" / "database"
 SSBD_REPO_FOLDER = HERE / "gide-ro-crate-openssbd" / "project-ro-crate" / "repository"
-INVALID_FOLDER = HERE / "invalid_crates"
-destination_folder = HERE / "GIDE_crates"
+destination_folder = HERE / "../data_deliverable/GIDE_crates"
 destination_folder.mkdir(exist_ok=True)
 
 
@@ -97,7 +96,6 @@ folders = {
     "IDR_CRATES_FOLDER": IDR_CRATES_FOLDER,
     "SSBD_DB_FOLDER": SSBD_DB_FOLDER,
     "SSBD_REPO_FOLDER": SSBD_REPO_FOLDER,
-    "INVALID_FOLDER": INVALID_FOLDER,
 }
 
 for folder_name, folder in folders.items():

@@ -5,7 +5,7 @@ from the FBbi OWL ontology and the NCBITaxon TSV hierarchy. Reports
 case-insensitive mismatches and missing labels in an HTML report.
 
 Expects the same directory layout as the companion scripts:
-  ./GIDE_crates/*-ro-crate-metadata.json
+  ../data_deliverable/GIDE_crates/*-ro-crate-metadata.json
   ./ontologies/raw/fbbi.owl
   ./ontologies/raw/ncbitaxon_hierarchy_wikidata.tsv
 """
@@ -24,7 +24,7 @@ from pathlib import Path
 # ── Paths ────────────────────────────────────────────────────────────────────
 
 ROOT = Path(__file__).resolve().parent
-CRATES_DIR = ROOT / "GIDE_crates"
+CRATES_DIR = ROOT / "../data_deliverable/GIDE_crates"
 FBBI_OWL = ROOT / "ontologies" / "raw" / "fbbi.owl"
 NCBITAXON_TSV = ROOT / "ontologies" / "raw" / "ncbitaxon_hierarchy_wikidata.tsv"
 HTML_OUTPUT = ROOT / "ncbi_fbbi_usage.html"

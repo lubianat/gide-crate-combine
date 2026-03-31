@@ -1,0 +1,427 @@
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+obo:FBbi_00000001 a owl:Class ;
+    rdfs:label "sample preparation method" ;
+    rdfs:subClassOf obo:FBbi_root_00000000 .
+
+obo:FBbi_00000002 a owl:Class ;
+    rdfs:label "chemically fixed tissue" ;
+    rdfs:subClassOf obo:FBbi_00001012 .
+
+obo:FBbi_00000024 a owl:Class ;
+    rdfs:label "whole mounted tissue" ;
+    rdfs:subClassOf obo:FBbi_00000001 .
+
+obo:FBbi_00000026 a owl:Class ;
+    rdfs:label "sectioned tissue" ;
+    rdfs:subClassOf obo:FBbi_00000001 .
+
+obo:FBbi_00000027 a owl:Class ;
+    rdfs:label "cryostat-sectioned tissue" ;
+    rdfs:subClassOf obo:FBbi_00000026 .
+
+obo:FBbi_00000031 a owl:Class ;
+    rdfs:label "visualization method" ;
+    rdfs:subClassOf obo:FBbi_root_00000000 .
+
+obo:FBbi_00000056 a owl:Class ;
+    rdfs:label "4',6-diamidino-2-phenylindole (DAPI)" ;
+    rdfs:subClassOf obo:FBbi_00000422 .
+
+obo:FBbi_00000076 a owl:Class ;
+    rdfs:label "genetically encoded enzyme" ;
+    rdfs:subClassOf obo:FBbi_00000079 .
+
+obo:FBbi_00000077 a owl:Class ;
+    rdfs:label "beta-galactosidase" ;
+    rdfs:subClassOf obo:FBbi_00000076 .
+
+obo:FBbi_00000079 a owl:Class ;
+    rdfs:label "genetically encoded tag" ;
+    rdfs:subClassOf obo:FBbi_00000410 .
+
+obo:FBbi_00000088 a owl:Class ;
+    rdfs:label "intracellular filling" ;
+    rdfs:subClassOf obo:FBbi_00000396 .
+
+obo:FBbi_00000128 a owl:Class ;
+    rdfs:label "vizualization of label conjugated to probe" ;
+    rdfs:subClassOf obo:FBbi_00000031 .
+
+obo:FBbi_00000138 a owl:Class ;
+    rdfs:label "horseradish peroxidase" ;
+    rdfs:subClassOf obo:FBbi_00000456 .
+
+obo:FBbi_00000222 a owl:Class ;
+    rdfs:label "imaging method" ;
+    rdfs:subClassOf obo:FBbi_root_00000000 .
+
+obo:FBbi_00000223 a owl:Class ;
+    rdfs:label "graphic illustration" ;
+    rdfs:subClassOf obo:FBbi_00000266 .
+
+obo:FBbi_00000224 a owl:Class ;
+    rdfs:label "computer graphic" ;
+    rdfs:subClassOf obo:FBbi_00000223 .
+
+obo:FBbi_00000230 a owl:Class ;
+    rdfs:label "line art graphic" ;
+    rdfs:subClassOf obo:FBbi_00000223 .
+
+obo:FBbi_00000234 a owl:Class ;
+    rdfs:label "pen and ink graphic" ;
+    rdfs:subClassOf obo:FBbi_00000230 .
+
+obo:FBbi_00000240 a owl:Class ;
+    rdfs:label "macroscopy" ;
+    rdfs:subClassOf obo:FBbi_00000265 .
+
+obo:FBbi_00000241 a owl:Class ;
+    rdfs:label "microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000265 .
+
+obo:FBbi_00000243 a owl:Class ;
+    rdfs:label "bright-field microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000345 .
+
+obo:FBbi_00000244 a owl:Class ;
+    rdfs:label "dark-field microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000345 .
+
+obo:FBbi_00000245 a owl:Class ;
+    rdfs:label "differential interference contrast microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000345 .
+
+obo:FBbi_00000246 a owl:Class ;
+    rdfs:label "fluorescence microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000345 .
+
+obo:FBbi_00000247 a owl:Class ;
+    rdfs:label "phase contrast microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000345 .
+
+obo:FBbi_00000248 a owl:Class ;
+    rdfs:label "polarization microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000345 .
+
+obo:FBbi_00000249 a owl:Class ;
+    rdfs:label "time lapse microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000345 .
+
+obo:FBbi_00000251 a owl:Class ;
+    rdfs:label "confocal microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000246 .
+
+obo:FBbi_00000253 a owl:Class ;
+    rdfs:label "spinning disk confocal microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000251 .
+
+obo:FBbi_00000254 a owl:Class ;
+    rdfs:label "two-photon laser scanning microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000255 .
+
+obo:FBbi_00000255 a owl:Class ;
+    rdfs:label "multi-photon microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000246 .
+
+obo:FBbi_00000256 a owl:Class ;
+    rdfs:label "electron microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000343 .
+
+obo:FBbi_00000257 a owl:Class ;
+    rdfs:label "scanning electron microscopy (SEM)" ;
+    rdfs:subClassOf obo:FBbi_00000256 .
+
+obo:FBbi_00000258 a owl:Class ;
+    rdfs:label "transmission electron microscopy (TEM)" ;
+    rdfs:subClassOf obo:FBbi_00000256 .
+
+obo:FBbi_00000259 a owl:Class ;
+    rdfs:label "atomic force microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000344 .
+
+obo:FBbi_00000260 a owl:Class ;
+    rdfs:label "X-ray microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000241, obo:FBbi_00001001 .
+
+obo:FBbi_00000265 a owl:Class ;
+    rdfs:label "recorded image" ;
+    rdfs:subClassOf obo:FBbi_00000222 .
+
+obo:FBbi_00000266 a owl:Class ;
+    rdfs:label "portrayed image" ;
+    rdfs:subClassOf obo:FBbi_00000222 .
+
+obo:FBbi_00000267 a owl:Class ;
+    rdfs:label "animation" ;
+    rdfs:subClassOf obo:FBbi_00000224 .
+
+obo:FBbi_00000268 a owl:Class ;
+    rdfs:label "illumination method" ;
+    rdfs:subClassOf obo:FBbi_root_00000000 .
+
+obo:FBbi_00000270 a owl:Class ;
+    rdfs:label "imaged parameter" ;
+    rdfs:subClassOf obo:FBbi_root_00000000 .
+
+obo:FBbi_00000271 a owl:Class ;
+    rdfs:label "contrast-enhancing method" ;
+    rdfs:subClassOf obo:FBbi_root_00000000 .
+
+obo:FBbi_00000277 a owl:Class ;
+    rdfs:label "widefield illumination" ;
+    rdfs:subClassOf obo:FBbi_00000268 .
+
+obo:FBbi_00000278 a owl:Class ;
+    rdfs:label "narrowfield illumination" ;
+    rdfs:subClassOf obo:FBbi_00000268 .
+
+obo:FBbi_00000284 a owl:Class ;
+    rdfs:label "pulsed illumination" ;
+    rdfs:subClassOf obo:FBbi_00000268 .
+
+obo:FBbi_00000285 a owl:Class ;
+    rdfs:label "oblique illumination" ;
+    rdfs:subClassOf obo:FBbi_00000268 .
+
+obo:FBbi_00000286 a owl:Class ;
+    rdfs:label "single point scanning" ;
+    rdfs:subClassOf obo:FBbi_00000278 .
+
+obo:FBbi_00000287 a owl:Class ;
+    rdfs:label "multiple point scanning" ;
+    rdfs:subClassOf obo:FBbi_00000278 .
+
+obo:FBbi_00000288 a owl:Class ;
+    rdfs:label "spinning disk scanning" ;
+    rdfs:subClassOf obo:FBbi_00000287 .
+
+obo:FBbi_00000309 a owl:Class ;
+    rdfs:label "inelastic scattering" ;
+    rdfs:subClassOf obo:FBbi_00000270 .
+
+obo:FBbi_00000310 a owl:Class ;
+    rdfs:label "elastic scattering" ;
+    rdfs:subClassOf obo:FBbi_00000270 .
+
+obo:FBbi_00000321 a owl:Class ;
+    rdfs:label "resolution-enhancing method" ;
+    rdfs:subClassOf obo:FBbi_root_00000000 .
+
+obo:FBbi_00000322 a owl:Class ;
+    rdfs:label "optical method" ;
+    rdfs:subClassOf obo:FBbi_00000271 .
+
+obo:FBbi_00000332 a owl:Class ;
+    rdfs:label "structured illumination microscopy (SIM)" ;
+    rdfs:subClassOf obo:FBbi_00000321 .
+
+obo:FBbi_00000333 a owl:Class ;
+    rdfs:label "point-localization method" ;
+    rdfs:subClassOf obo:FBbi_00000321 .
+
+obo:FBbi_00000334 a owl:Class ;
+    rdfs:label "stimulated emission depletion (STED)" ;
+    rdfs:subClassOf obo:FBbi_00000321 .
+
+obo:FBbi_00000336 a owl:Class ;
+    rdfs:label "STORM (stochastic optical reconstruction microscopy)" ;
+    rdfs:subClassOf obo:FBbi_00000333 .
+
+obo:FBbi_00000340 a owl:Class ;
+    rdfs:label "saturated structured-illumination microscopy (SSIM)" ;
+    rdfs:subClassOf obo:FBbi_00000332 .
+
+obo:FBbi_00000343 a owl:Class ;
+    rdfs:label "microscopy with lenses" ;
+    rdfs:subClassOf obo:FBbi_00000241 .
+
+obo:FBbi_00000344 a owl:Class ;
+    rdfs:label "scanning probe microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000241 .
+
+obo:FBbi_00000345 a owl:Class ;
+    rdfs:label "light microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000343 .
+
+obo:FBbi_00000348 a owl:Class ;
+    rdfs:label "nearfield scanning optical microscopy (ANSOM)" ;
+    rdfs:subClassOf obo:FBbi_00000344 .
+
+obo:FBbi_00000349 a owl:Class ;
+    rdfs:label "ANSOM" ;
+    rdfs:subClassOf obo:FBbi_00000348 .
+
+obo:FBbi_00000353 a owl:Class ;
+    rdfs:label "modified objective lens" ;
+    rdfs:subClassOf obo:FBbi_00000322 .
+
+obo:FBbi_00000364 a owl:Class ;
+    rdfs:label "light-sheet illumination" ;
+    rdfs:subClassOf obo:FBbi_00000285 .
+
+obo:FBbi_00000365 a owl:Class ;
+    rdfs:label "FLIP" ;
+    rdfs:subClassOf obo:FBbi_00000246 .
+
+obo:FBbi_00000366 a owl:Class ;
+    rdfs:label "FRAP" ;
+    rdfs:subClassOf obo:FBbi_00000365 .
+
+obo:FBbi_00000367 a owl:Class ;
+    rdfs:label "FRET" ;
+    rdfs:subClassOf obo:FBbi_00000246 .
+
+obo:FBbi_00000368 a owl:Class ;
+    rdfs:label "FLIM" ;
+    rdfs:subClassOf obo:FBbi_00000246 .
+
+obo:FBbi_00000369 a owl:Class ;
+    rdfs:label "SPIM" ;
+    rdfs:subClassOf obo:FBbi_00000246 .
+
+obo:FBbi_00000370 a owl:Class ;
+    rdfs:label "CARS" ;
+    rdfs:subClassOf obo:FBbi_00000345 .
+
+obo:FBbi_00000371 a owl:Class ;
+    rdfs:label "OCT" ;
+    rdfs:subClassOf obo:FBbi_00000345 .
+
+obo:FBbi_00000373 a owl:Class ;
+    rdfs:label "back-scattered_electron imaging" ;
+    rdfs:subClassOf obo:FBbi_00000257 .
+
+obo:FBbi_00000380 a owl:Class ;
+    rdfs:label "scanning-transmission electron microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000256 .
+
+obo:FBbi_00000383 a owl:Class ;
+    rdfs:label "specimen_modifying_illumination" ;
+    rdfs:subClassOf obo:FBbi_00000268 .
+
+obo:FBbi_00000392 a owl:Class ;
+    rdfs:label "slit-scan confocal microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000251 .
+
+obo:FBbi_00000393 a owl:Class ;
+    rdfs:label "array-scan confocal microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000251 .
+
+obo:FBbi_00000396 a owl:Class ;
+    rdfs:label "visualization of contiguous regions" ;
+    rdfs:subClassOf obo:FBbi_00000031 .
+
+obo:FBbi_00000397 a owl:Class ;
+    rdfs:label "visualization by chemical attribute" ;
+    rdfs:subClassOf obo:FBbi_00000031 .
+
+obo:FBbi_00000401 a owl:Class ;
+    rdfs:label "antibody" ;
+    rdfs:subClassOf obo:FBbi_00000410 .
+
+obo:FBbi_00000403 a owl:Class ;
+    rdfs:label "small-molecule probe" ;
+    rdfs:subClassOf obo:FBbi_00000397 .
+
+obo:FBbi_00000405 a owl:Class ;
+    rdfs:label "fluorescent protein tag" ;
+    rdfs:subClassOf obo:FBbi_00000079 .
+
+obo:FBbi_00000406 a owl:Class ;
+    rdfs:label "probes for nucleic acid" ;
+    rdfs:subClassOf obo:FBbi_00000403 .
+
+obo:FBbi_00000410 a owl:Class ;
+    rdfs:label "macromolecular probe" ;
+    rdfs:subClassOf obo:FBbi_00000397 .
+
+obo:FBbi_00000422 a owl:Class ;
+    rdfs:label "membrane impermeant probe" ;
+    rdfs:subClassOf obo:FBbi_00000406 .
+
+obo:FBbi_00000451 a owl:Class ;
+    rdfs:label "Fluorescein (FITC)" ;
+    rdfs:subClassOf obo:FBbi_00000455 .
+
+obo:FBbi_00000455 a owl:Class ;
+    rdfs:label "fluorescent label" ;
+    rdfs:subClassOf obo:FBbi_00000128 .
+
+obo:FBbi_00000456 a owl:Class ;
+    rdfs:label "enzyme label" ;
+    rdfs:subClassOf obo:FBbi_00000128 .
+
+obo:FBbi_00000580 a owl:Class ;
+    rdfs:label "secondary electron generation" ;
+    rdfs:subClassOf obo:FBbi_00000270 .
+
+obo:FBbi_00000585 a owl:Class ;
+    rdfs:label "serial block face SEM (SBFSEM)" ;
+    rdfs:subClassOf obo:FBbi_00000373 .
+
+obo:FBbi_00000586 a owl:Class ;
+    rdfs:label "elastic scattering of electrons" ;
+    rdfs:subClassOf obo:FBbi_00000310 .
+
+obo:FBbi_00000589 a owl:Class ;
+    rdfs:label "inelastic scattering of photons (Raman scattering)" ;
+    rdfs:subClassOf obo:FBbi_00000309 .
+
+obo:FBbi_00000590 a owl:Class ;
+    rdfs:label "source of contrast" ;
+    rdfs:subClassOf obo:FBbi_root_00000000 .
+
+obo:FBbi_00000603 a owl:Class ;
+    rdfs:label "fluorescence polarization microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000246 .
+
+obo:FBbi_00000605 a owl:Class ;
+    rdfs:label "differences in fluorescence lifetime" ;
+    rdfs:subClassOf obo:FBbi_00000590 .
+
+obo:FBbi_00000617 a owl:Class ;
+    rdfs:label "evanescent wave microscopy" ;
+    rdfs:subClassOf obo:FBbi_00000246 .
+
+obo:FBbi_00000622 a owl:Class ;
+    rdfs:label "high-voltage electron microscopy (HVEM)" ;
+    rdfs:subClassOf obo:FBbi_00000258 .
+
+obo:FBbi_00001000 a owl:Class ;
+    rdfs:label "radiography" ;
+    rdfs:subClassOf obo:FBbi_00000265 .
+
+obo:FBbi_00001001 a owl:Class ;
+    rdfs:label "X-ray radiography" ;
+    rdfs:subClassOf obo:FBbi_00001000 .
+
+obo:FBbi_00001002 a owl:Class ;
+    rdfs:label "X-ray computed tomography" ;
+    rdfs:subClassOf obo:FBbi_00001003, obo:FBbi_00001005 .
+
+obo:FBbi_00001003 a owl:Class ;
+    rdfs:label "X-ray tomography" ;
+    rdfs:subClassOf obo:FBbi_00001001, obo:FBbi_00001004 .
+
+obo:FBbi_00001004 a owl:Class ;
+    rdfs:label "tomography" ;
+    rdfs:subClassOf obo:FBbi_00000265 .
+
+obo:FBbi_00001005 a owl:Class ;
+    rdfs:label "computed tomography" ;
+    rdfs:subClassOf obo:FBbi_00001004 .
+
+obo:FBbi_00001012 a owl:Class ;
+    rdfs:label "fixation method" ;
+    rdfs:subClassOf obo:FBbi_00000001 .
+
+obo:FBbi_00050000 a owl:Class ;
+    rdfs:label "focussed ion beam scanning electron microscopy (FIB-SEM)" ;
+    rdfs:subClassOf obo:FBbi_00000373 .
+
+obo:FBbi_root_00000000 a owl:Class ;
+    rdfs:label "method involved in biological imaging" .
+

@@ -1,0 +1,4235 @@
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+obo:NCBITaxon_2 a schema1:Taxon ;
+    rdfs:label "Bacteria" ;
+    dwc:scientificName "Bacteria" .
+
+obo:NCBITaxon_29 a schema1:Taxon ;
+    rdfs:label "Myxococcales" ;
+    dwc:scientificName "Myxococcales" ;
+    rdfs:subClassOf obo:NCBITaxon_2818505 .
+
+obo:NCBITaxon_31 a schema1:Taxon ;
+    rdfs:label "Myxococcaceae" ;
+    dwc:scientificName "Myxococcaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_29 .
+
+obo:NCBITaxon_32 a schema1:Taxon ;
+    rdfs:label "Myxococcus" ;
+    dwc:scientificName "Myxococcus" ;
+    rdfs:subClassOf obo:NCBITaxon_31 .
+
+obo:NCBITaxon_34 a schema1:Taxon ;
+    rdfs:label "Myxococcus xanthus" ;
+    dwc:scientificName "Myxococcus xanthus" ;
+    rdfs:subClassOf obo:NCBITaxon_32 .
+
+obo:NCBITaxon_75 a schema1:Taxon ;
+    rdfs:label "Caulobacter" ;
+    dwc:scientificName "Caulobacter" ;
+    rdfs:subClassOf obo:NCBITaxon_76892 .
+
+obo:NCBITaxon_113 a schema1:Taxon ;
+    rdfs:label "Gemmata" ;
+    dwc:scientificName "Gemmata" ;
+    rdfs:subClassOf obo:NCBITaxon_1914233 .
+
+obo:NCBITaxon_114 a schema1:Taxon ;
+    rdfs:label "Gemmata obscuriglobus" ;
+    dwc:scientificName "Gemmata obscuriglobus" ;
+    rdfs:subClassOf obo:NCBITaxon_113 .
+
+obo:NCBITaxon_136 a schema1:Taxon ;
+    rdfs:label "Spirochaetales" ;
+    dwc:scientificName "Spirochaetales" ;
+    rdfs:subClassOf obo:NCBITaxon_203692 .
+
+obo:NCBITaxon_139 a schema1:Taxon ;
+    rdfs:label "Borreliella burgdorferi" ;
+    dwc:scientificName "Borreliella burgdorferi" ;
+    rdfs:subClassOf obo:NCBITaxon_64895 .
+
+obo:NCBITaxon_286 a schema1:Taxon ;
+    rdfs:label "Pseudomonas" ;
+    dwc:scientificName "Pseudomonas" ;
+    rdfs:subClassOf obo:NCBITaxon_135621 .
+
+obo:NCBITaxon_287 a schema1:Taxon ;
+    rdfs:label "Pseudomonas aeruginosa" ;
+    dwc:scientificName "Pseudomonas aeruginosa" ;
+    rdfs:subClassOf obo:NCBITaxon_286 .
+
+obo:NCBITaxon_317 a schema1:Taxon ;
+    rdfs:label "Pseudomonas syringae" ;
+    dwc:scientificName "Pseudomonas syringae" ;
+    rdfs:subClassOf obo:NCBITaxon_286 .
+
+obo:NCBITaxon_543 a schema1:Taxon ;
+    rdfs:label "Enterobacteriaceae" ;
+    dwc:scientificName "Enterobacteriaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_91347 .
+
+obo:NCBITaxon_561 a schema1:Taxon ;
+    rdfs:label "Escherichia" ;
+    dwc:scientificName "Escherichia" ;
+    rdfs:subClassOf obo:NCBITaxon_543 .
+
+obo:NCBITaxon_562 a schema1:Taxon ;
+    rdfs:label "Escherichia coli" ;
+    dwc:scientificName "Escherichia coli" ;
+    rdfs:subClassOf obo:NCBITaxon_561 .
+
+obo:NCBITaxon_958 a schema1:Taxon ;
+    rdfs:label "Bdellovibrio" ;
+    dwc:scientificName "Bdellovibrio" ;
+    rdfs:subClassOf obo:NCBITaxon_213483 .
+
+obo:NCBITaxon_959 a schema1:Taxon ;
+    rdfs:label "Bdellovibrio bacteriovorus" ;
+    dwc:scientificName "Bdellovibrio bacteriovorus" ;
+    rdfs:subClassOf obo:NCBITaxon_958 .
+
+obo:NCBITaxon_1117 a schema1:Taxon ;
+    rdfs:label "Cyanobacteriota" ;
+    dwc:scientificName "Cyanobacteriota" ;
+    rdfs:subClassOf obo:NCBITaxon_1783272 .
+
+obo:NCBITaxon_1118 a schema1:Taxon ;
+    rdfs:label "Chroococcales" ;
+    dwc:scientificName "Chroococcales" ;
+    rdfs:subClassOf obo:NCBITaxon_3028117 .
+
+obo:NCBITaxon_1125 a schema1:Taxon ;
+    rdfs:label "Microcystis" ;
+    dwc:scientificName "Microcystis" ;
+    rdfs:subClassOf obo:NCBITaxon_1890449 .
+
+obo:NCBITaxon_1126 a schema1:Taxon ;
+    rdfs:label "Microcystis aeruginosa" ;
+    dwc:scientificName "Microcystis aeruginosa" ;
+    rdfs:subClassOf obo:NCBITaxon_1125 .
+
+obo:NCBITaxon_1143 a schema1:Taxon ;
+    rdfs:label "Synechocystis sp." ;
+    dwc:scientificName "Synechocystis sp." .
+
+obo:NCBITaxon_1150 a schema1:Taxon ;
+    rdfs:label "Oscillatoriales" ;
+    dwc:scientificName "Oscillatoriales" ;
+    rdfs:subClassOf obo:NCBITaxon_3028117 .
+
+obo:NCBITaxon_1160 a schema1:Taxon ;
+    rdfs:label "Planktothrix agardhii" ;
+    dwc:scientificName "Planktothrix agardhii" ;
+    rdfs:subClassOf obo:NCBITaxon_54304 .
+
+obo:NCBITaxon_1224 a schema1:Taxon ;
+    rdfs:label "Pseudomonadota" ;
+    dwc:scientificName "Pseudomonadota" ;
+    rdfs:subClassOf obo:NCBITaxon_3379134 .
+
+obo:NCBITaxon_1236 a schema1:Taxon ;
+    rdfs:label "Gammaproteobacteria" ;
+    dwc:scientificName "Gammaproteobacteria" ;
+    rdfs:subClassOf obo:NCBITaxon_1224 .
+
+obo:NCBITaxon_1239 a schema1:Taxon ;
+    rdfs:label "Bacillota" ;
+    dwc:scientificName "Bacillota" ;
+    rdfs:subClassOf obo:NCBITaxon_1783272 .
+
+obo:NCBITaxon_1279 a schema1:Taxon ;
+    rdfs:label "Staphylococcus" ;
+    dwc:scientificName "Staphylococcus" ;
+    rdfs:subClassOf obo:NCBITaxon_90964 .
+
+obo:NCBITaxon_1280 a schema1:Taxon ;
+    rdfs:label "Staphylococcus aureus" ;
+    dwc:scientificName "Staphylococcus aureus" ;
+    rdfs:subClassOf obo:NCBITaxon_1279 .
+
+obo:NCBITaxon_1386 a schema1:Taxon ;
+    rdfs:label "Bacillus" ;
+    dwc:scientificName "Bacillus" ;
+    rdfs:subClassOf obo:NCBITaxon_186817 .
+
+obo:NCBITaxon_1423 a schema1:Taxon ;
+    rdfs:label "Bacillus subtilis" ;
+    dwc:scientificName "Bacillus subtilis" ;
+    rdfs:subClassOf obo:NCBITaxon_1386 .
+
+obo:NCBITaxon_1760 a schema1:Taxon ;
+    rdfs:label "Actinomycetes" ;
+    dwc:scientificName "Actinomycetes" ;
+    rdfs:subClassOf obo:NCBITaxon_201174 .
+
+obo:NCBITaxon_1883 a schema1:Taxon ;
+    rdfs:label "Streptomyces" ;
+    dwc:scientificName "Streptomyces" ;
+    rdfs:subClassOf obo:NCBITaxon_2062 .
+
+obo:NCBITaxon_2062 a schema1:Taxon ;
+    rdfs:label "Streptomycetaceae" ;
+    dwc:scientificName "Streptomycetaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_85011 .
+
+obo:NCBITaxon_2759 a schema1:Taxon ;
+    rdfs:label "Eukaryota" ;
+    dwc:scientificName "Eukaryota" .
+
+obo:NCBITaxon_2763 a schema1:Taxon ;
+    rdfs:label "Rhodophyta" ;
+    dwc:scientificName "Rhodophyta" ;
+    rdfs:subClassOf obo:NCBITaxon_2759 .
+
+obo:NCBITaxon_2830 a schema1:Taxon ;
+    rdfs:label "Haptophyta" ;
+    dwc:scientificName "Haptophyta" ;
+    rdfs:subClassOf obo:NCBITaxon_2759 .
+
+obo:NCBITaxon_2864 a schema1:Taxon ;
+    rdfs:label "Dinophyceae" ;
+    dwc:scientificName "Dinophyceae" ;
+    rdfs:subClassOf obo:NCBITaxon_33630 .
+
+obo:NCBITaxon_2942 a schema1:Taxon ;
+    rdfs:label "Prorocentrales" ;
+    dwc:scientificName "Prorocentrales" ;
+    rdfs:subClassOf obo:NCBITaxon_2864 .
+
+obo:NCBITaxon_3041 a schema1:Taxon ;
+    rdfs:label "Chlorophyta" ;
+    dwc:scientificName "Chlorophyta" ;
+    rdfs:subClassOf obo:NCBITaxon_33090 .
+
+obo:NCBITaxon_3051 a schema1:Taxon ;
+    rdfs:label "Chlamydomonadaceae" ;
+    dwc:scientificName "Chlamydomonadaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_3166 .
+
+obo:NCBITaxon_3052 a schema1:Taxon ;
+    rdfs:label "Chlamydomonas" ;
+    dwc:scientificName "Chlamydomonas" ;
+    rdfs:subClassOf obo:NCBITaxon_3051 .
+
+obo:NCBITaxon_3055 a schema1:Taxon ;
+    rdfs:label "Chlamydomonas reinhardtii" ;
+    dwc:scientificName "Chlamydomonas reinhardtii" ;
+    rdfs:subClassOf obo:NCBITaxon_3052 .
+
+obo:NCBITaxon_3166 a schema1:Taxon ;
+    rdfs:label "Chlorophyceae" ;
+    dwc:scientificName "Chlorophyceae" ;
+    rdfs:subClassOf obo:NCBITaxon_3041 .
+
+obo:NCBITaxon_3193 a schema1:Taxon ;
+    rdfs:label "Embryophytes" ;
+    dwc:scientificName "Embryophytes" ;
+    rdfs:subClassOf obo:NCBITaxon_35493 .
+
+obo:NCBITaxon_3195 a schema1:Taxon ;
+    rdfs:label "Marchantiophyta" ;
+    dwc:scientificName "Marchantiophyta" ;
+    rdfs:subClassOf obo:NCBITaxon_3193 .
+
+obo:NCBITaxon_3199 a schema1:Taxon ;
+    rdfs:label "Jungermanniales" ;
+    dwc:scientificName "Jungermanniales" ;
+    rdfs:subClassOf obo:NCBITaxon_186782 .
+
+obo:NCBITaxon_3208 a schema1:Taxon ;
+    rdfs:label "Bryophyta" ;
+    dwc:scientificName "Bryophyta" ;
+    rdfs:subClassOf obo:NCBITaxon_3193 .
+
+obo:NCBITaxon_3214 a schema1:Taxon ;
+    rdfs:label "Bryopsida" ;
+    dwc:scientificName "Bryopsida" ;
+    rdfs:subClassOf obo:NCBITaxon_3208 .
+
+obo:NCBITaxon_3215 a schema1:Taxon ;
+    rdfs:label "Funariales" ;
+    dwc:scientificName "Funariales" ;
+    rdfs:subClassOf obo:NCBITaxon_114656 .
+
+obo:NCBITaxon_3216 a schema1:Taxon ;
+    rdfs:label "Funariaceae" ;
+    dwc:scientificName "Funariaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_3215 .
+
+obo:NCBITaxon_3218 a schema1:Taxon ;
+    rdfs:label "Physcomitrium patens" ;
+    dwc:scientificName "Physcomitrium patens" ;
+    rdfs:subClassOf obo:NCBITaxon_37414 .
+
+obo:NCBITaxon_3226 a schema1:Taxon ;
+    rdfs:label "Bryales" ;
+    dwc:scientificName "Bryales" ;
+    rdfs:subClassOf obo:NCBITaxon_114658 .
+
+obo:NCBITaxon_3227 a schema1:Taxon ;
+    rdfs:label "Mniaceae" ;
+    dwc:scientificName "Mniaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_3226 .
+
+obo:NCBITaxon_3230 a schema1:Taxon ;
+    rdfs:label "Plagiomnium" ;
+    dwc:scientificName "Plagiomnium" ;
+    rdfs:subClassOf obo:NCBITaxon_3227 .
+
+obo:NCBITaxon_3242 a schema1:Taxon ;
+    rdfs:label "Lycopodiophyta" ;
+    dwc:scientificName "Lycopodiophyta" ;
+    rdfs:subClassOf obo:NCBITaxon_3193 .
+
+obo:NCBITaxon_3243 a schema1:Taxon ;
+    rdfs:label "Isoetopsida" ;
+    dwc:scientificName "Isoetopsida" ;
+    rdfs:subClassOf obo:NCBITaxon_3242, obo:NCBITaxon_58023 .
+
+obo:NCBITaxon_3244 a schema1:Taxon ;
+    rdfs:label "Selaginellales" ;
+    dwc:scientificName "Selaginellales" ;
+    rdfs:subClassOf obo:NCBITaxon_3243, obo:NCBITaxon_3248 .
+
+obo:NCBITaxon_3245 a schema1:Taxon ;
+    rdfs:label "Selaginellaceae" ;
+    dwc:scientificName "Selaginellaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_3244 .
+
+obo:NCBITaxon_3246 a schema1:Taxon ;
+    rdfs:label "Selaginella" ;
+    dwc:scientificName "Selaginella" ;
+    rdfs:subClassOf obo:NCBITaxon_3245 .
+
+obo:NCBITaxon_3248 a schema1:Taxon ;
+    rdfs:label "Lycopodiopsida" ;
+    dwc:scientificName "Lycopodiopsida" ;
+    rdfs:subClassOf obo:NCBITaxon_3193 .
+
+obo:NCBITaxon_3312 a schema1:Taxon ;
+    rdfs:label "Pinophyta" ;
+    dwc:scientificName "Pinophyta" ;
+    rdfs:subClassOf obo:NCBITaxon_1437180 .
+
+obo:NCBITaxon_3318 a schema1:Taxon ;
+    rdfs:label "Pinaceae" ;
+    dwc:scientificName "Pinaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_1446380 .
+
+obo:NCBITaxon_3337 a schema1:Taxon ;
+    rdfs:label "Pinus" ;
+    dwc:scientificName "Pinus" ;
+    rdfs:subClassOf obo:NCBITaxon_3318 .
+
+obo:NCBITaxon_3398 a schema1:Taxon ;
+    rdfs:label "Magnoliopsida" ;
+    dwc:scientificName "Magnoliopsida" ;
+    rdfs:subClassOf obo:NCBITaxon_1437180 .
+
+obo:NCBITaxon_3474 a schema1:Taxon ;
+    rdfs:label "Ulmaceae" ;
+    dwc:scientificName "Ulmaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_3744 .
+
+obo:NCBITaxon_3650 a schema1:Taxon ;
+    rdfs:label "Cucurbitaceae" ;
+    dwc:scientificName "Cucurbitaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_71239 .
+
+obo:NCBITaxon_3655 a schema1:Taxon ;
+    rdfs:label "Cucumis" ;
+    dwc:scientificName "Cucumis" ;
+    rdfs:subClassOf obo:NCBITaxon_1003877 .
+
+obo:NCBITaxon_3659 a schema1:Taxon ;
+    rdfs:label "Cucumis sativus" ;
+    dwc:scientificName "Cucumis sativus" ;
+    rdfs:subClassOf obo:NCBITaxon_3655 .
+
+obo:NCBITaxon_3699 a schema1:Taxon ;
+    rdfs:label "Brassicales" ;
+    dwc:scientificName "Brassicales" ;
+    rdfs:subClassOf obo:NCBITaxon_71275 .
+
+obo:NCBITaxon_3700 a schema1:Taxon ;
+    rdfs:label "Brassicaceae" ;
+    dwc:scientificName "Brassicaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_3699 .
+
+obo:NCBITaxon_3701 a schema1:Taxon ;
+    rdfs:label "Arabidopsis" ;
+    dwc:scientificName "Arabidopsis" ;
+    rdfs:subClassOf obo:NCBITaxon_980083 .
+
+obo:NCBITaxon_3702 a schema1:Taxon ;
+    rdfs:label "Arabidopsis thaliana" ;
+    dwc:scientificName "Arabidopsis thaliana" ;
+    rdfs:subClassOf obo:NCBITaxon_3701 .
+
+obo:NCBITaxon_3705 a schema1:Taxon ;
+    rdfs:label "Brassica" ;
+    dwc:scientificName "Brassica" ;
+    rdfs:subClassOf obo:NCBITaxon_981071 .
+
+obo:NCBITaxon_3711 a schema1:Taxon ;
+    rdfs:label "Brassica rapa" ;
+    dwc:scientificName "Brassica rapa" ;
+    rdfs:subClassOf obo:NCBITaxon_3705 .
+
+obo:NCBITaxon_3718 a schema1:Taxon ;
+    rdfs:label "Capsella" ;
+    dwc:scientificName "Capsella" ;
+    rdfs:subClassOf obo:NCBITaxon_980083 .
+
+obo:NCBITaxon_3719 a schema1:Taxon ;
+    rdfs:label "Capsella bursa-pastoris" ;
+    dwc:scientificName "Capsella bursa-pastoris" ;
+    rdfs:subClassOf obo:NCBITaxon_3718 .
+
+obo:NCBITaxon_3744 a schema1:Taxon ;
+    rdfs:label "Rosales" ;
+    dwc:scientificName "Rosales" ;
+    rdfs:subClassOf obo:NCBITaxon_71275 .
+
+obo:NCBITaxon_4036 a schema1:Taxon ;
+    rdfs:label "Apiales" ;
+    dwc:scientificName "Apiales" ;
+    rdfs:subClassOf obo:NCBITaxon_71274 .
+
+obo:NCBITaxon_4037 a schema1:Taxon ;
+    rdfs:label "Apiaceae" ;
+    dwc:scientificName "Apiaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_4036 .
+
+obo:NCBITaxon_4038 a schema1:Taxon ;
+    rdfs:label "Daucus" ;
+    dwc:scientificName "Daucus" ;
+    rdfs:subClassOf obo:NCBITaxon_241799 .
+
+obo:NCBITaxon_4039 a schema1:Taxon ;
+    rdfs:label "Daucus carota" ;
+    dwc:scientificName "Daucus carota" ;
+    rdfs:subClassOf obo:NCBITaxon_4038 .
+
+obo:NCBITaxon_4046 a schema1:Taxon ;
+    rdfs:label "Coriandrum" ;
+    dwc:scientificName "Coriandrum" ;
+    rdfs:subClassOf obo:NCBITaxon_241778 .
+
+obo:NCBITaxon_4047 a schema1:Taxon ;
+    rdfs:label "Coriandrum sativum" ;
+    dwc:scientificName "Coriandrum sativum" ;
+    rdfs:subClassOf obo:NCBITaxon_4046 .
+
+obo:NCBITaxon_4069 a schema1:Taxon ;
+    rdfs:label "Solanales" ;
+    dwc:scientificName "Solanales" ;
+    rdfs:subClassOf obo:NCBITaxon_71274 .
+
+obo:NCBITaxon_4070 a schema1:Taxon ;
+    rdfs:label "Solanaceae" ;
+    dwc:scientificName "Solanaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_4069 .
+
+obo:NCBITaxon_4085 a schema1:Taxon ;
+    rdfs:label "Nicotiana" ;
+    dwc:scientificName "Nicotiana" ;
+    rdfs:subClassOf obo:NCBITaxon_4070 .
+
+obo:NCBITaxon_4097 a schema1:Taxon ;
+    rdfs:label "Nicotiana tabacum" ;
+    dwc:scientificName "Nicotiana tabacum" ;
+    rdfs:subClassOf obo:NCBITaxon_4085 .
+
+obo:NCBITaxon_4100 a schema1:Taxon ;
+    rdfs:label "Nicotiana benthamiana" ;
+    dwc:scientificName "Nicotiana benthamiana" ;
+    rdfs:subClassOf obo:NCBITaxon_4085 .
+
+obo:NCBITaxon_4143 a schema1:Taxon ;
+    rdfs:label "Lamiales" ;
+    dwc:scientificName "Lamiales" ;
+    rdfs:subClassOf obo:NCBITaxon_71274 .
+
+obo:NCBITaxon_4163 a schema1:Taxon ;
+    rdfs:label "Digitalis" ;
+    dwc:scientificName "Digitalis" ;
+    rdfs:subClassOf obo:NCBITaxon_216782 .
+
+obo:NCBITaxon_4164 a schema1:Taxon ;
+    rdfs:label "Digitalis purpurea" ;
+    dwc:scientificName "Digitalis purpurea" ;
+    rdfs:subClassOf obo:NCBITaxon_4163 .
+
+obo:NCBITaxon_4447 a schema1:Taxon ;
+    rdfs:label "Liliopsida" ;
+    dwc:scientificName "Liliopsida" ;
+    rdfs:subClassOf obo:NCBITaxon_1437180 .
+
+obo:NCBITaxon_4479 a schema1:Taxon ;
+    rdfs:label "Poaceae" ;
+    dwc:scientificName "Poaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_38820 .
+
+obo:NCBITaxon_4512 a schema1:Taxon ;
+    rdfs:label "Hordeum" ;
+    dwc:scientificName "Hordeum" ;
+    rdfs:subClassOf obo:NCBITaxon_147389 .
+
+obo:NCBITaxon_4513 a schema1:Taxon ;
+    rdfs:label "Hordeum vulgare" ;
+    dwc:scientificName "Hordeum vulgare" ;
+    rdfs:subClassOf obo:NCBITaxon_4512 .
+
+obo:NCBITaxon_4527 a schema1:Taxon ;
+    rdfs:label "Oryza" ;
+    dwc:scientificName "Oryza" ;
+    rdfs:subClassOf obo:NCBITaxon_147380 .
+
+obo:NCBITaxon_4530 a schema1:Taxon ;
+    rdfs:label "Oryza sativa" ;
+    dwc:scientificName "Oryza sativa" ;
+    rdfs:subClassOf obo:NCBITaxon_4527 .
+
+obo:NCBITaxon_4554 a schema1:Taxon ;
+    rdfs:label "Setaria" ;
+    dwc:scientificName "Setaria" ;
+    rdfs:subClassOf obo:NCBITaxon_147428 .
+
+obo:NCBITaxon_4556 a schema1:Taxon ;
+    rdfs:label "Setaria viridis" ;
+    dwc:scientificName "Setaria viridis" ;
+    rdfs:subClassOf obo:NCBITaxon_4554 .
+
+obo:NCBITaxon_4564 a schema1:Taxon ;
+    rdfs:label "Triticum" ;
+    dwc:scientificName "Triticum" ;
+    rdfs:subClassOf obo:NCBITaxon_147389 .
+
+obo:NCBITaxon_4565 a schema1:Taxon ;
+    rdfs:label "Triticum aestivum" ;
+    dwc:scientificName "Triticum aestivum" ;
+    rdfs:subClassOf obo:NCBITaxon_4564 .
+
+obo:NCBITaxon_4575 a schema1:Taxon ;
+    rdfs:label "Zea" ;
+    dwc:scientificName "Zea" ;
+    rdfs:subClassOf obo:NCBITaxon_1648029 .
+
+obo:NCBITaxon_4577 a schema1:Taxon ;
+    rdfs:label "Zea mays" ;
+    dwc:scientificName "Zea mays" ;
+    rdfs:subClassOf obo:NCBITaxon_4575 .
+
+obo:NCBITaxon_4668 a schema1:Taxon ;
+    rdfs:label "Amaryllidaceae" ;
+    dwc:scientificName "Amaryllidaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_73496 .
+
+obo:NCBITaxon_4678 a schema1:Taxon ;
+    rdfs:label "Allium" ;
+    dwc:scientificName "Allium" ;
+    rdfs:subClassOf obo:NCBITaxon_703248 .
+
+obo:NCBITaxon_4679 a schema1:Taxon ;
+    rdfs:label "Allium cepa" ;
+    dwc:scientificName "Allium cepa" ;
+    rdfs:subClassOf obo:NCBITaxon_4678 .
+
+obo:NCBITaxon_4734 a schema1:Taxon ;
+    rdfs:label "commelinids" ;
+    dwc:scientificName "commelinids" ;
+    rdfs:subClassOf obo:NCBITaxon_58024 .
+
+obo:NCBITaxon_4751 a schema1:Taxon ;
+    rdfs:label "Fungi" ;
+    dwc:scientificName "Fungi" ;
+    rdfs:subClassOf obo:NCBITaxon_33154 .
+
+obo:NCBITaxon_4827 a schema1:Taxon ;
+    rdfs:label "Mucorales" ;
+    dwc:scientificName "Mucorales" ;
+    rdfs:subClassOf obo:NCBITaxon_2212703 .
+
+obo:NCBITaxon_4851 a schema1:Taxon ;
+    rdfs:label "Cunninghamellaceae" ;
+    dwc:scientificName "Cunninghamellaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_4827 .
+
+obo:NCBITaxon_4852 a schema1:Taxon ;
+    rdfs:label "Cunninghamella" ;
+    dwc:scientificName "Cunninghamella" ;
+    rdfs:subClassOf obo:NCBITaxon_4851 .
+
+obo:NCBITaxon_4853 a schema1:Taxon ;
+    rdfs:label "Cunninghamella elegans" ;
+    dwc:scientificName "Cunninghamella elegans" ;
+    rdfs:subClassOf obo:NCBITaxon_4852 .
+
+obo:NCBITaxon_4890 a schema1:Taxon ;
+    rdfs:label "Ascomycota" ;
+    dwc:scientificName "Ascomycota" ;
+    rdfs:subClassOf obo:NCBITaxon_451864 .
+
+obo:NCBITaxon_4891 a schema1:Taxon ;
+    rdfs:label "Saccharomycetes" ;
+    dwc:scientificName "Saccharomycetes" ;
+    rdfs:subClassOf obo:NCBITaxon_147537 .
+
+obo:NCBITaxon_4892 a schema1:Taxon ;
+    rdfs:label "Saccharomycetales" ;
+    dwc:scientificName "Saccharomycetales" ;
+    rdfs:subClassOf obo:NCBITaxon_4891 .
+
+obo:NCBITaxon_4893 a schema1:Taxon ;
+    rdfs:label "Saccharomycetaceae" ;
+    dwc:scientificName "Saccharomycetaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_4892 .
+
+obo:NCBITaxon_4894 a schema1:Taxon ;
+    rdfs:label "Schizosaccharomycetaceae" ;
+    dwc:scientificName "Schizosaccharomycetaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_34346 .
+
+obo:NCBITaxon_4895 a schema1:Taxon ;
+    rdfs:label "Schizosaccharomyces" ;
+    dwc:scientificName "Schizosaccharomyces" ;
+    rdfs:subClassOf obo:NCBITaxon_4894 .
+
+obo:NCBITaxon_4896 a schema1:Taxon ;
+    rdfs:label "Schizosaccharomyces pombe" ;
+    dwc:scientificName "Schizosaccharomyces pombe" ;
+    rdfs:subClassOf obo:NCBITaxon_4895 .
+
+obo:NCBITaxon_4930 a schema1:Taxon ;
+    rdfs:label "Saccharomyces" ;
+    dwc:scientificName "Saccharomyces" ;
+    rdfs:subClassOf obo:NCBITaxon_4893 .
+
+obo:NCBITaxon_4932 a schema1:Taxon ;
+    rdfs:label "Saccharomyces cerevisiae" ;
+    dwc:scientificName "Saccharomyces cerevisiae" ;
+    rdfs:subClassOf obo:NCBITaxon_4930 .
+
+obo:NCBITaxon_5204 a schema1:Taxon ;
+    rdfs:label "Basidiomycota" ;
+    dwc:scientificName "Basidiomycota" ;
+    rdfs:subClassOf obo:NCBITaxon_451864 .
+
+obo:NCBITaxon_5257 a schema1:Taxon ;
+    rdfs:label "Ustilaginomycetes" ;
+    dwc:scientificName "Ustilaginomycetes" ;
+    rdfs:subClassOf obo:NCBITaxon_452284 .
+
+obo:NCBITaxon_5267 a schema1:Taxon ;
+    rdfs:label "Ustilaginales" ;
+    dwc:scientificName "Ustilaginales" ;
+    rdfs:subClassOf obo:NCBITaxon_5257 .
+
+obo:NCBITaxon_5268 a schema1:Taxon ;
+    rdfs:label "Ustilaginaceae" ;
+    dwc:scientificName "Ustilaginaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_5267 .
+
+obo:NCBITaxon_5269 a schema1:Taxon ;
+    rdfs:label "Ustilago" ;
+    dwc:scientificName "Ustilago" ;
+    rdfs:subClassOf obo:NCBITaxon_5268 .
+
+obo:NCBITaxon_5270 a schema1:Taxon ;
+    rdfs:label "Mycosarcoma maydis" ;
+    dwc:scientificName "Mycosarcoma maydis" ;
+    rdfs:subClassOf obo:NCBITaxon_5269 .
+
+obo:NCBITaxon_5475 a schema1:Taxon ;
+    rdfs:label "Candida" ;
+    dwc:scientificName "Candida" ;
+    rdfs:subClassOf obo:NCBITaxon_766764 .
+
+obo:NCBITaxon_5476 a schema1:Taxon ;
+    rdfs:label "Candida albicans" ;
+    dwc:scientificName "Candida albicans" ;
+    rdfs:subClassOf obo:NCBITaxon_5475 .
+
+obo:NCBITaxon_5702 a schema1:Taxon ;
+    rdfs:label "Trypanosoma brucei brucei" ;
+    dwc:scientificName "Trypanosoma brucei brucei" .
+
+obo:NCBITaxon_5782 a schema1:Taxon ;
+    rdfs:label "Dictyostelium" ;
+    dwc:scientificName "Dictyostelium" ;
+    rdfs:subClassOf obo:NCBITaxon_142796 .
+
+obo:NCBITaxon_5794 a schema1:Taxon ;
+    rdfs:label "Apicomplexa" ;
+    dwc:scientificName "Apicomplexa" ;
+    rdfs:subClassOf obo:NCBITaxon_33630 .
+
+obo:NCBITaxon_5796 a schema1:Taxon ;
+    rdfs:label "Coccidia" ;
+    dwc:scientificName "Coccidia" ;
+    rdfs:subClassOf obo:NCBITaxon_1280412 .
+
+obo:NCBITaxon_5809 a schema1:Taxon ;
+    rdfs:label "Sarcocystidae" ;
+    dwc:scientificName "Sarcocystidae" ;
+    rdfs:subClassOf obo:NCBITaxon_75739 .
+
+obo:NCBITaxon_5811 a schema1:Taxon ;
+    rdfs:label "Toxoplasma gondii" ;
+    dwc:scientificName "Toxoplasma gondii" ;
+    rdfs:subClassOf obo:NCBITaxon_5809 .
+
+obo:NCBITaxon_5819 a schema1:Taxon ;
+    rdfs:label "Haemospororida" ;
+    dwc:scientificName "Haemospororida" ;
+    rdfs:subClassOf obo:NCBITaxon_422676 .
+
+obo:NCBITaxon_5820 a schema1:Taxon ;
+    rdfs:label "Plasmodium" ;
+    dwc:scientificName "Plasmodium" ;
+    rdfs:subClassOf obo:NCBITaxon_1639119 .
+
+obo:NCBITaxon_5833 a schema1:Taxon ;
+    rdfs:label "Plasmodium falciparum" ;
+    dwc:scientificName "Plasmodium falciparum" ;
+    rdfs:subClassOf obo:NCBITaxon_418107 .
+
+obo:NCBITaxon_5878 a schema1:Taxon ;
+    rdfs:label "Ciliophora" ;
+    dwc:scientificName "Ciliophora" ;
+    rdfs:subClassOf obo:NCBITaxon_33630 .
+
+obo:NCBITaxon_6072 a schema1:Taxon ;
+    rdfs:label "Eumetazoa" ;
+    dwc:scientificName "Eumetazoa" ;
+    rdfs:subClassOf obo:NCBITaxon_33154 .
+
+obo:NCBITaxon_6073 a schema1:Taxon ;
+    rdfs:label "Cnidaria" ;
+    dwc:scientificName "Cnidaria" ;
+    rdfs:subClassOf obo:NCBITaxon_6072 .
+
+obo:NCBITaxon_6074 a schema1:Taxon ;
+    rdfs:label "Hydrozoa" ;
+    dwc:scientificName "Hydrozoa" ;
+    rdfs:subClassOf obo:NCBITaxon_6073 .
+
+obo:NCBITaxon_6077 a schema1:Taxon ;
+    rdfs:label "Corynidae" ;
+    dwc:scientificName "Corynidae" ;
+    rdfs:subClassOf obo:NCBITaxon_576756 .
+
+obo:NCBITaxon_6157 a schema1:Taxon ;
+    rdfs:label "Platyhelminthes" ;
+    dwc:scientificName "Platyhelminthes" ;
+    rdfs:subClassOf obo:NCBITaxon_33317 .
+
+obo:NCBITaxon_6163 a schema1:Taxon ;
+    rdfs:label "Polycladida" ;
+    dwc:scientificName "Polycladida" ;
+    rdfs:subClassOf obo:NCBITaxon_147100 .
+
+obo:NCBITaxon_6178 a schema1:Taxon ;
+    rdfs:label "Trematoda" ;
+    dwc:scientificName "Trematoda" ;
+    rdfs:subClassOf obo:NCBITaxon_6157 .
+
+obo:NCBITaxon_6179 a schema1:Taxon ;
+    rdfs:label "Digenea" ;
+    dwc:scientificName "Digenea" ;
+    rdfs:subClassOf obo:NCBITaxon_6178 .
+
+obo:NCBITaxon_6181 a schema1:Taxon ;
+    rdfs:label "Schistosoma" ;
+    dwc:scientificName "Schistosoma" ;
+    rdfs:subClassOf obo:NCBITaxon_31245 .
+
+obo:NCBITaxon_6183 a schema1:Taxon ;
+    rdfs:label "Schistosoma mansoni" ;
+    dwc:scientificName "Schistosoma mansoni" ;
+    rdfs:subClassOf obo:NCBITaxon_6181 .
+
+obo:NCBITaxon_6231 a schema1:Taxon ;
+    rdfs:label "Nematoda" ;
+    dwc:scientificName "Nematoda" ;
+    rdfs:subClassOf obo:NCBITaxon_1206794 .
+
+obo:NCBITaxon_6236 a schema1:Taxon ;
+    rdfs:label "Rhabditida" ;
+    dwc:scientificName "Rhabditida" ;
+    rdfs:subClassOf obo:NCBITaxon_119089 .
+
+obo:NCBITaxon_6237 a schema1:Taxon ;
+    rdfs:label "Caenorhabditis" ;
+    dwc:scientificName "Caenorhabditis" ;
+    rdfs:subClassOf obo:NCBITaxon_6243 .
+
+obo:NCBITaxon_6239 a schema1:Taxon ;
+    rdfs:label "Caenorhabditis elegans" ;
+    dwc:scientificName "Caenorhabditis elegans" ;
+    rdfs:subClassOf obo:NCBITaxon_6237 .
+
+obo:NCBITaxon_6243 a schema1:Taxon ;
+    rdfs:label "Rhabditidae" ;
+    dwc:scientificName "Rhabditidae" ;
+    rdfs:subClassOf obo:NCBITaxon_6236 .
+
+obo:NCBITaxon_6246 a schema1:Taxon ;
+    rdfs:label "Strongyloididae" ;
+    dwc:scientificName "Strongyloididae" ;
+    rdfs:subClassOf obo:NCBITaxon_6236 .
+
+obo:NCBITaxon_6247 a schema1:Taxon ;
+    rdfs:label "Strongyloides" ;
+    dwc:scientificName "Strongyloides" ;
+    rdfs:subClassOf obo:NCBITaxon_6246 .
+
+obo:NCBITaxon_6248 a schema1:Taxon ;
+    rdfs:label "Strongyloides stercoralis" ;
+    dwc:scientificName "Strongyloides stercoralis" ;
+    rdfs:subClassOf obo:NCBITaxon_6247 .
+
+obo:NCBITaxon_6308 a schema1:Taxon ;
+    rdfs:label "Strongylida" ;
+    dwc:scientificName "Strongylida" ;
+    rdfs:subClassOf obo:NCBITaxon_6236 .
+
+obo:NCBITaxon_6340 a schema1:Taxon ;
+    rdfs:label "Annelida" ;
+    dwc:scientificName "Annelida" ;
+    rdfs:subClassOf obo:NCBITaxon_33317 .
+
+obo:NCBITaxon_6341 a schema1:Taxon ;
+    rdfs:label "Polychaeta" ;
+    dwc:scientificName "Polychaeta" ;
+    rdfs:subClassOf obo:NCBITaxon_6340 .
+
+obo:NCBITaxon_6346 a schema1:Taxon ;
+    rdfs:label "Owenia" ;
+    dwc:scientificName "Owenia" ;
+    rdfs:subClassOf obo:NCBITaxon_39832 .
+
+obo:NCBITaxon_6347 a schema1:Taxon ;
+    rdfs:label "Owenia fusiformis" ;
+    dwc:scientificName "Owenia fusiformis" ;
+    rdfs:subClassOf obo:NCBITaxon_6346 .
+
+obo:NCBITaxon_6348 a schema1:Taxon ;
+    rdfs:label "Phyllodocida" ;
+    dwc:scientificName "Phyllodocida" ;
+    rdfs:subClassOf obo:NCBITaxon_105390 .
+
+obo:NCBITaxon_6358 a schema1:Taxon ;
+    rdfs:label "Platynereis" ;
+    dwc:scientificName "Platynereis" ;
+    rdfs:subClassOf obo:NCBITaxon_39820 .
+
+obo:NCBITaxon_6359 a schema1:Taxon ;
+    rdfs:label "Platynereis dumerilii" ;
+    dwc:scientificName "Platynereis dumerilii" ;
+    rdfs:subClassOf obo:NCBITaxon_6358 .
+
+obo:NCBITaxon_6362 a schema1:Taxon ;
+    rdfs:label "Sabellida" ;
+    dwc:scientificName "Sabellida" ;
+    rdfs:subClassOf obo:NCBITaxon_105391 .
+
+obo:NCBITaxon_6381 a schema1:Taxon ;
+    rdfs:label "Oligochaeta" ;
+    dwc:scientificName "Oligochaeta" ;
+    rdfs:subClassOf obo:NCBITaxon_42113 .
+
+obo:NCBITaxon_6382 a schema1:Taxon ;
+    rdfs:label "Haplotaxida" ;
+    dwc:scientificName "Haplotaxida" ;
+    rdfs:subClassOf obo:NCBITaxon_6381 .
+
+obo:NCBITaxon_6400 a schema1:Taxon ;
+    rdfs:label "Megascolecidae" ;
+    dwc:scientificName "Megascolecidae" ;
+    rdfs:subClassOf obo:NCBITaxon_2803885 .
+
+obo:NCBITaxon_6447 a schema1:Taxon ;
+    rdfs:label "Mollusca" ;
+    dwc:scientificName "Mollusca" ;
+    rdfs:subClassOf obo:NCBITaxon_1206795 .
+
+obo:NCBITaxon_6448 a schema1:Taxon ;
+    rdfs:label "Gastropoda" ;
+    dwc:scientificName "Gastropoda" ;
+    rdfs:subClassOf obo:NCBITaxon_6447 .
+
+obo:NCBITaxon_6524 a schema1:Taxon ;
+    rdfs:label "Planorbidae" ;
+    dwc:scientificName "Planorbidae" ;
+    rdfs:subClassOf obo:NCBITaxon_216441 .
+
+obo:NCBITaxon_6525 a schema1:Taxon ;
+    rdfs:label "Biomphalaria" ;
+    dwc:scientificName "Biomphalaria" ;
+    rdfs:subClassOf obo:NCBITaxon_6524 .
+
+obo:NCBITaxon_6526 a schema1:Taxon ;
+    rdfs:label "Biomphalaria glabrata" ;
+    dwc:scientificName "Biomphalaria glabrata" ;
+    rdfs:subClassOf obo:NCBITaxon_6525 .
+
+obo:NCBITaxon_6656 a schema1:Taxon ;
+    rdfs:label "Arthropoda" ;
+    dwc:scientificName "Arthropoda" ;
+    rdfs:subClassOf obo:NCBITaxon_1206794 .
+
+obo:NCBITaxon_6658 a schema1:Taxon ;
+    rdfs:label "Branchiopoda" ;
+    dwc:scientificName "Branchiopoda" ;
+    rdfs:subClassOf obo:NCBITaxon_197562 .
+
+obo:NCBITaxon_6665 a schema1:Taxon ;
+    rdfs:label "Cladocera" ;
+    dwc:scientificName "Cladocera" ;
+    rdfs:subClassOf obo:NCBITaxon_84337 .
+
+obo:NCBITaxon_6668 a schema1:Taxon ;
+    rdfs:label "Daphnia" ;
+    dwc:scientificName "Daphnia" ;
+    rdfs:subClassOf obo:NCBITaxon_77658 .
+
+obo:NCBITaxon_6843 a schema1:Taxon ;
+    rdfs:label "Chelicerata" ;
+    dwc:scientificName "Chelicerata" ;
+    rdfs:subClassOf obo:NCBITaxon_6656 .
+
+obo:NCBITaxon_6960 a schema1:Taxon ;
+    rdfs:label "Hexapoda" ;
+    dwc:scientificName "Hexapoda" ;
+    rdfs:subClassOf obo:NCBITaxon_197562 .
+
+obo:NCBITaxon_7041 a schema1:Taxon ;
+    rdfs:label "Coleoptera" ;
+    dwc:scientificName "Coleoptera" ;
+    rdfs:subClassOf obo:NCBITaxon_33392 .
+
+obo:NCBITaxon_7055 a schema1:Taxon ;
+    rdfs:label "Scarabaeidae" ;
+    dwc:scientificName "Scarabaeidae" ;
+    rdfs:subClassOf obo:NCBITaxon_75546 .
+
+obo:NCBITaxon_7065 a schema1:Taxon ;
+    rdfs:label "Tenebrionidae" ;
+    dwc:scientificName "Tenebrionidae" ;
+    rdfs:subClassOf obo:NCBITaxon_71527 .
+
+obo:NCBITaxon_7069 a schema1:Taxon ;
+    rdfs:label "Tribolium" ;
+    dwc:scientificName "Tribolium" ;
+    rdfs:subClassOf obo:NCBITaxon_7065 .
+
+obo:NCBITaxon_7070 a schema1:Taxon ;
+    rdfs:label "Tribolium castaneum" ;
+    dwc:scientificName "Tribolium castaneum" ;
+    rdfs:subClassOf obo:NCBITaxon_7069 .
+
+obo:NCBITaxon_7088 a schema1:Taxon ;
+    rdfs:label "Lepidoptera" ;
+    dwc:scientificName "Lepidoptera" ;
+    rdfs:subClassOf obo:NCBITaxon_85604 .
+
+obo:NCBITaxon_7147 a schema1:Taxon ;
+    rdfs:label "Diptera" ;
+    dwc:scientificName "Diptera" ;
+    rdfs:subClassOf obo:NCBITaxon_33340 .
+
+obo:NCBITaxon_7148 a schema1:Taxon ;
+    rdfs:label "Nematocera" ;
+    dwc:scientificName "Nematocera" ;
+    rdfs:subClassOf obo:NCBITaxon_7147 .
+
+obo:NCBITaxon_7157 a schema1:Taxon ;
+    rdfs:label "Culicidae" ;
+    dwc:scientificName "Culicidae" ;
+    rdfs:subClassOf obo:NCBITaxon_41827 .
+
+obo:NCBITaxon_7158 a schema1:Taxon ;
+    rdfs:label "Aedes" ;
+    dwc:scientificName "Aedes" ;
+    rdfs:subClassOf obo:NCBITaxon_1056966 .
+
+obo:NCBITaxon_7159 a schema1:Taxon ;
+    rdfs:label "Aedes aegypti" ;
+    dwc:scientificName "Aedes aegypti" ;
+    rdfs:subClassOf obo:NCBITaxon_7158 .
+
+obo:NCBITaxon_7203 a schema1:Taxon ;
+    rdfs:label "Brachycera" ;
+    dwc:scientificName "Brachycera" ;
+    rdfs:subClassOf obo:NCBITaxon_7148 .
+
+obo:NCBITaxon_7214 a schema1:Taxon ;
+    rdfs:label "Drosophilidae" ;
+    dwc:scientificName "Drosophilidae" ;
+    rdfs:subClassOf obo:NCBITaxon_43746 .
+
+obo:NCBITaxon_7215 a schema1:Taxon ;
+    rdfs:label "drosophila" ;
+    dwc:scientificName "drosophila" ;
+    rdfs:subClassOf obo:NCBITaxon_43845 .
+
+obo:NCBITaxon_7227 a schema1:Taxon ;
+    rdfs:label "Drosophila melanogaster" ;
+    dwc:scientificName "Drosophila melanogaster" ;
+    rdfs:subClassOf obo:NCBITaxon_7215 .
+
+obo:NCBITaxon_7399 a schema1:Taxon ;
+    rdfs:label "Hymenoptera" ;
+    dwc:scientificName "Hymenoptera" ;
+    rdfs:subClassOf obo:NCBITaxon_33392 .
+
+obo:NCBITaxon_7400 a schema1:Taxon ;
+    rdfs:label "Apocrita" ;
+    dwc:scientificName "Apocrita" ;
+    rdfs:subClassOf obo:NCBITaxon_7399 .
+
+obo:NCBITaxon_7434 a schema1:Taxon ;
+    rdfs:label "Aculeata" ;
+    dwc:scientificName "Aculeata" ;
+    rdfs:subClassOf obo:NCBITaxon_7400 .
+
+obo:NCBITaxon_7458 a schema1:Taxon ;
+    rdfs:label "Apidae" ;
+    dwc:scientificName "Apidae" ;
+    rdfs:subClassOf obo:NCBITaxon_34735 .
+
+obo:NCBITaxon_7459 a schema1:Taxon ;
+    rdfs:label "Apis" ;
+    dwc:scientificName "Apis" ;
+    rdfs:subClassOf obo:NCBITaxon_83321 .
+
+obo:NCBITaxon_7460 a schema1:Taxon ;
+    rdfs:label "Apis mellifera" ;
+    dwc:scientificName "Apis mellifera" ;
+    rdfs:subClassOf obo:NCBITaxon_7459 .
+
+obo:NCBITaxon_7496 a schema1:Taxon ;
+    rdfs:label "Pterygota" ;
+    dwc:scientificName "Pterygota" ;
+    rdfs:subClassOf obo:NCBITaxon_85512 .
+
+obo:NCBITaxon_7586 a schema1:Taxon ;
+    rdfs:label "Echinodermata" ;
+    dwc:scientificName "Echinodermata" ;
+    rdfs:subClassOf obo:NCBITaxon_33511 .
+
+obo:NCBITaxon_7624 a schema1:Taxon ;
+    rdfs:label "Echinozoa" ;
+    dwc:scientificName "Echinozoa" ;
+    rdfs:subClassOf obo:NCBITaxon_7586 .
+
+obo:NCBITaxon_7625 a schema1:Taxon ;
+    rdfs:label "Echinoidea" ;
+    dwc:scientificName "Echinoidea" ;
+    rdfs:subClassOf obo:NCBITaxon_7624 .
+
+obo:NCBITaxon_7638 a schema1:Taxon ;
+    rdfs:label "Euechinoidea" ;
+    dwc:scientificName "Euechinoidea" ;
+    rdfs:subClassOf obo:NCBITaxon_7625 .
+
+obo:NCBITaxon_7655 a schema1:Taxon ;
+    rdfs:label "Paracentrotus" ;
+    dwc:scientificName "Paracentrotus" ;
+    rdfs:subClassOf obo:NCBITaxon_7676 .
+
+obo:NCBITaxon_7656 a schema1:Taxon ;
+    rdfs:label "Paracentrotus lividus" ;
+    dwc:scientificName "Paracentrotus lividus" ;
+    rdfs:subClassOf obo:NCBITaxon_7655 .
+
+obo:NCBITaxon_7674 a schema1:Taxon ;
+    rdfs:label "Echinacea" ;
+    dwc:scientificName "Echinacea" ;
+    rdfs:subClassOf obo:NCBITaxon_7638 .
+
+obo:NCBITaxon_7675 a schema1:Taxon ;
+    rdfs:label "Echinidea" ;
+    dwc:scientificName "Echinidea" ;
+    rdfs:subClassOf obo:NCBITaxon_2785018 .
+
+obo:NCBITaxon_7676 a schema1:Taxon ;
+    rdfs:label "Echinidae" ;
+    dwc:scientificName "Echinidae" ;
+    rdfs:subClassOf obo:NCBITaxon_7675 .
+
+obo:NCBITaxon_7711 a schema1:Taxon ;
+    rdfs:label "Chordata" ;
+    dwc:scientificName "Chordata" ;
+    rdfs:subClassOf obo:NCBITaxon_33511 .
+
+obo:NCBITaxon_7712 a schema1:Taxon ;
+    rdfs:label "Tunicata" ;
+    dwc:scientificName "Tunicata" ;
+    rdfs:subClassOf obo:NCBITaxon_7711 .
+
+obo:NCBITaxon_7713 a schema1:Taxon ;
+    rdfs:label "Ascidiacea" ;
+    dwc:scientificName "Ascidiacea" ;
+    rdfs:subClassOf obo:NCBITaxon_7712 .
+
+obo:NCBITaxon_7716 a schema1:Taxon ;
+    rdfs:label "Phlebobranchia" ;
+    dwc:scientificName "Phlebobranchia" ;
+    rdfs:subClassOf obo:NCBITaxon_183770 .
+
+obo:NCBITaxon_7717 a schema1:Taxon ;
+    rdfs:label "Cionidae" ;
+    dwc:scientificName "Cionidae" ;
+    rdfs:subClassOf obo:NCBITaxon_7716 .
+
+obo:NCBITaxon_7718 a schema1:Taxon ;
+    rdfs:label "Ciona" ;
+    dwc:scientificName "Ciona" ;
+    rdfs:subClassOf obo:NCBITaxon_7717 .
+
+obo:NCBITaxon_7719 a schema1:Taxon ;
+    rdfs:label "Ciona intestinalis" ;
+    dwc:scientificName "Ciona intestinalis" ;
+    rdfs:subClassOf obo:NCBITaxon_7718 .
+
+obo:NCBITaxon_7742 a schema1:Taxon ;
+    rdfs:label "Vertebrata" ;
+    dwc:scientificName "Vertebrata" ;
+    rdfs:subClassOf obo:NCBITaxon_7711 .
+
+obo:NCBITaxon_7776 a schema1:Taxon ;
+    rdfs:label "Gnathostomata" ;
+    dwc:scientificName "Gnathostomata" ;
+    rdfs:subClassOf obo:NCBITaxon_7742 .
+
+obo:NCBITaxon_7898 a schema1:Taxon ;
+    rdfs:label "Actinopterygii" ;
+    dwc:scientificName "Actinopterygii" ;
+    rdfs:subClassOf obo:NCBITaxon_7776 .
+
+obo:NCBITaxon_7933 a schema1:Taxon ;
+    rdfs:label "Anguilliformes" ;
+    dwc:scientificName "Anguilliformes" ;
+    rdfs:subClassOf obo:NCBITaxon_32521 .
+
+obo:NCBITaxon_7944 a schema1:Taxon ;
+    rdfs:label "Muraenesocidae" ;
+    dwc:scientificName "Muraenesocidae" ;
+    rdfs:subClassOf obo:NCBITaxon_7933 .
+
+obo:NCBITaxon_7945 a schema1:Taxon ;
+    rdfs:label "Muraenesox" ;
+    dwc:scientificName "Muraenesox" ;
+    rdfs:subClassOf obo:NCBITaxon_7944 .
+
+obo:NCBITaxon_7946 a schema1:Taxon ;
+    rdfs:label "Muraenesox cinereus" ;
+    dwc:scientificName "Muraenesox cinereus" ;
+    rdfs:subClassOf obo:NCBITaxon_7945 .
+
+obo:NCBITaxon_7948 a schema1:Taxon ;
+    rdfs:label "Clupeinae" ;
+    dwc:scientificName "Clupeinae" ;
+    rdfs:subClassOf obo:NCBITaxon_55118 .
+
+obo:NCBITaxon_7952 a schema1:Taxon ;
+    rdfs:label "Cypriniformes" ;
+    dwc:scientificName "Cypriniformes" ;
+    rdfs:subClassOf obo:NCBITaxon_32519 .
+
+obo:NCBITaxon_7954 a schema1:Taxon ;
+    rdfs:label "Danio" ;
+    dwc:scientificName "Danio" ;
+    rdfs:subClassOf obo:NCBITaxon_2743711 .
+
+obo:NCBITaxon_7955 a schema1:Taxon ;
+    rdfs:label "Danio rerio" ;
+    dwc:scientificName "Danio rerio" ;
+    rdfs:subClassOf obo:NCBITaxon_7954 .
+
+obo:NCBITaxon_8006 a schema1:Taxon ;
+    rdfs:label "Salmoniformes" ;
+    dwc:scientificName "Salmoniformes" ;
+    rdfs:subClassOf obo:NCBITaxon_41705 .
+
+obo:NCBITaxon_8015 a schema1:Taxon ;
+    rdfs:label "Salmonidae" ;
+    dwc:scientificName "Salmonidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8006 .
+
+obo:NCBITaxon_8016 a schema1:Taxon ;
+    rdfs:label "Oncorhynchus" ;
+    dwc:scientificName "Oncorhynchus" ;
+    rdfs:subClassOf obo:NCBITaxon_504568 .
+
+obo:NCBITaxon_8022 a schema1:Taxon ;
+    rdfs:label "Oncorhynchus mykiss" ;
+    dwc:scientificName "Oncorhynchus mykiss" ;
+    rdfs:subClassOf obo:NCBITaxon_8016 .
+
+obo:NCBITaxon_8033 a schema1:Taxon ;
+    rdfs:label "Salvelinus" ;
+    dwc:scientificName "Salvelinus" ;
+    rdfs:subClassOf obo:NCBITaxon_504568 .
+
+obo:NCBITaxon_8070 a schema1:Taxon ;
+    rdfs:label "Lophiiformes" ;
+    dwc:scientificName "Lophiiformes" ;
+    rdfs:subClassOf obo:NCBITaxon_1489922 .
+
+obo:NCBITaxon_8071 a schema1:Taxon ;
+    rdfs:label "Lophiidae" ;
+    dwc:scientificName "Lophiidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8070 .
+
+obo:NCBITaxon_8072 a schema1:Taxon ;
+    rdfs:label "Lophius" ;
+    dwc:scientificName "Lophius" ;
+    rdfs:subClassOf obo:NCBITaxon_8071 .
+
+obo:NCBITaxon_8088 a schema1:Taxon ;
+    rdfs:label "Oryziinae" ;
+    dwc:scientificName "Oryziinae" ;
+    rdfs:subClassOf obo:NCBITaxon_47757 .
+
+obo:NCBITaxon_8089 a schema1:Taxon ;
+    rdfs:label "oryzias" ;
+    dwc:scientificName "oryzias" ;
+    rdfs:subClassOf obo:NCBITaxon_8088 .
+
+obo:NCBITaxon_8090 a schema1:Taxon ;
+    rdfs:label "Oryzias latipes" ;
+    dwc:scientificName "Oryzias latipes" ;
+    rdfs:subClassOf obo:NCBITaxon_8089 .
+
+obo:NCBITaxon_8091 a schema1:Taxon ;
+    rdfs:label "Oryzias latipes" ;
+    dwc:scientificName "Oryzias latipes" ;
+    rdfs:subClassOf obo:NCBITaxon_123368 .
+
+obo:NCBITaxon_8107 a schema1:Taxon ;
+    rdfs:label "Scorpaenoidei" ;
+    dwc:scientificName "Scorpaenoidei" ;
+    rdfs:subClassOf obo:NCBITaxon_8091, obo:NCBITaxon_8111 .
+
+obo:NCBITaxon_8111 a schema1:Taxon ;
+    rdfs:label "Perciformes" ;
+    dwc:scientificName "Perciformes" ;
+    rdfs:subClassOf obo:NCBITaxon_1489922 .
+
+obo:NCBITaxon_8112 a schema1:Taxon ;
+    rdfs:label "Percoidei" ;
+    dwc:scientificName "Percoidei" ;
+    rdfs:subClassOf obo:NCBITaxon_8111 .
+
+obo:NCBITaxon_8157 a schema1:Taxon ;
+    rdfs:label "Carangidae" ;
+    dwc:scientificName "Carangidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8112, obo:NCBITaxon_1489907 .
+
+obo:NCBITaxon_8169 a schema1:Taxon ;
+    rdfs:label "Sparidae" ;
+    dwc:scientificName "Sparidae" ;
+    rdfs:subClassOf obo:NCBITaxon_1489931 .
+
+obo:NCBITaxon_8172 a schema1:Taxon ;
+    rdfs:label "Pagrus" ;
+    dwc:scientificName "Pagrus" ;
+    rdfs:subClassOf obo:NCBITaxon_8169 .
+
+obo:NCBITaxon_8224 a schema1:Taxon ;
+    rdfs:label "Scombridae" ;
+    dwc:scientificName "Scombridae" ;
+    rdfs:subClassOf obo:NCBITaxon_1489894 .
+
+obo:NCBITaxon_8234 a schema1:Taxon ;
+    rdfs:label "Thunnus" ;
+    dwc:scientificName "Thunnus" ;
+    rdfs:subClassOf obo:NCBITaxon_186749 .
+
+obo:NCBITaxon_8238 a schema1:Taxon ;
+    rdfs:label "Thunnus orientalis" ;
+    dwc:scientificName "Thunnus orientalis" ;
+    rdfs:subClassOf obo:NCBITaxon_8234 .
+
+obo:NCBITaxon_8247 a schema1:Taxon ;
+    rdfs:label "Labridae" ;
+    dwc:scientificName "Labridae" ;
+    rdfs:subClassOf obo:NCBITaxon_1489928 .
+
+obo:NCBITaxon_8252 a schema1:Taxon ;
+    rdfs:label "Pleuronectiformes" ;
+    dwc:scientificName "Pleuronectiformes" ;
+    rdfs:subClassOf obo:NCBITaxon_1489904 .
+
+obo:NCBITaxon_8254 a schema1:Taxon ;
+    rdfs:label "Paralichthys" ;
+    dwc:scientificName "Paralichthys" ;
+    rdfs:subClassOf obo:NCBITaxon_171414 .
+
+obo:NCBITaxon_8255 a schema1:Taxon ;
+    rdfs:label "Paralichthys olivaceus" ;
+    dwc:scientificName "Paralichthys olivaceus" ;
+    rdfs:subClassOf obo:NCBITaxon_8254 .
+
+obo:NCBITaxon_8256 a schema1:Taxon ;
+    rdfs:label "Pleuronectidae" ;
+    dwc:scientificName "Pleuronectidae" ;
+    rdfs:subClassOf obo:NCBITaxon_30942 .
+
+obo:NCBITaxon_8287 a schema1:Taxon ;
+    rdfs:label "Sarcopterygii" ;
+    dwc:scientificName "Sarcopterygii" ;
+    rdfs:subClassOf obo:NCBITaxon_117571 .
+
+obo:NCBITaxon_8292 a schema1:Taxon ;
+    rdfs:label "Amphibia" ;
+    dwc:scientificName "Amphibia" ;
+    rdfs:subClassOf obo:NCBITaxon_32523 .
+
+obo:NCBITaxon_8293 a schema1:Taxon ;
+    rdfs:label "Caudata" ;
+    dwc:scientificName "Caudata" ;
+    rdfs:subClassOf obo:NCBITaxon_41666 .
+
+obo:NCBITaxon_8294 a schema1:Taxon ;
+    rdfs:label "Ambystomatidae" ;
+    dwc:scientificName "Ambystomatidae" ;
+    rdfs:subClassOf obo:NCBITaxon_30367 .
+
+obo:NCBITaxon_8295 a schema1:Taxon ;
+    rdfs:label "Ambystoma" ;
+    dwc:scientificName "Ambystoma" ;
+    rdfs:subClassOf obo:NCBITaxon_8294 .
+
+obo:NCBITaxon_8296 a schema1:Taxon ;
+    rdfs:label "Ambystoma mexicanum" ;
+    dwc:scientificName "Ambystoma mexicanum" ;
+    rdfs:subClassOf obo:NCBITaxon_8295 .
+
+obo:NCBITaxon_8342 a schema1:Taxon ;
+    rdfs:label "Anura" ;
+    dwc:scientificName "Anura" ;
+    rdfs:subClassOf obo:NCBITaxon_41666 .
+
+obo:NCBITaxon_8352 a schema1:Taxon ;
+    rdfs:label "Pipidae" ;
+    dwc:scientificName "Pipidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8342 .
+
+obo:NCBITaxon_8355 a schema1:Taxon ;
+    rdfs:label "Xenopus laevis" ;
+    dwc:scientificName "Xenopus laevis" ;
+    rdfs:subClassOf obo:NCBITaxon_262014 .
+
+obo:NCBITaxon_8457 a schema1:Taxon ;
+    rdfs:label "Sauropsida" ;
+    dwc:scientificName "Sauropsida" ;
+    rdfs:subClassOf obo:NCBITaxon_32524 .
+
+obo:NCBITaxon_8492 a schema1:Taxon ;
+    rdfs:label "Archosauria" ;
+    dwc:scientificName "Archosauria" ;
+    rdfs:subClassOf obo:NCBITaxon_8457 .
+
+obo:NCBITaxon_8504 a schema1:Taxon ;
+    rdfs:label "Lepidosauria" ;
+    dwc:scientificName "Lepidosauria" ;
+    rdfs:subClassOf obo:NCBITaxon_8457 .
+
+obo:NCBITaxon_8509 a schema1:Taxon ;
+    rdfs:label "Squamata" ;
+    dwc:scientificName "Squamata" ;
+    rdfs:subClassOf obo:NCBITaxon_8504 .
+
+obo:NCBITaxon_8511 a schema1:Taxon ;
+    rdfs:label "Iguania" ;
+    dwc:scientificName "Iguania" ;
+    rdfs:subClassOf obo:NCBITaxon_8509 .
+
+obo:NCBITaxon_8515 a schema1:Taxon ;
+    rdfs:label "Iguanidae" ;
+    dwc:scientificName "Iguanidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8511 .
+
+obo:NCBITaxon_8560 a schema1:Taxon ;
+    rdfs:label "Gekkota" ;
+    dwc:scientificName "Gekkota" ;
+    rdfs:subClassOf obo:NCBITaxon_8509 .
+
+obo:NCBITaxon_8561 a schema1:Taxon ;
+    rdfs:label "Gekkonidae" ;
+    dwc:scientificName "Gekkonidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8560 .
+
+obo:NCBITaxon_8565 a schema1:Taxon ;
+    rdfs:label "gekko" ;
+    dwc:scientificName "gekko" ;
+    rdfs:subClassOf obo:NCBITaxon_385256 .
+
+obo:NCBITaxon_8782 a schema1:Taxon ;
+    rdfs:label "Aves" ;
+    dwc:scientificName "Aves" ;
+    rdfs:subClassOf obo:NCBITaxon_436492 .
+
+obo:NCBITaxon_8825 a schema1:Taxon ;
+    rdfs:label "Neognathae" ;
+    dwc:scientificName "Neognathae" ;
+    rdfs:subClassOf obo:NCBITaxon_8782 .
+
+obo:NCBITaxon_8976 a schema1:Taxon ;
+    rdfs:label "Galliformes" ;
+    dwc:scientificName "Galliformes" ;
+    rdfs:subClassOf obo:NCBITaxon_1549675 .
+
+obo:NCBITaxon_9005 a schema1:Taxon ;
+    rdfs:label "Phasianidae" ;
+    dwc:scientificName "Phasianidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8976 .
+
+obo:NCBITaxon_9030 a schema1:Taxon ;
+    rdfs:label "Gallus" ;
+    dwc:scientificName "Gallus" ;
+    rdfs:subClassOf obo:NCBITaxon_9072 .
+
+obo:NCBITaxon_9031 a schema1:Taxon ;
+    rdfs:label "Gallus gallus" ;
+    dwc:scientificName "Gallus gallus" ;
+    rdfs:subClassOf obo:NCBITaxon_9030 .
+
+obo:NCBITaxon_9072 a schema1:Taxon ;
+    rdfs:label "Phasianinae" ;
+    dwc:scientificName "Phasianinae" ;
+    rdfs:subClassOf obo:NCBITaxon_9005 .
+
+obo:NCBITaxon_9090 a schema1:Taxon ;
+    rdfs:label "Coturnix" ;
+    dwc:scientificName "Coturnix" ;
+    rdfs:subClassOf obo:NCBITaxon_466544 .
+
+obo:NCBITaxon_9263 a schema1:Taxon ;
+    rdfs:label "Metatheria" ;
+    dwc:scientificName "Metatheria" ;
+    rdfs:subClassOf obo:NCBITaxon_32525 .
+
+obo:NCBITaxon_9265 a schema1:Taxon ;
+    rdfs:label "Didelphidae" ;
+    dwc:scientificName "Didelphidae" ;
+    rdfs:subClassOf obo:NCBITaxon_38605 .
+
+obo:NCBITaxon_9266 a schema1:Taxon ;
+    rdfs:label "Didelphis" ;
+    dwc:scientificName "Didelphis" ;
+    rdfs:subClassOf obo:NCBITaxon_126287 .
+
+obo:NCBITaxon_9267 a schema1:Taxon ;
+    rdfs:label "Didelphis virginiana" ;
+    dwc:scientificName "Didelphis virginiana" ;
+    rdfs:subClassOf obo:NCBITaxon_9266 .
+
+obo:NCBITaxon_9347 a schema1:Taxon ;
+    rdfs:label "Eutheria" ;
+    dwc:scientificName "Eutheria" ;
+    rdfs:subClassOf obo:NCBITaxon_32525 .
+
+obo:NCBITaxon_9443 a schema1:Taxon ;
+    rdfs:label "Primates" ;
+    dwc:scientificName "Primates" ;
+    rdfs:subClassOf obo:NCBITaxon_314146 .
+
+obo:NCBITaxon_9479 a schema1:Taxon ;
+    rdfs:label "Platyrrhini" ;
+    dwc:scientificName "Platyrrhini" ;
+    rdfs:subClassOf obo:NCBITaxon_314293 .
+
+obo:NCBITaxon_9480 a schema1:Taxon ;
+    rdfs:label "Callitrichinae" ;
+    dwc:scientificName "Callitrichinae" ;
+    rdfs:subClassOf obo:NCBITaxon_9498 .
+
+obo:NCBITaxon_9481 a schema1:Taxon ;
+    rdfs:label "Callithrix" ;
+    dwc:scientificName "Callithrix" ;
+    rdfs:subClassOf obo:NCBITaxon_9480 .
+
+obo:NCBITaxon_9483 a schema1:Taxon ;
+    rdfs:label "Callithrix jacchus" ;
+    dwc:scientificName "Callithrix jacchus" ;
+    rdfs:subClassOf obo:NCBITaxon_9481 .
+
+obo:NCBITaxon_9498 a schema1:Taxon ;
+    rdfs:label "Cebidae" ;
+    dwc:scientificName "Cebidae" ;
+    rdfs:subClassOf obo:NCBITaxon_9479 .
+
+obo:NCBITaxon_9526 a schema1:Taxon ;
+    rdfs:label "Catarrhini" ;
+    dwc:scientificName "Catarrhini" ;
+    rdfs:subClassOf obo:NCBITaxon_314293 .
+
+obo:NCBITaxon_9527 a schema1:Taxon ;
+    rdfs:label "cercopithecidae" ;
+    dwc:scientificName "cercopithecidae" ;
+    rdfs:subClassOf obo:NCBITaxon_314294 .
+
+obo:NCBITaxon_9528 a schema1:Taxon ;
+    rdfs:label "Cercopithecinae" ;
+    dwc:scientificName "Cercopithecinae" ;
+    rdfs:subClassOf obo:NCBITaxon_9527 .
+
+obo:NCBITaxon_9534 a schema1:Taxon ;
+    rdfs:label "Chlorocebus aethiops" ;
+    dwc:scientificName "Chlorocebus aethiops" ;
+    rdfs:subClassOf obo:NCBITaxon_392815 .
+
+obo:NCBITaxon_9539 a schema1:Taxon ;
+    rdfs:label "Macaca" ;
+    dwc:scientificName "Macaca" ;
+    rdfs:subClassOf obo:NCBITaxon_9528 .
+
+obo:NCBITaxon_9541 a schema1:Taxon ;
+    rdfs:label "Macaca fascicularis" ;
+    dwc:scientificName "Macaca fascicularis" ;
+    rdfs:subClassOf obo:NCBITaxon_9539 .
+
+obo:NCBITaxon_9604 a schema1:Taxon ;
+    rdfs:label "Hominidae" ;
+    dwc:scientificName "Hominidae" ;
+    rdfs:subClassOf obo:NCBITaxon_314295 .
+
+obo:NCBITaxon_9605 a schema1:Taxon ;
+    rdfs:label "Homo" ;
+    dwc:scientificName "Homo" ;
+    rdfs:subClassOf obo:NCBITaxon_207598 .
+
+obo:NCBITaxon_9606 a schema1:Taxon ;
+    rdfs:label "Homo sapiens" ;
+    dwc:scientificName "Homo sapiens" ;
+    rdfs:subClassOf obo:NCBITaxon_9605 .
+
+obo:NCBITaxon_9608 a schema1:Taxon ;
+    rdfs:label "Canidae" ;
+    dwc:scientificName "Canidae" ;
+    rdfs:subClassOf obo:NCBITaxon_379584 .
+
+obo:NCBITaxon_9611 a schema1:Taxon ;
+    rdfs:label "Canis" ;
+    dwc:scientificName "Canis" ;
+    rdfs:subClassOf obo:NCBITaxon_9608 .
+
+obo:NCBITaxon_9612 a schema1:Taxon ;
+    rdfs:label "Canis lupus" ;
+    dwc:scientificName "Canis lupus" ;
+    rdfs:subClassOf obo:NCBITaxon_9611 .
+
+obo:NCBITaxon_9615 a schema1:Taxon ;
+    rdfs:label "Canis familiaris" ;
+    dwc:scientificName "Canis familiaris" ;
+    rdfs:subClassOf obo:NCBITaxon_9612 .
+
+obo:NCBITaxon_9681 a schema1:Taxon ;
+    rdfs:label "Felidae" ;
+    dwc:scientificName "Felidae" ;
+    rdfs:subClassOf obo:NCBITaxon_379583 .
+
+obo:NCBITaxon_9682 a schema1:Taxon ;
+    rdfs:label "Felis" ;
+    dwc:scientificName "Felis" ;
+    rdfs:subClassOf obo:NCBITaxon_338152 .
+
+obo:NCBITaxon_9685 a schema1:Taxon ;
+    rdfs:label "Felis catus" ;
+    dwc:scientificName "Felis catus" ;
+    rdfs:subClassOf obo:NCBITaxon_9682 .
+
+obo:NCBITaxon_9787 a schema1:Taxon ;
+    rdfs:label "Perissodactyla" ;
+    dwc:scientificName "Perissodactyla" ;
+    rdfs:subClassOf obo:NCBITaxon_314145 .
+
+obo:NCBITaxon_9788 a schema1:Taxon ;
+    rdfs:label "Equidae" ;
+    dwc:scientificName "Equidae" ;
+    rdfs:subClassOf obo:NCBITaxon_9787 .
+
+obo:NCBITaxon_9789 a schema1:Taxon ;
+    rdfs:label "Equus" ;
+    dwc:scientificName "Equus" ;
+    rdfs:subClassOf obo:NCBITaxon_9788 .
+
+obo:NCBITaxon_9796 a schema1:Taxon ;
+    rdfs:label "Equus caballus" ;
+    dwc:scientificName "Equus caballus" ;
+    rdfs:subClassOf obo:NCBITaxon_9789 .
+
+obo:NCBITaxon_9821 a schema1:Taxon ;
+    rdfs:label "Suidae" ;
+    dwc:scientificName "Suidae" ;
+    rdfs:subClassOf obo:NCBITaxon_35497 .
+
+obo:NCBITaxon_9822 a schema1:Taxon ;
+    rdfs:label "Sus" ;
+    dwc:scientificName "Sus" ;
+    rdfs:subClassOf obo:NCBITaxon_9821 .
+
+obo:NCBITaxon_9823 a schema1:Taxon ;
+    rdfs:label "Sus scrofa" ;
+    dwc:scientificName "Sus scrofa" ;
+    rdfs:subClassOf obo:NCBITaxon_9822 .
+
+obo:NCBITaxon_9895 a schema1:Taxon ;
+    rdfs:label "Bovidae" ;
+    dwc:scientificName "Bovidae" ;
+    rdfs:subClassOf obo:NCBITaxon_91561 .
+
+obo:NCBITaxon_9903 a schema1:Taxon ;
+    rdfs:label "Bos" ;
+    dwc:scientificName "Bos" ;
+    rdfs:subClassOf obo:NCBITaxon_27592 .
+
+obo:NCBITaxon_9913 a schema1:Taxon ;
+    rdfs:label "Bos taurus" ;
+    dwc:scientificName "Bos taurus" ;
+    rdfs:subClassOf obo:NCBITaxon_9903 .
+
+obo:NCBITaxon_9975 a schema1:Taxon ;
+    rdfs:label "Lagomorpha" ;
+    dwc:scientificName "Lagomorpha" ;
+    rdfs:subClassOf obo:NCBITaxon_314147 .
+
+obo:NCBITaxon_9979 a schema1:Taxon ;
+    rdfs:label "Leporidae" ;
+    dwc:scientificName "Leporidae" ;
+    rdfs:subClassOf obo:NCBITaxon_9975 .
+
+obo:NCBITaxon_9984 a schema1:Taxon ;
+    rdfs:label "Oryctolagus" ;
+    dwc:scientificName "Oryctolagus" ;
+    rdfs:subClassOf obo:NCBITaxon_9979 .
+
+obo:NCBITaxon_9986 a schema1:Taxon ;
+    rdfs:label "Oryctolagus cuniculus" ;
+    dwc:scientificName "Oryctolagus cuniculus" ;
+    rdfs:subClassOf obo:NCBITaxon_9984 .
+
+obo:NCBITaxon_9989 a schema1:Taxon ;
+    rdfs:label "Rodentia" ;
+    dwc:scientificName "Rodentia" ;
+    rdfs:subClassOf obo:NCBITaxon_314147 .
+
+obo:NCBITaxon_10026 a schema1:Taxon ;
+    rdfs:label "Cricetinae" ;
+    dwc:scientificName "Cricetinae" ;
+    rdfs:subClassOf obo:NCBITaxon_10066, obo:NCBITaxon_337677 .
+
+obo:NCBITaxon_10028 a schema1:Taxon ;
+    rdfs:label "Cricetulus" ;
+    dwc:scientificName "Cricetulus" ;
+    rdfs:subClassOf obo:NCBITaxon_10026 .
+
+obo:NCBITaxon_10029 a schema1:Taxon ;
+    rdfs:label "Cricetulus griseus" ;
+    dwc:scientificName "Cricetulus griseus" ;
+    rdfs:subClassOf obo:NCBITaxon_10028 .
+
+obo:NCBITaxon_10066 a schema1:Taxon ;
+    rdfs:label "Muridae" ;
+    dwc:scientificName "Muridae" ;
+    rdfs:subClassOf obo:NCBITaxon_337687 .
+
+obo:NCBITaxon_10088 a schema1:Taxon ;
+    rdfs:label "Mus" ;
+    dwc:scientificName "Mus" ;
+    rdfs:subClassOf obo:NCBITaxon_39107 .
+
+obo:NCBITaxon_10090 a schema1:Taxon ;
+    rdfs:label "Mus musculus" ;
+    dwc:scientificName "Mus musculus" ;
+    rdfs:subClassOf obo:NCBITaxon_10088 .
+
+obo:NCBITaxon_10114 a schema1:Taxon ;
+    rdfs:label "Rattus" ;
+    dwc:scientificName "Rattus" ;
+    rdfs:subClassOf obo:NCBITaxon_39107 .
+
+obo:NCBITaxon_10116 a schema1:Taxon ;
+    rdfs:label "Rattus norvegicus" ;
+    dwc:scientificName "Rattus norvegicus" ;
+    rdfs:subClassOf obo:NCBITaxon_10114 .
+
+obo:NCBITaxon_10239 a schema1:Taxon ;
+    rdfs:label "Virus" ;
+    dwc:scientificName "Virus" .
+
+obo:NCBITaxon_10292 a schema1:Taxon ;
+    rdfs:label "Herpesviridae" ;
+    dwc:scientificName "Herpesviridae" ;
+    rdfs:subClassOf obo:NCBITaxon_548681 .
+
+obo:NCBITaxon_10293 a schema1:Taxon ;
+    rdfs:label "Alphaherpesvirinae" ;
+    dwc:scientificName "Alphaherpesvirinae" ;
+    rdfs:subClassOf obo:NCBITaxon_10292 .
+
+obo:NCBITaxon_10294 a schema1:Taxon ;
+    rdfs:label "Simplexvirus" ;
+    dwc:scientificName "Simplexvirus" ;
+    rdfs:subClassOf obo:NCBITaxon_10293 .
+
+obo:NCBITaxon_10298 a schema1:Taxon ;
+    rdfs:label "Herpes simplex virus type 1" ;
+    dwc:scientificName "Herpes simplex virus type 1" ;
+    rdfs:subClassOf obo:NCBITaxon_10294 .
+
+obo:NCBITaxon_10515 a schema1:Taxon ;
+    rdfs:label "Human adenovirus 2" ;
+    dwc:scientificName "Human adenovirus 2" .
+
+obo:NCBITaxon_11118 a schema1:Taxon ;
+    rdfs:label "Coronaviridae" ;
+    dwc:scientificName "Coronaviridae" ;
+    rdfs:subClassOf obo:NCBITaxon_76804 .
+
+obo:NCBITaxon_11308 a schema1:Taxon ;
+    rdfs:label "Orthomyxoviridae" ;
+    dwc:scientificName "Orthomyxoviridae" ;
+    rdfs:subClassOf obo:NCBITaxon_2499411 .
+
+obo:NCBITaxon_11320 a schema1:Taxon ;
+    rdfs:label "Influenza A virus" ;
+    dwc:scientificName "Influenza A virus" ;
+    rdfs:subClassOf obo:NCBITaxon_197911 .
+
+obo:NCBITaxon_13675 a schema1:Taxon ;
+    rdfs:label "Scomber" ;
+    dwc:scientificName "Scomber" ;
+    rdfs:subClassOf obo:NCBITaxon_186746 .
+
+obo:NCBITaxon_13676 a schema1:Taxon ;
+    rdfs:label "Scomber japonicus" ;
+    dwc:scientificName "Scomber japonicus" ;
+    rdfs:subClassOf obo:NCBITaxon_13675 .
+
+obo:NCBITaxon_13691 a schema1:Taxon ;
+    rdfs:label "Sphyraena" ;
+    dwc:scientificName "Sphyraena" ;
+    rdfs:subClassOf obo:NCBITaxon_27769 .
+
+obo:NCBITaxon_13798 a schema1:Taxon ;
+    rdfs:label "Hypnales" ;
+    dwc:scientificName "Hypnales" ;
+    rdfs:subClassOf obo:NCBITaxon_114658 .
+
+obo:NCBITaxon_19151 a schema1:Taxon ;
+    rdfs:label "Eruca" ;
+    dwc:scientificName "Eruca" ;
+    rdfs:subClassOf obo:NCBITaxon_981071 .
+
+obo:NCBITaxon_27592 a schema1:Taxon ;
+    rdfs:label "Bovinae" ;
+    dwc:scientificName "Bovinae" ;
+    rdfs:subClassOf obo:NCBITaxon_9895 .
+
+obo:NCBITaxon_27767 a schema1:Taxon ;
+    rdfs:label "Gempylidae" ;
+    dwc:scientificName "Gempylidae" ;
+    rdfs:subClassOf obo:NCBITaxon_1489894 .
+
+obo:NCBITaxon_27769 a schema1:Taxon ;
+    rdfs:label "Sphyraenidae" ;
+    dwc:scientificName "Sphyraenidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8112, obo:NCBITaxon_1489907 .
+
+obo:NCBITaxon_27774 a schema1:Taxon ;
+    rdfs:label "Triglidae" ;
+    dwc:scientificName "Triglidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8107, obo:NCBITaxon_1490018 .
+
+obo:NCBITaxon_28211 a schema1:Taxon ;
+    rdfs:label "Alphaproteobacteria" ;
+    dwc:scientificName "Alphaproteobacteria" ;
+    rdfs:subClassOf obo:NCBITaxon_1224 .
+
+obo:NCBITaxon_28380 a schema1:Taxon ;
+    rdfs:label "Sardinops" ;
+    dwc:scientificName "Sardinops" ;
+    rdfs:subClassOf obo:NCBITaxon_7948 .
+
+obo:NCBITaxon_28466 a schema1:Taxon ;
+    rdfs:label "Hylocomiaceae" ;
+    dwc:scientificName "Hylocomiaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_13798 .
+
+obo:NCBITaxon_28467 a schema1:Taxon ;
+    rdfs:label "Rhytidiadelphus" ;
+    dwc:scientificName "Rhytidiadelphus" ;
+    rdfs:subClassOf obo:NCBITaxon_28466 .
+
+obo:NCBITaxon_28738 a schema1:Taxon ;
+    rdfs:label "Cyprinodontiformes" ;
+    dwc:scientificName "Cyprinodontiformes" ;
+    rdfs:subClassOf obo:NCBITaxon_186623 .
+
+obo:NCBITaxon_28779 a schema1:Taxon ;
+    rdfs:label "Nothobranchius" ;
+    dwc:scientificName "Nothobranchius" ;
+    rdfs:subClassOf obo:NCBITaxon_405002 .
+
+obo:NCBITaxon_28781 a schema1:Taxon ;
+    rdfs:label "Adrianichthyoidei" ;
+    dwc:scientificName "Adrianichthyoidei" ;
+    rdfs:subClassOf obo:NCBITaxon_76071 .
+
+obo:NCBITaxon_28908 a schema1:Taxon ;
+    rdfs:label "Marchantiales" ;
+    dwc:scientificName "Marchantiales" ;
+    rdfs:subClassOf obo:NCBITaxon_186774 .
+
+obo:NCBITaxon_29169 a schema1:Taxon ;
+    rdfs:label "Ancylostoma" ;
+    dwc:scientificName "Ancylostoma" ;
+    rdfs:subClassOf obo:NCBITaxon_33278 .
+
+obo:NCBITaxon_29727 a schema1:Taxon ;
+    rdfs:label "Eruca vesicaria subsp. sativa" ;
+    dwc:scientificName "Eruca vesicaria subsp. sativa" ;
+    rdfs:subClassOf obo:NCBITaxon_180536 .
+
+obo:NCBITaxon_30367 a schema1:Taxon ;
+    rdfs:label "Salamandroidea" ;
+    dwc:scientificName "Salamandroidea" ;
+    rdfs:subClassOf obo:NCBITaxon_8293 .
+
+obo:NCBITaxon_30727 a schema1:Taxon ;
+    rdfs:label "Cyprinoidei" ;
+    dwc:scientificName "Cyprinoidei" ;
+    rdfs:subClassOf obo:NCBITaxon_7952 .
+
+obo:NCBITaxon_30790 a schema1:Taxon ;
+    rdfs:label "Lophius litulon" ;
+    dwc:scientificName "Lophius litulon" ;
+    rdfs:subClassOf obo:NCBITaxon_8072 .
+
+obo:NCBITaxon_30860 a schema1:Taxon ;
+    rdfs:label "Pentacerotidae" ;
+    dwc:scientificName "Pentacerotidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8112, obo:NCBITaxon_3051910 .
+
+obo:NCBITaxon_30874 a schema1:Taxon ;
+    rdfs:label "Sillaginidae" ;
+    dwc:scientificName "Sillaginidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8112 .
+
+obo:NCBITaxon_30942 a schema1:Taxon ;
+    rdfs:label "Pleuronectoidei" ;
+    dwc:scientificName "Pleuronectoidei" ;
+    rdfs:subClassOf obo:NCBITaxon_8252, obo:NCBITaxon_1489907 .
+
+obo:NCBITaxon_30944 a schema1:Taxon ;
+    rdfs:label "Hippoglossoides" ;
+    dwc:scientificName "Hippoglossoides" ;
+    rdfs:subClassOf obo:NCBITaxon_8256 .
+
+obo:NCBITaxon_30955 a schema1:Taxon ;
+    rdfs:label "Plecoglossidae" ;
+    dwc:scientificName "Plecoglossidae" ;
+    rdfs:subClassOf obo:NCBITaxon_41711 .
+
+obo:NCBITaxon_31022 a schema1:Taxon ;
+    rdfs:label "Tetraodontiformes" ;
+    dwc:scientificName "Tetraodontiformes" ;
+    rdfs:subClassOf obo:NCBITaxon_1489922 .
+
+obo:NCBITaxon_31026 a schema1:Taxon ;
+    rdfs:label "Triacanthodidae" ;
+    dwc:scientificName "Triacanthodidae" ;
+    rdfs:subClassOf obo:NCBITaxon_31022 .
+
+obo:NCBITaxon_31028 a schema1:Taxon ;
+    rdfs:label "Tetraodontoidei" ;
+    dwc:scientificName "Tetraodontoidei" ;
+    rdfs:subClassOf obo:NCBITaxon_31022 .
+
+obo:NCBITaxon_31031 a schema1:Taxon ;
+    rdfs:label "Tetraodontidae" ;
+    dwc:scientificName "Tetraodontidae" ;
+    rdfs:subClassOf obo:NCBITaxon_31028 .
+
+obo:NCBITaxon_31032 a schema1:Taxon ;
+    rdfs:label "Takifugu" ;
+    dwc:scientificName "Takifugu" ;
+    rdfs:subClassOf obo:NCBITaxon_31031 .
+
+obo:NCBITaxon_31097 a schema1:Taxon ;
+    rdfs:label "Zeiformes" ;
+    dwc:scientificName "Zeiformes" ;
+    rdfs:subClassOf obo:NCBITaxon_1489842 .
+
+obo:NCBITaxon_31103 a schema1:Taxon ;
+    rdfs:label "Zeidae" ;
+    dwc:scientificName "Zeidae" ;
+    rdfs:subClassOf obo:NCBITaxon_31097 .
+
+obo:NCBITaxon_31245 a schema1:Taxon ;
+    rdfs:label "Schistosomatidae" ;
+    dwc:scientificName "Schistosomatidae" ;
+    rdfs:subClassOf obo:NCBITaxon_6179 .
+
+obo:NCBITaxon_31708 a schema1:Taxon ;
+    rdfs:label "Human rhinovirus A16" ;
+    dwc:scientificName "Human rhinovirus A16" .
+
+obo:NCBITaxon_32443 a schema1:Taxon ;
+    rdfs:label "Teleostei" ;
+    dwc:scientificName "Teleostei" ;
+    rdfs:subClassOf obo:NCBITaxon_41665 .
+
+obo:NCBITaxon_32446 a schema1:Taxon ;
+    rdfs:label "Clupeiformes" ;
+    dwc:scientificName "Clupeiformes" ;
+    rdfs:subClassOf obo:NCBITaxon_282425 .
+
+obo:NCBITaxon_32519 a schema1:Taxon ;
+    rdfs:label "Ostariophysi" ;
+    dwc:scientificName "Ostariophysi" ;
+    rdfs:subClassOf obo:NCBITaxon_186634 .
+
+obo:NCBITaxon_32521 a schema1:Taxon ;
+    rdfs:label "Elopomorpha" ;
+    dwc:scientificName "Elopomorpha" ;
+    rdfs:subClassOf obo:NCBITaxon_32443 .
+
+obo:NCBITaxon_32523 a schema1:Taxon ;
+    rdfs:label "Tetrapoda" ;
+    dwc:scientificName "Tetrapoda" ;
+    rdfs:subClassOf obo:NCBITaxon_1338369 .
+
+obo:NCBITaxon_32524 a schema1:Taxon ;
+    rdfs:label "Amniota" ;
+    dwc:scientificName "Amniota" ;
+    rdfs:subClassOf obo:NCBITaxon_32523 .
+
+obo:NCBITaxon_32525 a schema1:Taxon ;
+    rdfs:label "Theria" ;
+    dwc:scientificName "Theria" ;
+    rdfs:subClassOf obo:NCBITaxon_40674 .
+
+obo:NCBITaxon_32644 a schema1:Taxon ;
+    rdfs:label "unidentified" ;
+    dwc:scientificName "unidentified" .
+
+obo:NCBITaxon_33090 a schema1:Taxon ;
+    rdfs:label "Viridiplantae" ;
+    dwc:scientificName "Viridiplantae" ;
+    rdfs:subClassOf obo:NCBITaxon_2759 .
+
+obo:NCBITaxon_33154 a schema1:Taxon ;
+    rdfs:label "Opisthokonta" ;
+    dwc:scientificName "Opisthokonta" ;
+    rdfs:subClassOf obo:NCBITaxon_2759 .
+
+obo:NCBITaxon_33213 a schema1:Taxon ;
+    rdfs:label "Bilateria" ;
+    dwc:scientificName "Bilateria" ;
+    rdfs:subClassOf obo:NCBITaxon_6072 .
+
+obo:NCBITaxon_33278 a schema1:Taxon ;
+    rdfs:label "Ancylostomatidae" ;
+    dwc:scientificName "Ancylostomatidae" ;
+    rdfs:subClassOf obo:NCBITaxon_6308 .
+
+obo:NCBITaxon_33317 a schema1:Taxon ;
+    rdfs:label "Protostomia" ;
+    dwc:scientificName "Protostomia" ;
+    rdfs:subClassOf obo:NCBITaxon_33213 .
+
+obo:NCBITaxon_33340 a schema1:Taxon ;
+    rdfs:label "Neoptera" ;
+    dwc:scientificName "Neoptera" ;
+    rdfs:subClassOf obo:NCBITaxon_7496 .
+
+obo:NCBITaxon_33392 a schema1:Taxon ;
+    rdfs:label "Endopterygota" ;
+    dwc:scientificName "Endopterygota" ;
+    rdfs:subClassOf obo:NCBITaxon_33340 .
+
+obo:NCBITaxon_33467 a schema1:Taxon ;
+    rdfs:label "Priapulida" ;
+    dwc:scientificName "Priapulida" ;
+    rdfs:subClassOf obo:NCBITaxon_1206794 .
+
+obo:NCBITaxon_33511 a schema1:Taxon ;
+    rdfs:label "Deuterostomia" ;
+    dwc:scientificName "Deuterostomia" ;
+    rdfs:subClassOf obo:NCBITaxon_33213 .
+
+obo:NCBITaxon_33533 a schema1:Taxon ;
+    rdfs:label "Chelidonichthys" ;
+    dwc:scientificName "Chelidonichthys" ;
+    rdfs:subClassOf obo:NCBITaxon_27774 .
+
+obo:NCBITaxon_33554 a schema1:Taxon ;
+    rdfs:label "Carnivora" ;
+    dwc:scientificName "Carnivora" ;
+    rdfs:subClassOf obo:NCBITaxon_314145 .
+
+obo:NCBITaxon_33630 a schema1:Taxon ;
+    rdfs:label "Alveolata" ;
+    dwc:scientificName "Alveolata" ;
+    rdfs:subClassOf obo:NCBITaxon_2759 .
+
+obo:NCBITaxon_33656 a schema1:Taxon ;
+    rdfs:label "Phaeocystis" ;
+    dwc:scientificName "Phaeocystis" ;
+    rdfs:subClassOf obo:NCBITaxon_2830 .
+
+obo:NCBITaxon_33657 a schema1:Taxon ;
+    rdfs:label "Phaeocystis antarctica" ;
+    dwc:scientificName "Phaeocystis antarctica" ;
+    rdfs:subClassOf obo:NCBITaxon_33656 .
+
+obo:NCBITaxon_34346 a schema1:Taxon ;
+    rdfs:label "Schizosaccharomycetales" ;
+    dwc:scientificName "Schizosaccharomycetales" ;
+    rdfs:subClassOf obo:NCBITaxon_147554 .
+
+obo:NCBITaxon_34506 a schema1:Taxon ;
+    rdfs:label "Strongyloides ratti" ;
+    dwc:scientificName "Strongyloides ratti" ;
+    rdfs:subClassOf obo:NCBITaxon_6247 .
+
+obo:NCBITaxon_34735 a schema1:Taxon ;
+    rdfs:label "Apoidea" ;
+    dwc:scientificName "Apoidea" ;
+    rdfs:subClassOf obo:NCBITaxon_7434 .
+
+obo:NCBITaxon_34820 a schema1:Taxon ;
+    rdfs:label "Sebastes" ;
+    dwc:scientificName "Sebastes" ;
+    rdfs:subClassOf obo:NCBITaxon_274692 .
+
+obo:NCBITaxon_35493 a schema1:Taxon ;
+    rdfs:label "Streptophyta" ;
+    dwc:scientificName "Streptophyta" ;
+    rdfs:subClassOf obo:NCBITaxon_33090 .
+
+obo:NCBITaxon_35497 a schema1:Taxon ;
+    rdfs:label "Suina" ;
+    dwc:scientificName "Suina" ;
+    rdfs:subClassOf obo:NCBITaxon_91561 .
+
+obo:NCBITaxon_35525 a schema1:Taxon ;
+    rdfs:label "Daphnia magna" ;
+    dwc:scientificName "Daphnia magna" ;
+    rdfs:subClassOf obo:NCBITaxon_6668 .
+
+obo:NCBITaxon_35875 a schema1:Taxon ;
+    rdfs:label "Allium fistulosum" ;
+    dwc:scientificName "Allium fistulosum" ;
+    rdfs:subClassOf obo:NCBITaxon_4678 .
+
+obo:NCBITaxon_36211 a schema1:Taxon ;
+    rdfs:label "Trachurus" ;
+    dwc:scientificName "Trachurus" ;
+    rdfs:subClassOf obo:NCBITaxon_8157 .
+
+obo:NCBITaxon_36329 a schema1:Taxon ;
+    rdfs:label "Plasmodium falciparum 3D7" ;
+    dwc:scientificName "Plasmodium falciparum 3D7" ;
+    rdfs:subClassOf obo:NCBITaxon_5833 .
+
+obo:NCBITaxon_37350 a schema1:Taxon ;
+    rdfs:label "Spirostomidae" ;
+    dwc:scientificName "Spirostomidae" ;
+    rdfs:subClassOf obo:NCBITaxon_194287 .
+
+obo:NCBITaxon_37393 a schema1:Taxon ;
+    rdfs:label "Aytoniaceae" ;
+    dwc:scientificName "Aytoniaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_28908 .
+
+obo:NCBITaxon_37394 a schema1:Taxon ;
+    rdfs:label "Reboulia" ;
+    dwc:scientificName "Reboulia" ;
+    rdfs:subClassOf obo:NCBITaxon_37393 .
+
+obo:NCBITaxon_37395 a schema1:Taxon ;
+    rdfs:label "Reboulia hemisphaerica" ;
+    dwc:scientificName "Reboulia hemisphaerica" ;
+    rdfs:subClassOf obo:NCBITaxon_37394 .
+
+obo:NCBITaxon_37414 a schema1:Taxon ;
+    rdfs:label "Physcomitrium" ;
+    dwc:scientificName "Physcomitrium" ;
+    rdfs:subClassOf obo:NCBITaxon_3216 .
+
+obo:NCBITaxon_37421 a schema1:Taxon ;
+    rdfs:label "Brachytheciaceae" ;
+    dwc:scientificName "Brachytheciaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_13798 .
+
+obo:NCBITaxon_37516 a schema1:Taxon ;
+    rdfs:label "Hydroidolina" ;
+    dwc:scientificName "Hydroidolina" ;
+    rdfs:subClassOf obo:NCBITaxon_6074 .
+
+obo:NCBITaxon_37621 a schema1:Taxon ;
+    rdfs:label "Priapulus caudatus" ;
+    dwc:scientificName "Priapulus caudatus" ;
+    rdfs:subClassOf obo:NCBITaxon_37847 .
+
+obo:NCBITaxon_37688 a schema1:Taxon ;
+    rdfs:label "Spirostomum ambiguum" ;
+    dwc:scientificName "Spirostomum ambiguum" ;
+    rdfs:subClassOf obo:NCBITaxon_37867 .
+
+obo:NCBITaxon_37847 a schema1:Taxon ;
+    rdfs:label "Priapulus" ;
+    dwc:scientificName "Priapulus" ;
+    rdfs:subClassOf obo:NCBITaxon_37891 .
+
+obo:NCBITaxon_37867 a schema1:Taxon ;
+    rdfs:label "Spirostomum" ;
+    dwc:scientificName "Spirostomum" ;
+    rdfs:subClassOf obo:NCBITaxon_37350 .
+
+obo:NCBITaxon_37891 a schema1:Taxon ;
+    rdfs:label "Priapulidae" ;
+    dwc:scientificName "Priapulidae" ;
+    rdfs:subClassOf obo:NCBITaxon_33467 .
+
+obo:NCBITaxon_38605 a schema1:Taxon ;
+    rdfs:label "Didelphimorphia" ;
+    dwc:scientificName "Didelphimorphia" ;
+    rdfs:subClassOf obo:NCBITaxon_9263 .
+
+obo:NCBITaxon_38820 a schema1:Taxon ;
+    rdfs:label "Poales" ;
+    dwc:scientificName "Poales" ;
+    rdfs:subClassOf obo:NCBITaxon_4734 .
+
+obo:NCBITaxon_39107 a schema1:Taxon ;
+    rdfs:label "Murinae" ;
+    dwc:scientificName "Murinae" ;
+    rdfs:subClassOf obo:NCBITaxon_10066 .
+
+obo:NCBITaxon_39820 a schema1:Taxon ;
+    rdfs:label "Nereididae" ;
+    dwc:scientificName "Nereididae" ;
+    rdfs:subClassOf obo:NCBITaxon_6348 .
+
+obo:NCBITaxon_39832 a schema1:Taxon ;
+    rdfs:label "Oweniidae" ;
+    dwc:scientificName "Oweniidae" ;
+    rdfs:subClassOf obo:NCBITaxon_6362 .
+
+obo:NCBITaxon_39947 a schema1:Taxon ;
+    rdfs:label "Oryza sativa Japonica Group" ;
+    dwc:scientificName "Oryza sativa Japonica Group" .
+
+obo:NCBITaxon_40553 a schema1:Taxon ;
+    rdfs:label "Allioideae" ;
+    dwc:scientificName "Allioideae" ;
+    rdfs:subClassOf obo:NCBITaxon_3398, obo:NCBITaxon_4447, obo:NCBITaxon_4668 .
+
+obo:NCBITaxon_40674 a schema1:Taxon ;
+    rdfs:label "Mammalia" ;
+    dwc:scientificName "Mammalia" ;
+    rdfs:subClassOf obo:NCBITaxon_32524 .
+
+obo:NCBITaxon_41084 a schema1:Taxon ;
+    rdfs:label "Polyphaga" ;
+    dwc:scientificName "Polyphaga" ;
+    rdfs:subClassOf obo:NCBITaxon_7041 .
+
+obo:NCBITaxon_41085 a schema1:Taxon ;
+    rdfs:label "Staphyliniformia" ;
+    dwc:scientificName "Staphyliniformia" ;
+    rdfs:subClassOf obo:NCBITaxon_41084 .
+
+obo:NCBITaxon_41086 a schema1:Taxon ;
+    rdfs:label "Scarabaeiformia" ;
+    dwc:scientificName "Scarabaeiformia" ;
+    rdfs:subClassOf obo:NCBITaxon_41084 .
+
+obo:NCBITaxon_41088 a schema1:Taxon ;
+    rdfs:label "Cucujiformia" ;
+    dwc:scientificName "Cucujiformia" ;
+    rdfs:subClassOf obo:NCBITaxon_41084 .
+
+obo:NCBITaxon_41665 a schema1:Taxon ;
+    rdfs:label "Neopterygii" ;
+    dwc:scientificName "Neopterygii" ;
+    rdfs:subClassOf obo:NCBITaxon_186623 .
+
+obo:NCBITaxon_41666 a schema1:Taxon ;
+    rdfs:label "Batrachia" ;
+    dwc:scientificName "Batrachia" ;
+    rdfs:subClassOf obo:NCBITaxon_8292 .
+
+obo:NCBITaxon_41697 a schema1:Taxon ;
+    rdfs:label "Sardinops melanosticta" ;
+    dwc:scientificName "Sardinops melanosticta" ;
+    rdfs:subClassOf obo:NCBITaxon_28380 .
+
+obo:NCBITaxon_41705 a schema1:Taxon ;
+    rdfs:label "Protacanthopterygii" ;
+    dwc:scientificName "Protacanthopterygii" ;
+    rdfs:subClassOf obo:NCBITaxon_32443 .
+
+obo:NCBITaxon_41711 a schema1:Taxon ;
+    rdfs:label "Osmeriformes" ;
+    dwc:scientificName "Osmeriformes" ;
+    rdfs:subClassOf obo:NCBITaxon_41705 .
+
+obo:NCBITaxon_41827 a schema1:Taxon ;
+    rdfs:label "Culicoidea" ;
+    dwc:scientificName "Culicoidea" ;
+    rdfs:subClassOf obo:NCBITaxon_43786 .
+
+obo:NCBITaxon_41842 a schema1:Taxon ;
+    rdfs:label "Ricciaceae" ;
+    dwc:scientificName "Ricciaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_28908, obo:NCBITaxon_402719 .
+
+obo:NCBITaxon_41843 a schema1:Taxon ;
+    rdfs:label "Riccia" ;
+    dwc:scientificName "Riccia" ;
+    rdfs:subClassOf obo:NCBITaxon_41842 .
+
+obo:NCBITaxon_41845 a schema1:Taxon ;
+    rdfs:label "Scapaniaceae" ;
+    dwc:scientificName "Scapaniaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_71154 .
+
+obo:NCBITaxon_41847 a schema1:Taxon ;
+    rdfs:label "Scapania" ;
+    dwc:scientificName "Scapania" ;
+    rdfs:subClassOf obo:NCBITaxon_41845 .
+
+obo:NCBITaxon_41848 a schema1:Taxon ;
+    rdfs:label "Scapania nemorea" ;
+    dwc:scientificName "Scapania nemorea" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_42113 a schema1:Taxon ;
+    rdfs:label "Clitellata" ;
+    dwc:scientificName "Clitellata" ;
+    rdfs:subClassOf obo:NCBITaxon_105389 .
+
+obo:NCBITaxon_42891 a schema1:Taxon ;
+    rdfs:label "Engraulis" ;
+    dwc:scientificName "Engraulis" ;
+    rdfs:subClassOf obo:NCBITaxon_365067 .
+
+obo:NCBITaxon_43062 a schema1:Taxon ;
+    rdfs:label "Engraulidae" ;
+    dwc:scientificName "Engraulidae" ;
+    rdfs:subClassOf obo:NCBITaxon_1489460 .
+
+obo:NCBITaxon_43257 a schema1:Taxon ;
+    rdfs:label "Sillago" ;
+    dwc:scientificName "Sillago" ;
+    rdfs:subClassOf obo:NCBITaxon_30874 .
+
+obo:NCBITaxon_43258 a schema1:Taxon ;
+    rdfs:label "Sillago japonica" ;
+    dwc:scientificName "Sillago japonica" ;
+    rdfs:subClassOf obo:NCBITaxon_43257 .
+
+obo:NCBITaxon_43733 a schema1:Taxon ;
+    rdfs:label "Muscomorpha" ;
+    dwc:scientificName "Muscomorpha" ;
+    rdfs:subClassOf obo:NCBITaxon_7203 .
+
+obo:NCBITaxon_43741 a schema1:Taxon ;
+    rdfs:label "Acalyptratae" ;
+    dwc:scientificName "Acalyptratae" ;
+    rdfs:subClassOf obo:NCBITaxon_480117 .
+
+obo:NCBITaxon_43746 a schema1:Taxon ;
+    rdfs:label "Ephydroidea" ;
+    dwc:scientificName "Ephydroidea" ;
+    rdfs:subClassOf obo:NCBITaxon_43741 .
+
+obo:NCBITaxon_43786 a schema1:Taxon ;
+    rdfs:label "Culicomorpha" ;
+    dwc:scientificName "Culicomorpha" ;
+    rdfs:subClassOf obo:NCBITaxon_7148 .
+
+obo:NCBITaxon_43817 a schema1:Taxon ;
+    rdfs:label "Culicinae" ;
+    dwc:scientificName "Culicinae" ;
+    rdfs:subClassOf obo:NCBITaxon_7157 .
+
+obo:NCBITaxon_43845 a schema1:Taxon ;
+    rdfs:label "Drosophilinae" ;
+    dwc:scientificName "Drosophilinae" ;
+    rdfs:subClassOf obo:NCBITaxon_7214 .
+
+obo:NCBITaxon_44689 a schema1:Taxon ;
+    rdfs:label "Dictyostelium discoideum" ;
+    dwc:scientificName "Dictyostelium discoideum" ;
+    rdfs:subClassOf obo:NCBITaxon_5782 .
+
+obo:NCBITaxon_45156 a schema1:Taxon ;
+    rdfs:label "Cyanidioschyzon" ;
+    dwc:scientificName "Cyanidioschyzon" ;
+    rdfs:subClassOf obo:NCBITaxon_2763 .
+
+obo:NCBITaxon_45157 a schema1:Taxon ;
+    rdfs:label "Cyanidioschyzon merolae" ;
+    dwc:scientificName "Cyanidioschyzon merolae" ;
+    rdfs:subClassOf obo:NCBITaxon_45156 .
+
+obo:NCBITaxon_45186 a schema1:Taxon ;
+    rdfs:label "Zelkova" ;
+    dwc:scientificName "Zelkova" ;
+    rdfs:subClassOf obo:NCBITaxon_3474 .
+
+obo:NCBITaxon_45443 a schema1:Taxon ;
+    rdfs:label "Aplocheiloidei" ;
+    dwc:scientificName "Aplocheiloidei" ;
+    rdfs:subClassOf obo:NCBITaxon_28738 .
+
+obo:NCBITaxon_47757 a schema1:Taxon ;
+    rdfs:label "Adrianichthyidae" ;
+    dwc:scientificName "Adrianichthyidae" ;
+    rdfs:subClassOf obo:NCBITaxon_28781 .
+
+obo:NCBITaxon_48169 a schema1:Taxon ;
+    rdfs:label "Thunnus tonggol" ;
+    dwc:scientificName "Thunnus tonggol" ;
+    rdfs:subClassOf obo:NCBITaxon_8234 .
+
+obo:NCBITaxon_48860 a schema1:Taxon ;
+    rdfs:label "Peltigeraceae" ;
+    dwc:scientificName "Peltigeraceae" ;
+    rdfs:subClassOf obo:NCBITaxon_388450 .
+
+obo:NCBITaxon_48861 a schema1:Taxon ;
+    rdfs:label "Peltigera" ;
+    dwc:scientificName "Peltigera" ;
+    rdfs:subClassOf obo:NCBITaxon_48860 .
+
+obo:NCBITaxon_49761 a schema1:Taxon ;
+    rdfs:label "Hypnum" ;
+    dwc:scientificName "Hypnum" ;
+    rdfs:subClassOf obo:NCBITaxon_53009 .
+
+obo:NCBITaxon_50460 a schema1:Taxon ;
+    rdfs:label "Cardamine" ;
+    dwc:scientificName "Cardamine" ;
+    rdfs:subClassOf obo:NCBITaxon_980193 .
+
+obo:NCBITaxon_50463 a schema1:Taxon ;
+    rdfs:label "Cardamine hirsuta" ;
+    dwc:scientificName "Cardamine hirsuta" ;
+    rdfs:subClassOf obo:NCBITaxon_50460 .
+
+obo:NCBITaxon_50519 a schema1:Taxon ;
+    rdfs:label "Dynastinae" ;
+    dwc:scientificName "Dynastinae" ;
+    rdfs:subClassOf obo:NCBITaxon_7055 .
+
+obo:NCBITaxon_50557 a schema1:Taxon ;
+    rdfs:label "Insecta" ;
+    dwc:scientificName "Insecta" ;
+    rdfs:subClassOf obo:NCBITaxon_6960 .
+
+obo:NCBITaxon_51207 a schema1:Taxon ;
+    rdfs:label "Amblyrhynchus" ;
+    dwc:scientificName "Amblyrhynchus" ;
+    rdfs:subClassOf obo:NCBITaxon_8515 .
+
+obo:NCBITaxon_51208 a schema1:Taxon ;
+    rdfs:label "Amblyrhynchus cristatus" ;
+    dwc:scientificName "Amblyrhynchus cristatus" ;
+    rdfs:subClassOf obo:NCBITaxon_51207 .
+
+obo:NCBITaxon_53004 a schema1:Taxon ;
+    rdfs:label "Brachythecium" ;
+    dwc:scientificName "Brachythecium" ;
+    rdfs:subClassOf obo:NCBITaxon_37421 .
+
+obo:NCBITaxon_53005 a schema1:Taxon ;
+    rdfs:label "Brachythecium rutabulum" ;
+    dwc:scientificName "Brachythecium rutabulum" ;
+    rdfs:subClassOf obo:NCBITaxon_53004 .
+
+obo:NCBITaxon_53008 a schema1:Taxon ;
+    rdfs:label "Rhytidiadelphus squarrosus" ;
+    dwc:scientificName "Rhytidiadelphus squarrosus" ;
+    rdfs:subClassOf obo:NCBITaxon_28467 .
+
+obo:NCBITaxon_53009 a schema1:Taxon ;
+    rdfs:label "Hypnaceae" ;
+    dwc:scientificName "Hypnaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_13798 .
+
+obo:NCBITaxon_53011 a schema1:Taxon ;
+    rdfs:label "Hypnum cupressiforme" ;
+    dwc:scientificName "Hypnum cupressiforme" ;
+    rdfs:subClassOf obo:NCBITaxon_49761 .
+
+obo:NCBITaxon_53326 a schema1:Taxon ;
+    rdfs:label "Ancylostoma ceylanicum" ;
+    dwc:scientificName "Ancylostoma ceylanicum" ;
+    rdfs:subClassOf obo:NCBITaxon_29169 .
+
+obo:NCBITaxon_54304 a schema1:Taxon ;
+    rdfs:label "Planktothrix" ;
+    dwc:scientificName "Planktothrix" ;
+    rdfs:subClassOf obo:NCBITaxon_1150 .
+
+obo:NCBITaxon_54571 a schema1:Taxon ;
+    rdfs:label "Streptomyces venezuelae" ;
+    dwc:scientificName "Streptomyces venezuelae" ;
+    rdfs:subClassOf obo:NCBITaxon_1883 .
+
+obo:NCBITaxon_55118 a schema1:Taxon ;
+    rdfs:label "Clupeidae" ;
+    dwc:scientificName "Clupeidae" ;
+    rdfs:subClassOf obo:NCBITaxon_32446 .
+
+obo:NCBITaxon_56881 a schema1:Taxon ;
+    rdfs:label "Lunulariaceae" ;
+    dwc:scientificName "Lunulariaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_981396 .
+
+obo:NCBITaxon_56930 a schema1:Taxon ;
+    rdfs:label "Lunularia" ;
+    dwc:scientificName "Lunularia" ;
+    rdfs:subClassOf obo:NCBITaxon_56881 .
+
+obo:NCBITaxon_56931 a schema1:Taxon ;
+    rdfs:label "Lunularia cruciata" ;
+    dwc:scientificName "Lunularia cruciata" ;
+    rdfs:subClassOf obo:NCBITaxon_56930 .
+
+obo:NCBITaxon_57294 a schema1:Taxon ;
+    rdfs:label "Pycnogonida" ;
+    dwc:scientificName "Pycnogonida" ;
+    rdfs:subClassOf obo:NCBITaxon_6843 .
+
+obo:NCBITaxon_58019 a schema1:Taxon ;
+    rdfs:label "Pinopsida" ;
+    dwc:scientificName "Pinopsida" ;
+    rdfs:subClassOf obo:NCBITaxon_3312 .
+
+obo:NCBITaxon_58023 a schema1:Taxon ;
+    rdfs:label "Tracheophytes" ;
+    dwc:scientificName "Tracheophytes" ;
+    rdfs:subClassOf obo:NCBITaxon_3193 .
+
+obo:NCBITaxon_58024 a schema1:Taxon ;
+    rdfs:label "Spermatophytes" ;
+    dwc:scientificName "Spermatophytes" ;
+    rdfs:subClassOf obo:NCBITaxon_58023 .
+
+obo:NCBITaxon_58816 a schema1:Taxon ;
+    rdfs:label "Coryne" ;
+    dwc:scientificName "Coryne" ;
+    rdfs:subClassOf obo:NCBITaxon_6077 .
+
+obo:NCBITaxon_59660 a schema1:Taxon ;
+    rdfs:label "Scarus" ;
+    dwc:scientificName "Scarus" ;
+    rdfs:subClassOf obo:NCBITaxon_139714 .
+
+obo:NCBITaxon_59945 a schema1:Taxon ;
+    rdfs:label "Rexea" ;
+    dwc:scientificName "Rexea" ;
+    rdfs:subClassOf obo:NCBITaxon_27767 .
+
+obo:NCBITaxon_60710 a schema1:Taxon ;
+    rdfs:label "Chlorocebus pygerythrus" ;
+    dwc:scientificName "Chlorocebus pygerythrus" ;
+    rdfs:subClassOf obo:NCBITaxon_392815 .
+
+obo:NCBITaxon_60711 a schema1:Taxon ;
+    rdfs:label "Chlorocebus sabaeus" ;
+    dwc:scientificName "Chlorocebus sabaeus" ;
+    rdfs:subClassOf obo:NCBITaxon_392815 .
+
+obo:NCBITaxon_61083 a schema1:Taxon ;
+    rdfs:label "Plecoglossus" ;
+    dwc:scientificName "Plecoglossus" ;
+    rdfs:subClassOf obo:NCBITaxon_30955 .
+
+obo:NCBITaxon_61084 a schema1:Taxon ;
+    rdfs:label "Plecoglossus altivelis" ;
+    dwc:scientificName "Plecoglossus altivelis" ;
+    rdfs:subClassOf obo:NCBITaxon_61083 .
+
+obo:NCBITaxon_64107 a schema1:Taxon ;
+    rdfs:label "Zeus" ;
+    dwc:scientificName "Zeus" ;
+    rdfs:subClassOf obo:NCBITaxon_31103 .
+
+obo:NCBITaxon_64108 a schema1:Taxon ;
+    rdfs:label "Zeus faber" ;
+    dwc:scientificName "Zeus faber" ;
+    rdfs:subClassOf obo:NCBITaxon_64107 .
+
+obo:NCBITaxon_64895 a schema1:Taxon ;
+    rdfs:label "Borreliella" ;
+    dwc:scientificName "Borreliella" ;
+    rdfs:subClassOf obo:NCBITaxon_1643685 .
+
+obo:NCBITaxon_64936 a schema1:Taxon ;
+    rdfs:label "Grimmiales" ;
+    dwc:scientificName "Grimmiales" ;
+    rdfs:subClassOf obo:NCBITaxon_114657 .
+
+obo:NCBITaxon_65550 a schema1:Taxon ;
+    rdfs:label "Grimmiaceae" ;
+    dwc:scientificName "Grimmiaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_64936 .
+
+obo:NCBITaxon_70987 a schema1:Taxon ;
+    rdfs:label "Apinae" ;
+    dwc:scientificName "Apinae" ;
+    rdfs:subClassOf obo:NCBITaxon_7458 .
+
+obo:NCBITaxon_71154 a schema1:Taxon ;
+    rdfs:label "Cephaloziineae" ;
+    dwc:scientificName "Cephaloziineae" ;
+    rdfs:subClassOf obo:NCBITaxon_3199 .
+
+obo:NCBITaxon_71239 a schema1:Taxon ;
+    rdfs:label "Cucurbitales" ;
+    dwc:scientificName "Cucurbitales" ;
+    rdfs:subClassOf obo:NCBITaxon_71275 .
+
+obo:NCBITaxon_71240 a schema1:Taxon ;
+    rdfs:label "eudicots" ;
+    dwc:scientificName "eudicots" ;
+    rdfs:subClassOf obo:NCBITaxon_1437183 .
+
+obo:NCBITaxon_71274 a schema1:Taxon ;
+    rdfs:label "asterids" ;
+    dwc:scientificName "asterids" ;
+    rdfs:subClassOf obo:NCBITaxon_71240 .
+
+obo:NCBITaxon_71275 a schema1:Taxon ;
+    rdfs:label "rosids" ;
+    dwc:scientificName "rosids" ;
+    rdfs:subClassOf obo:NCBITaxon_71240 .
+
+obo:NCBITaxon_71527 a schema1:Taxon ;
+    rdfs:label "Tenebrionoidea" ;
+    dwc:scientificName "Tenebrionoidea" ;
+    rdfs:subClassOf obo:NCBITaxon_41088 .
+
+obo:NCBITaxon_71659 a schema1:Taxon ;
+    rdfs:label "Riccia ciliifera" ;
+    dwc:scientificName "Riccia ciliifera" ;
+    rdfs:subClassOf obo:NCBITaxon_41843 .
+
+obo:NCBITaxon_72019 a schema1:Taxon ;
+    rdfs:label "Sphaeroforma arctica" ;
+    dwc:scientificName "Sphaeroforma arctica" ;
+    rdfs:subClassOf obo:NCBITaxon_198625 .
+
+obo:NCBITaxon_72274 a schema1:Taxon ;
+    rdfs:label "Pseudomonadales" ;
+    dwc:scientificName "Pseudomonadales" ;
+    rdfs:subClassOf obo:NCBITaxon_1236 .
+
+obo:NCBITaxon_73496 a schema1:Taxon ;
+    rdfs:label "Asparagales" ;
+    dwc:scientificName "Asparagales" ;
+    rdfs:subClassOf obo:NCBITaxon_58024 .
+
+obo:NCBITaxon_75546 a schema1:Taxon ;
+    rdfs:label "Scarabaeoidea" ;
+    dwc:scientificName "Scarabaeoidea" ;
+    rdfs:subClassOf obo:NCBITaxon_41085, obo:NCBITaxon_41086 .
+
+obo:NCBITaxon_75739 a schema1:Taxon ;
+    rdfs:label "Eucoccidiorida" ;
+    dwc:scientificName "Eucoccidiorida" ;
+    rdfs:subClassOf obo:NCBITaxon_5796 .
+
+obo:NCBITaxon_76071 a schema1:Taxon ;
+    rdfs:label "Beloniformes" ;
+    dwc:scientificName "Beloniformes" ;
+    rdfs:subClassOf obo:NCBITaxon_186623 .
+
+obo:NCBITaxon_76804 a schema1:Taxon ;
+    rdfs:label "Nidovirales" ;
+    dwc:scientificName "Nidovirales" ;
+    rdfs:subClassOf obo:NCBITaxon_2732506 .
+
+obo:NCBITaxon_76892 a schema1:Taxon ;
+    rdfs:label "Caulobacteraceae" ;
+    dwc:scientificName "Caulobacteraceae" ;
+    rdfs:subClassOf obo:NCBITaxon_204458 .
+
+obo:NCBITaxon_77658 a schema1:Taxon ;
+    rdfs:label "Daphniidae" ;
+    dwc:scientificName "Daphniidae" ;
+    rdfs:subClassOf obo:NCBITaxon_116561 .
+
+obo:NCBITaxon_78475 a schema1:Taxon ;
+    rdfs:label "Peltigera neckeri" ;
+    dwc:scientificName "Peltigera neckeri" ;
+    rdfs:subClassOf obo:NCBITaxon_48861 .
+
+obo:NCBITaxon_79200 a schema1:Taxon ;
+    rdfs:label "Daucus carota subsp. sativus" ;
+    dwc:scientificName "Daucus carota subsp. sativus" ;
+    rdfs:subClassOf obo:NCBITaxon_4039 .
+
+obo:NCBITaxon_83321 a schema1:Taxon ;
+    rdfs:label "Apini" ;
+    dwc:scientificName "Apini" ;
+    rdfs:subClassOf obo:NCBITaxon_70987 .
+
+obo:NCBITaxon_83875 a schema1:Taxon ;
+    rdfs:label "Trachurus japonicus" ;
+    dwc:scientificName "Trachurus japonicus" ;
+    rdfs:subClassOf obo:NCBITaxon_36211 .
+
+obo:NCBITaxon_84337 a schema1:Taxon ;
+    rdfs:label "Diplostraca" ;
+    dwc:scientificName "Diplostraca" ;
+    rdfs:subClassOf obo:NCBITaxon_116557 .
+
+obo:NCBITaxon_85011 a schema1:Taxon ;
+    rdfs:label "Kitasatosporales" ;
+    dwc:scientificName "Kitasatosporales" ;
+    rdfs:subClassOf obo:NCBITaxon_1760 .
+
+obo:NCBITaxon_85512 a schema1:Taxon ;
+    rdfs:label "Dicondylia" ;
+    dwc:scientificName "Dicondylia" ;
+    rdfs:subClassOf obo:NCBITaxon_50557 .
+
+obo:NCBITaxon_85604 a schema1:Taxon ;
+    rdfs:label "Amphiesmenoptera" ;
+    dwc:scientificName "Amphiesmenoptera" ;
+    rdfs:subClassOf obo:NCBITaxon_33392 .
+
+obo:NCBITaxon_88036 a schema1:Taxon ;
+    rdfs:label "Selaginella moellendorffii" ;
+    dwc:scientificName "Selaginella moellendorffii" ;
+    rdfs:subClassOf obo:NCBITaxon_3246 .
+
+obo:NCBITaxon_90964 a schema1:Taxon ;
+    rdfs:label "Staphylococcaceae" ;
+    dwc:scientificName "Staphylococcaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_91061 .
+
+obo:NCBITaxon_91061 a schema1:Taxon ;
+    rdfs:label "Bacilli" ;
+    dwc:scientificName "Bacilli" ;
+    rdfs:subClassOf obo:NCBITaxon_1239 .
+
+obo:NCBITaxon_91347 a schema1:Taxon ;
+    rdfs:label "Enterobacterales" ;
+    dwc:scientificName "Enterobacterales" ;
+    rdfs:subClassOf obo:NCBITaxon_1236 .
+
+obo:NCBITaxon_91561 a schema1:Taxon ;
+    rdfs:label "Artiodactyla" ;
+    dwc:scientificName "Artiodactyla" ;
+    rdfs:subClassOf obo:NCBITaxon_314145 .
+
+obo:NCBITaxon_93934 a schema1:Taxon ;
+    rdfs:label "Coturnix japonica" ;
+    dwc:scientificName "Coturnix japonica" ;
+    rdfs:subClassOf obo:NCBITaxon_9090 .
+
+obo:NCBITaxon_94938 a schema1:Taxon ;
+    rdfs:label "Zenopsis" ;
+    dwc:scientificName "Zenopsis" ;
+    rdfs:subClassOf obo:NCBITaxon_31103 .
+
+obo:NCBITaxon_94939 a schema1:Taxon ;
+    rdfs:label "Zenopsis nebulosus" ;
+    dwc:scientificName "Zenopsis nebulosus" ;
+    rdfs:subClassOf obo:NCBITaxon_94938 .
+
+obo:NCBITaxon_95766 a schema1:Taxon ;
+    rdfs:label "Plagiomnium undulatum" ;
+    dwc:scientificName "Plagiomnium undulatum" ;
+    rdfs:subClassOf obo:NCBITaxon_3230 .
+
+obo:NCBITaxon_98921 a schema1:Taxon ;
+    rdfs:label "Takifugu pardalis" ;
+    dwc:scientificName "Takifugu pardalis" ;
+    rdfs:subClassOf obo:NCBITaxon_31032 .
+
+obo:NCBITaxon_105023 a schema1:Taxon ;
+    rdfs:label "Nothobranchius furzeri" ;
+    dwc:scientificName "Nothobranchius furzeri" ;
+    rdfs:subClassOf obo:NCBITaxon_28779 .
+
+obo:NCBITaxon_105389 a schema1:Taxon ;
+    rdfs:label "Sedentaria" ;
+    dwc:scientificName "Sedentaria" ;
+    rdfs:subClassOf obo:NCBITaxon_6341 .
+
+obo:NCBITaxon_105390 a schema1:Taxon ;
+    rdfs:label "Errantia" ;
+    dwc:scientificName "Errantia" ;
+    rdfs:subClassOf obo:NCBITaxon_6341 .
+
+obo:NCBITaxon_105391 a schema1:Taxon ;
+    rdfs:label "Canalipalpata" ;
+    dwc:scientificName "Canalipalpata" ;
+    rdfs:subClassOf obo:NCBITaxon_105389 .
+
+obo:NCBITaxon_107764 a schema1:Taxon ;
+    rdfs:label "Acropomatidae" ;
+    dwc:scientificName "Acropomatidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8112, obo:NCBITaxon_3051910 .
+
+obo:NCBITaxon_114656 a schema1:Taxon ;
+    rdfs:label "Funariidae" ;
+    dwc:scientificName "Funariidae" ;
+    rdfs:subClassOf obo:NCBITaxon_3214 .
+
+obo:NCBITaxon_114657 a schema1:Taxon ;
+    rdfs:label "Dicranidae" ;
+    dwc:scientificName "Dicranidae" ;
+    rdfs:subClassOf obo:NCBITaxon_3214 .
+
+obo:NCBITaxon_114658 a schema1:Taxon ;
+    rdfs:label "Bryidae" ;
+    dwc:scientificName "Bryidae" ;
+    rdfs:subClassOf obo:NCBITaxon_3214 .
+
+obo:NCBITaxon_114727 a schema1:Taxon ;
+    rdfs:label "H1N1 subtype" ;
+    dwc:scientificName "H1N1 subtype" ;
+    rdfs:subClassOf obo:NCBITaxon_11320 .
+
+obo:NCBITaxon_115593 a schema1:Taxon ;
+    rdfs:label "Grimmia" ;
+    dwc:scientificName "Grimmia" ;
+    rdfs:subClassOf obo:NCBITaxon_65550 .
+
+obo:NCBITaxon_115594 a schema1:Taxon ;
+    rdfs:label "Grimmia pulvinata" ;
+    dwc:scientificName "Grimmia pulvinata" ;
+    rdfs:subClassOf obo:NCBITaxon_115593 .
+
+obo:NCBITaxon_116557 a schema1:Taxon ;
+    rdfs:label "Phyllopoda" ;
+    dwc:scientificName "Phyllopoda" ;
+    rdfs:subClassOf obo:NCBITaxon_6658 .
+
+obo:NCBITaxon_116561 a schema1:Taxon ;
+    rdfs:label "Anomopoda" ;
+    dwc:scientificName "Anomopoda" ;
+    rdfs:subClassOf obo:NCBITaxon_6665 .
+
+obo:NCBITaxon_117571 a schema1:Taxon ;
+    rdfs:label "Euteleostomi" ;
+    dwc:scientificName "Euteleostomi" ;
+    rdfs:subClassOf obo:NCBITaxon_7776 .
+
+obo:NCBITaxon_119089 a schema1:Taxon ;
+    rdfs:label "Chromadorea" ;
+    dwc:scientificName "Chromadorea" ;
+    rdfs:subClassOf obo:NCBITaxon_6231 .
+
+obo:NCBITaxon_122613 a schema1:Taxon ;
+    rdfs:label "Cleveaceae" ;
+    dwc:scientificName "Cleveaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_28908 .
+
+obo:NCBITaxon_122615 a schema1:Taxon ;
+    rdfs:label "Clevea hyalina" ;
+    dwc:scientificName "Clevea hyalina" ;
+    rdfs:subClassOf obo:NCBITaxon_2115979 .
+
+obo:NCBITaxon_122620 a schema1:Taxon ;
+    rdfs:label "Mannia gracilis" ;
+    dwc:scientificName "Mannia gracilis" ;
+    rdfs:subClassOf obo:NCBITaxon_157221 .
+
+obo:NCBITaxon_122635 a schema1:Taxon ;
+    rdfs:label "Riccia beyrichiana" ;
+    dwc:scientificName "Riccia beyrichiana" ;
+    rdfs:subClassOf obo:NCBITaxon_41843 .
+
+obo:NCBITaxon_122636 a schema1:Taxon ;
+    rdfs:label "Riccia cavernosa" ;
+    dwc:scientificName "Riccia cavernosa" ;
+    rdfs:subClassOf obo:NCBITaxon_41843 .
+
+obo:NCBITaxon_122639 a schema1:Taxon ;
+    rdfs:label "Riccia huebeneriana" ;
+    dwc:scientificName "Riccia huebeneriana" ;
+    rdfs:subClassOf obo:NCBITaxon_41843 .
+
+obo:NCBITaxon_122646 a schema1:Taxon ;
+    rdfs:label "Riccia sorocarpa" ;
+    dwc:scientificName "Riccia sorocarpa" ;
+    rdfs:subClassOf obo:NCBITaxon_41843 .
+
+obo:NCBITaxon_123365 a schema1:Taxon ;
+    rdfs:label "Neoteleostei" ;
+    dwc:scientificName "Neoteleostei" ;
+    rdfs:subClassOf obo:NCBITaxon_1489388 .
+
+obo:NCBITaxon_123366 a schema1:Taxon ;
+    rdfs:label "Eurypterygia" ;
+    dwc:scientificName "Eurypterygia" ;
+    rdfs:subClassOf obo:NCBITaxon_123365 .
+
+obo:NCBITaxon_123367 a schema1:Taxon ;
+    rdfs:label "Ctenosquamata" ;
+    dwc:scientificName "Ctenosquamata" ;
+    rdfs:subClassOf obo:NCBITaxon_123366 .
+
+obo:NCBITaxon_123368 a schema1:Taxon ;
+    rdfs:label "Acanthomorphata" ;
+    dwc:scientificName "Acanthomorphata" ;
+    rdfs:subClassOf obo:NCBITaxon_123367 .
+
+obo:NCBITaxon_126287 a schema1:Taxon ;
+    rdfs:label "Didelphinae" ;
+    dwc:scientificName "Didelphinae" ;
+    rdfs:subClassOf obo:NCBITaxon_9265 .
+
+obo:NCBITaxon_127916 a schema1:Taxon ;
+    rdfs:label "Ichthyosporea" ;
+    dwc:scientificName "Ichthyosporea" ;
+    rdfs:subClassOf obo:NCBITaxon_33154 .
+
+obo:NCBITaxon_129041 a schema1:Taxon ;
+    rdfs:label "Scomberesocidae" ;
+    dwc:scientificName "Scomberesocidae" ;
+    rdfs:subClassOf obo:NCBITaxon_76071 .
+
+obo:NCBITaxon_129042 a schema1:Taxon ;
+    rdfs:label "Cololabis" ;
+    dwc:scientificName "Cololabis" ;
+    rdfs:subClassOf obo:NCBITaxon_129041 .
+
+obo:NCBITaxon_129043 a schema1:Taxon ;
+    rdfs:label "Cololabis saira" ;
+    dwc:scientificName "Cololabis saira" ;
+    rdfs:subClassOf obo:NCBITaxon_129042 .
+
+obo:NCBITaxon_129944 a schema1:Taxon ;
+    rdfs:label "Riccia glauca" ;
+    dwc:scientificName "Riccia glauca" ;
+    rdfs:subClassOf obo:NCBITaxon_41843 .
+
+obo:NCBITaxon_135621 a schema1:Taxon ;
+    rdfs:label "Pseudomonadaceae" ;
+    dwc:scientificName "Pseudomonadaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_72274 .
+
+obo:NCBITaxon_139714 a schema1:Taxon ;
+    rdfs:label "Scarinae" ;
+    dwc:scientificName "Scarinae" ;
+    rdfs:subClassOf obo:NCBITaxon_8247 .
+
+obo:NCBITaxon_142796 a schema1:Taxon ;
+    rdfs:label "Mycetozoa" ;
+    dwc:scientificName "Mycetozoa" ;
+    rdfs:subClassOf obo:NCBITaxon_554915 .
+
+obo:NCBITaxon_143344 a schema1:Taxon ;
+    rdfs:label "Helicolenus hilgendorfi" ;
+    dwc:scientificName "Helicolenus hilgendorfi" .
+
+obo:NCBITaxon_143350 a schema1:Taxon ;
+    rdfs:label "Pagrus major" ;
+    dwc:scientificName "Pagrus major" ;
+    rdfs:subClassOf obo:NCBITaxon_8172 .
+
+obo:NCBITaxon_147100 a schema1:Taxon ;
+    rdfs:label "Rhabditophora" ;
+    dwc:scientificName "Rhabditophora" ;
+    rdfs:subClassOf obo:NCBITaxon_6157 .
+
+obo:NCBITaxon_147367 a schema1:Taxon ;
+    rdfs:label "Oryzoideae" ;
+    dwc:scientificName "Oryzoideae" ;
+    rdfs:subClassOf obo:NCBITaxon_4479 .
+
+obo:NCBITaxon_147368 a schema1:Taxon ;
+    rdfs:label "Pooideae" ;
+    dwc:scientificName "Pooideae" ;
+    rdfs:subClassOf obo:NCBITaxon_359160 .
+
+obo:NCBITaxon_147369 a schema1:Taxon ;
+    rdfs:label "Panicoideae" ;
+    dwc:scientificName "Panicoideae" ;
+    rdfs:subClassOf obo:NCBITaxon_4479 .
+
+obo:NCBITaxon_147380 a schema1:Taxon ;
+    rdfs:label "Oryzeae" ;
+    dwc:scientificName "Oryzeae" ;
+    rdfs:subClassOf obo:NCBITaxon_147367 .
+
+obo:NCBITaxon_147389 a schema1:Taxon ;
+    rdfs:label "Triticeae" ;
+    dwc:scientificName "Triticeae" ;
+    rdfs:subClassOf obo:NCBITaxon_1648038 .
+
+obo:NCBITaxon_147428 a schema1:Taxon ;
+    rdfs:label "Paniceae" ;
+    dwc:scientificName "Paniceae" ;
+    rdfs:subClassOf obo:NCBITaxon_147369 .
+
+obo:NCBITaxon_147429 a schema1:Taxon ;
+    rdfs:label "Andropogoneae" ;
+    dwc:scientificName "Andropogoneae" ;
+    rdfs:subClassOf obo:NCBITaxon_147369 .
+
+obo:NCBITaxon_147537 a schema1:Taxon ;
+    rdfs:label "Saccharomycotina" ;
+    dwc:scientificName "Saccharomycotina" ;
+    rdfs:subClassOf obo:NCBITaxon_4890 .
+
+obo:NCBITaxon_147538 a schema1:Taxon ;
+    rdfs:label "Pezizomycotina" ;
+    dwc:scientificName "Pezizomycotina" ;
+    rdfs:subClassOf obo:NCBITaxon_4890 .
+
+obo:NCBITaxon_147547 a schema1:Taxon ;
+    rdfs:label "Lecanoromycetes" ;
+    dwc:scientificName "Lecanoromycetes" ;
+    rdfs:subClassOf obo:NCBITaxon_147538 .
+
+obo:NCBITaxon_147554 a schema1:Taxon ;
+    rdfs:label "Schizosaccharomycetes" ;
+    dwc:scientificName "Schizosaccharomycetes" ;
+    rdfs:subClassOf obo:NCBITaxon_451866 .
+
+obo:NCBITaxon_155892 a schema1:Taxon ;
+    rdfs:label "Caulobacter vibrioides" ;
+    dwc:scientificName "Caulobacter vibrioides" ;
+    rdfs:subClassOf obo:NCBITaxon_75 .
+
+obo:NCBITaxon_156152 a schema1:Taxon ;
+    rdfs:label "Plantaginaceae" ;
+    dwc:scientificName "Plantaginaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_4143 .
+
+obo:NCBITaxon_157221 a schema1:Taxon ;
+    rdfs:label "Mannia" ;
+    dwc:scientificName "Mannia" ;
+    rdfs:subClassOf obo:NCBITaxon_37393 .
+
+obo:NCBITaxon_160986 a schema1:Taxon ;
+    rdfs:label "Zelkova carpinifolia" ;
+    dwc:scientificName "Zelkova carpinifolia" ;
+    rdfs:subClassOf obo:NCBITaxon_45186 .
+
+obo:NCBITaxon_166333 a schema1:Taxon ;
+    rdfs:label "Acotylea" ;
+    dwc:scientificName "Acotylea" ;
+    rdfs:subClassOf obo:NCBITaxon_6163 .
+
+obo:NCBITaxon_171414 a schema1:Taxon ;
+    rdfs:label "Paralichthyidae" ;
+    dwc:scientificName "Paralichthyidae" ;
+    rdfs:subClassOf obo:NCBITaxon_30942 .
+
+obo:NCBITaxon_179045 a schema1:Taxon ;
+    rdfs:label "Mannia fragrans" ;
+    dwc:scientificName "Mannia fragrans" ;
+    rdfs:subClassOf obo:NCBITaxon_157221 .
+
+obo:NCBITaxon_180536 a schema1:Taxon ;
+    rdfs:label "Eruca vesicaria" ;
+    dwc:scientificName "Eruca vesicaria" ;
+    rdfs:subClassOf obo:NCBITaxon_19151 .
+
+obo:NCBITaxon_181415 a schema1:Taxon ;
+    rdfs:label "Chaunacidae" ;
+    dwc:scientificName "Chaunacidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8070 .
+
+obo:NCBITaxon_181416 a schema1:Taxon ;
+    rdfs:label "Chaunax" ;
+    dwc:scientificName "Chaunax" ;
+    rdfs:subClassOf obo:NCBITaxon_181415 .
+
+obo:NCBITaxon_181417 a schema1:Taxon ;
+    rdfs:label "Chaunax abei" ;
+    dwc:scientificName "Chaunax abei" ;
+    rdfs:subClassOf obo:NCBITaxon_181416 .
+
+obo:NCBITaxon_183770 a schema1:Taxon ;
+    rdfs:label "Enterogona" ;
+    dwc:scientificName "Enterogona" ;
+    rdfs:subClassOf obo:NCBITaxon_7713 .
+
+obo:NCBITaxon_184585 a schema1:Taxon ;
+    rdfs:label "Engraulis encrasicolus" ;
+    dwc:scientificName "Engraulis encrasicolus" ;
+    rdfs:subClassOf obo:NCBITaxon_42891 .
+
+obo:NCBITaxon_184637 a schema1:Taxon ;
+    rdfs:label "Camptothecium" ;
+    dwc:scientificName "Camptothecium" ;
+    rdfs:subClassOf obo:NCBITaxon_37421 .
+
+obo:NCBITaxon_184650 a schema1:Taxon ;
+    rdfs:label "Homalothecium lutescens" ;
+    dwc:scientificName "Homalothecium lutescens" ;
+    rdfs:subClassOf obo:NCBITaxon_184637 .
+
+obo:NCBITaxon_185431 a schema1:Taxon ;
+    rdfs:label "Trypanosoma brucei brucei TREU927" ;
+    dwc:scientificName "Trypanosoma brucei brucei TREU927" .
+
+obo:NCBITaxon_186623 a schema1:Taxon ;
+    rdfs:label "Actinopteri" ;
+    dwc:scientificName "Actinopteri" ;
+    rdfs:subClassOf obo:NCBITaxon_7898 .
+
+obo:NCBITaxon_186625 a schema1:Taxon ;
+    rdfs:label "Clupeocephala" ;
+    dwc:scientificName "Clupeocephala" ;
+    rdfs:subClassOf obo:NCBITaxon_1489341 .
+
+obo:NCBITaxon_186634 a schema1:Taxon ;
+    rdfs:label "Otomorpha" ;
+    dwc:scientificName "Otomorpha" ;
+    rdfs:subClassOf obo:NCBITaxon_186625 .
+
+obo:NCBITaxon_186745 a schema1:Taxon ;
+    rdfs:label "Scombrinae" ;
+    dwc:scientificName "Scombrinae" ;
+    rdfs:subClassOf obo:NCBITaxon_8224 .
+
+obo:NCBITaxon_186746 a schema1:Taxon ;
+    rdfs:label "Scombrini" ;
+    dwc:scientificName "Scombrini" ;
+    rdfs:subClassOf obo:NCBITaxon_186745 .
+
+obo:NCBITaxon_186749 a schema1:Taxon ;
+    rdfs:label "Thunnini" ;
+    dwc:scientificName "Thunnini" ;
+    rdfs:subClassOf obo:NCBITaxon_186745 .
+
+obo:NCBITaxon_186770 a schema1:Taxon ;
+    rdfs:label "Marchantiopsida" ;
+    dwc:scientificName "Marchantiopsida" ;
+    rdfs:subClassOf obo:NCBITaxon_3195 .
+
+obo:NCBITaxon_186771 a schema1:Taxon ;
+    rdfs:label "Jungermanniopsida" ;
+    dwc:scientificName "Jungermanniopsida" ;
+    rdfs:subClassOf obo:NCBITaxon_3195 .
+
+obo:NCBITaxon_186774 a schema1:Taxon ;
+    rdfs:label "Marchantiidae" ;
+    dwc:scientificName "Marchantiidae" ;
+    rdfs:subClassOf obo:NCBITaxon_186770 .
+
+obo:NCBITaxon_186782 a schema1:Taxon ;
+    rdfs:label "Jungermanniidae" ;
+    dwc:scientificName "Jungermanniidae" ;
+    rdfs:subClassOf obo:NCBITaxon_186771 .
+
+obo:NCBITaxon_186801 a schema1:Taxon ;
+    rdfs:label "Clostridia" ;
+    dwc:scientificName "Clostridia" ;
+    rdfs:subClassOf obo:NCBITaxon_1239 .
+
+obo:NCBITaxon_186804 a schema1:Taxon ;
+    rdfs:label "Peptostreptococcaceae" ;
+    dwc:scientificName "Peptostreptococcaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_186801 .
+
+obo:NCBITaxon_186817 a schema1:Taxon ;
+    rdfs:label "Bacillaceae" ;
+    dwc:scientificName "Bacillaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_91061 .
+
+obo:NCBITaxon_186842 a schema1:Taxon ;
+    rdfs:label "Mus musculus x Mus spretus" ;
+    dwc:scientificName "Mus musculus x Mus spretus" .
+
+obo:NCBITaxon_194287 a schema1:Taxon ;
+    rdfs:label "Heterotrichea" ;
+    dwc:scientificName "Heterotrichea" ;
+    rdfs:subClassOf obo:NCBITaxon_431837 .
+
+obo:NCBITaxon_197562 a schema1:Taxon ;
+    rdfs:label "Pancrustacea" ;
+    dwc:scientificName "Pancrustacea" ;
+    rdfs:subClassOf obo:NCBITaxon_197563 .
+
+obo:NCBITaxon_197563 a schema1:Taxon ;
+    rdfs:label "Mandibulata" ;
+    dwc:scientificName "Mandibulata" ;
+    rdfs:subClassOf obo:NCBITaxon_6656 .
+
+obo:NCBITaxon_197911 a schema1:Taxon ;
+    rdfs:label "Alphainfluenzavirus" ;
+    dwc:scientificName "Alphainfluenzavirus" ;
+    rdfs:subClassOf obo:NCBITaxon_11308 .
+
+obo:NCBITaxon_198625 a schema1:Taxon ;
+    rdfs:label "Ichthyophonida" ;
+    dwc:scientificName "Ichthyophonida" ;
+    rdfs:subClassOf obo:NCBITaxon_127916 .
+
+obo:NCBITaxon_201174 a schema1:Taxon ;
+    rdfs:label "Actinomycetota" ;
+    dwc:scientificName "Actinomycetota" ;
+    rdfs:subClassOf obo:NCBITaxon_1783272 .
+
+obo:NCBITaxon_201705 a schema1:Taxon ;
+    rdfs:label "Sebastes oblongus" ;
+    dwc:scientificName "Sebastes oblongus" ;
+    rdfs:subClassOf obo:NCBITaxon_34820 .
+
+obo:NCBITaxon_203682 a schema1:Taxon ;
+    rdfs:label "Planctomycetota" ;
+    dwc:scientificName "Planctomycetota" ;
+    rdfs:subClassOf obo:NCBITaxon_3379134 .
+
+obo:NCBITaxon_203683 a schema1:Taxon ;
+    rdfs:label "Planctomycetia" ;
+    dwc:scientificName "Planctomycetia" ;
+    rdfs:subClassOf obo:NCBITaxon_203682 .
+
+obo:NCBITaxon_203691 a schema1:Taxon ;
+    rdfs:label "Spirochaetota" ;
+    dwc:scientificName "Spirochaetota" ;
+    rdfs:subClassOf obo:NCBITaxon_3379134 .
+
+obo:NCBITaxon_203692 a schema1:Taxon ;
+    rdfs:label "Spirochaetia" ;
+    dwc:scientificName "Spirochaetia" ;
+    rdfs:subClassOf obo:NCBITaxon_203691 .
+
+obo:NCBITaxon_204458 a schema1:Taxon ;
+    rdfs:label "Caulobacterales" ;
+    dwc:scientificName "Caulobacterales" ;
+    rdfs:subClassOf obo:NCBITaxon_28211 .
+
+obo:NCBITaxon_207598 a schema1:Taxon ;
+    rdfs:label "Homininae" ;
+    dwc:scientificName "Homininae" ;
+    rdfs:subClassOf obo:NCBITaxon_9604 .
+
+obo:NCBITaxon_209818 a schema1:Taxon ;
+    rdfs:label "Scapania paludicola" ;
+    dwc:scientificName "Scapania paludicola" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_213481 a schema1:Taxon ;
+    rdfs:label "Bdellovibrionales" ;
+    dwc:scientificName "Bdellovibrionales" ;
+    rdfs:subClassOf obo:NCBITaxon_1553900 .
+
+obo:NCBITaxon_213483 a schema1:Taxon ;
+    rdfs:label "Pseudobdellovibrionaceae" ;
+    dwc:scientificName "Pseudobdellovibrionaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_213481 .
+
+obo:NCBITaxon_214489 a schema1:Taxon ;
+    rdfs:label "Sebastes zonatus" ;
+    dwc:scientificName "Sebastes zonatus" ;
+    rdfs:subClassOf obo:NCBITaxon_34820 .
+
+obo:NCBITaxon_215256 a schema1:Taxon ;
+    rdfs:label "Scapania undulata" ;
+    dwc:scientificName "Scapania undulata" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_216305 a schema1:Taxon ;
+    rdfs:label "Heterobranchia" ;
+    dwc:scientificName "Heterobranchia" ;
+    rdfs:subClassOf obo:NCBITaxon_6448 .
+
+obo:NCBITaxon_216307 a schema1:Taxon ;
+    rdfs:label "Euthyneura" ;
+    dwc:scientificName "Euthyneura" ;
+    rdfs:subClassOf obo:NCBITaxon_216305 .
+
+obo:NCBITaxon_216441 a schema1:Taxon ;
+    rdfs:label "Lymnaeoidea" ;
+    dwc:scientificName "Lymnaeoidea" ;
+    rdfs:subClassOf obo:NCBITaxon_216307 .
+
+obo:NCBITaxon_216782 a schema1:Taxon ;
+    rdfs:label "Digitalideae" ;
+    dwc:scientificName "Digitalideae" ;
+    rdfs:subClassOf obo:NCBITaxon_156152 .
+
+obo:NCBITaxon_223792 a schema1:Taxon ;
+    rdfs:label "Acropoma" ;
+    dwc:scientificName "Acropoma" ;
+    rdfs:subClassOf obo:NCBITaxon_107764 .
+
+obo:NCBITaxon_227859 a schema1:Taxon ;
+    rdfs:label "Severe acute respiratory syndrome-related coronavirus" ;
+    dwc:scientificName "Severe acute respiratory syndrome-related coronavirus" ;
+    rdfs:subClassOf obo:NCBITaxon_2509511 .
+
+obo:NCBITaxon_229060 a schema1:Taxon ;
+    rdfs:label "Takifugu stictonotus" ;
+    dwc:scientificName "Takifugu stictonotus" ;
+    rdfs:subClassOf obo:NCBITaxon_31032 .
+
+obo:NCBITaxon_235072 a schema1:Taxon ;
+    rdfs:label "Hippoglossoides dubius" ;
+    dwc:scientificName "Hippoglossoides dubius" ;
+    rdfs:subClassOf obo:NCBITaxon_30944 .
+
+obo:NCBITaxon_241778 a schema1:Taxon ;
+    rdfs:label "Apioideae" ;
+    dwc:scientificName "Apioideae" ;
+    rdfs:subClassOf obo:NCBITaxon_4037 .
+
+obo:NCBITaxon_241789 a schema1:Taxon ;
+    rdfs:label "Scandiceae" ;
+    dwc:scientificName "Scandiceae" ;
+    rdfs:subClassOf obo:NCBITaxon_241778 .
+
+obo:NCBITaxon_241799 a schema1:Taxon ;
+    rdfs:label "Daucinae" ;
+    dwc:scientificName "Daucinae" ;
+    rdfs:subClassOf obo:NCBITaxon_241789 .
+
+obo:NCBITaxon_242802 a schema1:Taxon ;
+    rdfs:label "Scarus forsteni" ;
+    dwc:scientificName "Scarus forsteni" ;
+    rdfs:subClassOf obo:NCBITaxon_59660 .
+
+obo:NCBITaxon_248353 a schema1:Taxon ;
+    rdfs:label "Diplophyllum" ;
+    dwc:scientificName "Diplophyllum" ;
+    rdfs:subClassOf obo:NCBITaxon_41845 .
+
+obo:NCBITaxon_248354 a schema1:Taxon ;
+    rdfs:label "Diplophyllum obtusifolium" ;
+    dwc:scientificName "Diplophyllum obtusifolium" ;
+    rdfs:subClassOf obo:NCBITaxon_248353 .
+
+obo:NCBITaxon_248355 a schema1:Taxon ;
+    rdfs:label "Diplophyllum taxifolium" ;
+    dwc:scientificName "Diplophyllum taxifolium" ;
+    rdfs:subClassOf obo:NCBITaxon_248353 .
+
+obo:NCBITaxon_248356 a schema1:Taxon ;
+    rdfs:label "Douinia" ;
+    dwc:scientificName "Douinia" ;
+    rdfs:subClassOf obo:NCBITaxon_41845 .
+
+obo:NCBITaxon_248357 a schema1:Taxon ;
+    rdfs:label "Douinia ovata" ;
+    dwc:scientificName "Douinia ovata" ;
+    rdfs:subClassOf obo:NCBITaxon_248356 .
+
+obo:NCBITaxon_248358 a schema1:Taxon ;
+    rdfs:label "Scapania crassiretis" ;
+    dwc:scientificName "Scapania crassiretis" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_248359 a schema1:Taxon ;
+    rdfs:label "Scapania subalpina" ;
+    dwc:scientificName "Scapania subalpina" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_261973 a schema1:Taxon ;
+    rdfs:label "Pycnogonidae" ;
+    dwc:scientificName "Pycnogonidae" ;
+    rdfs:subClassOf obo:NCBITaxon_373319 .
+
+obo:NCBITaxon_261974 a schema1:Taxon ;
+    rdfs:label "Pycnogonum" ;
+    dwc:scientificName "Pycnogonum" ;
+    rdfs:subClassOf obo:NCBITaxon_261973 .
+
+obo:NCBITaxon_261975 a schema1:Taxon ;
+    rdfs:label "Pycnogonum litorale" ;
+    dwc:scientificName "Pycnogonum litorale" ;
+    rdfs:subClassOf obo:NCBITaxon_261974 .
+
+obo:NCBITaxon_262014 a schema1:Taxon ;
+    rdfs:label "Xenopus" ;
+    dwc:scientificName "Xenopus" ;
+    rdfs:subClassOf obo:NCBITaxon_8352 .
+
+obo:NCBITaxon_264775 a schema1:Taxon ;
+    rdfs:label "Diplophyllum albicans" ;
+    dwc:scientificName "Diplophyllum albicans" ;
+    rdfs:subClassOf obo:NCBITaxon_248353 .
+
+obo:NCBITaxon_264776 a schema1:Taxon ;
+    rdfs:label "Scapania gracilis" ;
+    dwc:scientificName "Scapania gracilis" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_264777 a schema1:Taxon ;
+    rdfs:label "Scapania ornithopodioides" ;
+    dwc:scientificName "Scapania ornithopodioides" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_270563 a schema1:Taxon ;
+    rdfs:label "Histiopterus" ;
+    dwc:scientificName "Histiopterus" ;
+    rdfs:subClassOf obo:NCBITaxon_30860 .
+
+obo:NCBITaxon_270564 a schema1:Taxon ;
+    rdfs:label "Histiopterus typus" ;
+    dwc:scientificName "Histiopterus typus" ;
+    rdfs:subClassOf obo:NCBITaxon_270563 .
+
+obo:NCBITaxon_272563 a schema1:Taxon ;
+    rdfs:label "Clostridioides difficile 630" ;
+    dwc:scientificName "Clostridioides difficile 630" ;
+    rdfs:subClassOf obo:NCBITaxon_1481960 .
+
+obo:NCBITaxon_273927 a schema1:Taxon ;
+    rdfs:label "Trypoxylus" ;
+    dwc:scientificName "Trypoxylus" ;
+    rdfs:subClassOf obo:NCBITaxon_50519 .
+
+obo:NCBITaxon_273928 a schema1:Taxon ;
+    rdfs:label "Trypoxylus dichotomus" ;
+    dwc:scientificName "Trypoxylus dichotomus" ;
+    rdfs:subClassOf obo:NCBITaxon_273927 .
+
+obo:NCBITaxon_274692 a schema1:Taxon ;
+    rdfs:label "Sebastidae" ;
+    dwc:scientificName "Sebastidae" ;
+    rdfs:subClassOf obo:NCBITaxon_8107 .
+
+obo:NCBITaxon_277993 a schema1:Taxon ;
+    rdfs:label "Takifugu snyderi" ;
+    dwc:scientificName "Takifugu snyderi" ;
+    rdfs:subClassOf obo:NCBITaxon_31032 .
+
+obo:NCBITaxon_280463 a schema1:Taxon .
+
+obo:NCBITaxon_281464 a schema1:Taxon ;
+    rdfs:label "Plecoglossus altivelis altivelis" ;
+    dwc:scientificName "Plecoglossus altivelis altivelis" ;
+    rdfs:subClassOf obo:NCBITaxon_61084 .
+
+obo:NCBITaxon_282425 a schema1:Taxon ;
+    rdfs:label "Clupei" ;
+    dwc:scientificName "Clupei" ;
+    rdfs:subClassOf obo:NCBITaxon_186634 .
+
+obo:NCBITaxon_292416 a schema1:Taxon ;
+    rdfs:label "Lophiomus" ;
+    dwc:scientificName "Lophiomus" ;
+    rdfs:subClassOf obo:NCBITaxon_8071 .
+
+obo:NCBITaxon_292417 a schema1:Taxon ;
+    rdfs:label "Lophiomus setigerus" ;
+    dwc:scientificName "Lophiomus setigerus" ;
+    rdfs:subClassOf obo:NCBITaxon_292416 .
+
+obo:NCBITaxon_298367 a schema1:Taxon ;
+    rdfs:label "Metaphire" ;
+    dwc:scientificName "Metaphire" ;
+    rdfs:subClassOf obo:NCBITaxon_6400 .
+
+obo:NCBITaxon_314145 a schema1:Taxon ;
+    rdfs:label "Laurasiatheria" ;
+    dwc:scientificName "Laurasiatheria" ;
+    rdfs:subClassOf obo:NCBITaxon_1437010 .
+
+obo:NCBITaxon_314146 a schema1:Taxon ;
+    rdfs:label "Euarchontoglires" ;
+    dwc:scientificName "Euarchontoglires" ;
+    rdfs:subClassOf obo:NCBITaxon_1437010 .
+
+obo:NCBITaxon_314147 a schema1:Taxon ;
+    rdfs:label "Glires" ;
+    dwc:scientificName "Glires" ;
+    rdfs:subClassOf obo:NCBITaxon_314146 .
+
+obo:NCBITaxon_314293 a schema1:Taxon ;
+    rdfs:label "Simiiformes" ;
+    dwc:scientificName "Simiiformes" ;
+    rdfs:subClassOf obo:NCBITaxon_376913 .
+
+obo:NCBITaxon_314294 a schema1:Taxon ;
+    rdfs:label "Cercopithecoidea" ;
+    dwc:scientificName "Cercopithecoidea" ;
+    rdfs:subClassOf obo:NCBITaxon_9526 .
+
+obo:NCBITaxon_314295 a schema1:Taxon ;
+    rdfs:label "Hominoidea" ;
+    dwc:scientificName "Hominoidea" ;
+    rdfs:subClassOf obo:NCBITaxon_9526 .
+
+obo:NCBITaxon_337677 a schema1:Taxon ;
+    rdfs:label "Cricetidae" ;
+    dwc:scientificName "Cricetidae" ;
+    rdfs:subClassOf obo:NCBITaxon_337687 .
+
+obo:NCBITaxon_337687 a schema1:Taxon ;
+    rdfs:label "Muroidea" ;
+    dwc:scientificName "Muroidea" ;
+    rdfs:subClassOf obo:NCBITaxon_1963758 .
+
+obo:NCBITaxon_338152 a schema1:Taxon ;
+    rdfs:label "Felinae" ;
+    dwc:scientificName "Felinae" ;
+    rdfs:subClassOf obo:NCBITaxon_9681 .
+
+obo:NCBITaxon_359160 a schema1:Taxon ;
+    rdfs:label "BOP clade" ;
+    dwc:scientificName "BOP clade" ;
+    rdfs:subClassOf obo:NCBITaxon_4479 .
+
+obo:NCBITaxon_365055 a schema1:Taxon ;
+    rdfs:label "Konosirus" ;
+    dwc:scientificName "Konosirus" ;
+    rdfs:subClassOf obo:NCBITaxon_55118 .
+
+obo:NCBITaxon_365056 a schema1:Taxon ;
+    rdfs:label "Konosirus punctatus" ;
+    dwc:scientificName "Konosirus punctatus" ;
+    rdfs:subClassOf obo:NCBITaxon_365055 .
+
+obo:NCBITaxon_365067 a schema1:Taxon ;
+    rdfs:label "Engraulinae" ;
+    dwc:scientificName "Engraulinae" ;
+    rdfs:subClassOf obo:NCBITaxon_43062 .
+
+obo:NCBITaxon_366501 a schema1:Taxon ;
+    rdfs:label "Dictyostelium discoideum ax2" ;
+    dwc:scientificName "Dictyostelium discoideum ax2" .
+
+obo:NCBITaxon_373319 a schema1:Taxon ;
+    rdfs:label "Pantopoda" ;
+    dwc:scientificName "Pantopoda" ;
+    rdfs:subClassOf obo:NCBITaxon_57294 .
+
+obo:NCBITaxon_376913 a schema1:Taxon ;
+    rdfs:label "Haplorhini" ;
+    dwc:scientificName "Haplorhini" ;
+    rdfs:subClassOf obo:NCBITaxon_9443 .
+
+obo:NCBITaxon_379583 a schema1:Taxon ;
+    rdfs:label "Feliformia" ;
+    dwc:scientificName "Feliformia" ;
+    rdfs:subClassOf obo:NCBITaxon_33554 .
+
+obo:NCBITaxon_379584 a schema1:Taxon ;
+    rdfs:label "Caniformia" ;
+    dwc:scientificName "Caniformia" ;
+    rdfs:subClassOf obo:NCBITaxon_33554 .
+
+obo:NCBITaxon_384592 a schema1:Taxon ;
+    rdfs:label "Macrorhamphosodes" ;
+    dwc:scientificName "Macrorhamphosodes" ;
+    rdfs:subClassOf obo:NCBITaxon_31026 .
+
+obo:NCBITaxon_384593 a schema1:Taxon ;
+    rdfs:label "Macrorhamphosodes uradoi" ;
+    dwc:scientificName "Macrorhamphosodes uradoi" ;
+    rdfs:subClassOf obo:NCBITaxon_384592 .
+
+obo:NCBITaxon_385256 a schema1:Taxon ;
+    rdfs:label "Gekkoninae" ;
+    dwc:scientificName "Gekkoninae" ;
+    rdfs:subClassOf obo:NCBITaxon_8561 .
+
+obo:NCBITaxon_388435 a schema1:Taxon ;
+    rdfs:label "Lecanoromycetidae" ;
+    dwc:scientificName "Lecanoromycetidae" ;
+    rdfs:subClassOf obo:NCBITaxon_147547 .
+
+obo:NCBITaxon_388450 a schema1:Taxon ;
+    rdfs:label "Peltigerales" ;
+    dwc:scientificName "Peltigerales" ;
+    rdfs:subClassOf obo:NCBITaxon_388435 .
+
+obo:NCBITaxon_390682 a schema1:Taxon ;
+    rdfs:label "Acropoma hanedai" ;
+    dwc:scientificName "Acropoma hanedai" ;
+    rdfs:subClassOf obo:NCBITaxon_223792 .
+
+obo:NCBITaxon_392540 a schema1:Taxon ;
+    rdfs:label "Sphyraena pinguis" ;
+    dwc:scientificName "Sphyraena pinguis" ;
+    rdfs:subClassOf obo:NCBITaxon_13691 .
+
+obo:NCBITaxon_392815 a schema1:Taxon ;
+    rdfs:label "Chlorocebus" ;
+    dwc:scientificName "Chlorocebus" ;
+    rdfs:subClassOf obo:NCBITaxon_9528 .
+
+obo:NCBITaxon_399155 a schema1:Taxon ;
+    rdfs:label "Scapania aspera" ;
+    dwc:scientificName "Scapania aspera" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_402139 a schema1:Taxon ;
+    rdfs:label "Scapania hyperborea" ;
+    dwc:scientificName "Scapania hyperborea" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_402140 a schema1:Taxon ;
+    rdfs:label "Scapania obcordata" ;
+    dwc:scientificName "Scapania obcordata" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_402640 a schema1:Taxon ;
+    rdfs:label "Scapania compacta" ;
+    dwc:scientificName "Scapania compacta" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_402641 a schema1:Taxon ;
+    rdfs:label "Scapania lingulata" ;
+    dwc:scientificName "Scapania lingulata" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_402719 a schema1:Taxon ;
+    rdfs:label "Ricciales" ;
+    dwc:scientificName "Ricciales" ;
+    rdfs:subClassOf obo:NCBITaxon_186774 .
+
+obo:NCBITaxon_405002 a schema1:Taxon ;
+    rdfs:label "Nothobranchiidae" ;
+    dwc:scientificName "Nothobranchiidae" ;
+    rdfs:subClassOf obo:NCBITaxon_45443 .
+
+obo:NCBITaxon_406427 a schema1:Taxon ;
+    rdfs:label "Anthoathecata" ;
+    dwc:scientificName "Anthoathecata" ;
+    rdfs:subClassOf obo:NCBITaxon_37516 .
+
+obo:NCBITaxon_418107 a schema1:Taxon ;
+    rdfs:label "Laverania" ;
+    dwc:scientificName "Laverania" ;
+    rdfs:subClassOf obo:NCBITaxon_5820 .
+
+obo:NCBITaxon_422676 a schema1:Taxon ;
+    rdfs:label "Aconoidasida" ;
+    dwc:scientificName "Aconoidasida" ;
+    rdfs:subClassOf obo:NCBITaxon_5794 .
+
+obo:NCBITaxon_431837 a schema1:Taxon ;
+    rdfs:label "Postciliodesmatophora" ;
+    dwc:scientificName "Postciliodesmatophora" ;
+    rdfs:subClassOf obo:NCBITaxon_5878 .
+
+obo:NCBITaxon_436486 a schema1:Taxon ;
+    rdfs:label "Dinosauria" ;
+    dwc:scientificName "Dinosauria" ;
+    rdfs:subClassOf obo:NCBITaxon_8492 .
+
+obo:NCBITaxon_436489 a schema1:Taxon ;
+    rdfs:label "Saurischia" ;
+    dwc:scientificName "Saurischia" ;
+    rdfs:subClassOf obo:NCBITaxon_436486 .
+
+obo:NCBITaxon_436491 a schema1:Taxon ;
+    rdfs:label "Theropoda" ;
+    dwc:scientificName "Theropoda" ;
+    rdfs:subClassOf obo:NCBITaxon_436489 .
+
+obo:NCBITaxon_436492 a schema1:Taxon ;
+    rdfs:label "Coelurosauria" ;
+    dwc:scientificName "Coelurosauria" ;
+    rdfs:subClassOf obo:NCBITaxon_436491 .
+
+obo:NCBITaxon_450224 a schema1:Taxon ;
+    rdfs:label "Chelidonichthys spinosus" ;
+    dwc:scientificName "Chelidonichthys spinosus" ;
+    rdfs:subClassOf obo:NCBITaxon_33533 .
+
+obo:NCBITaxon_451507 a schema1:Taxon ;
+    rdfs:label "Mucoromycotina" ;
+    dwc:scientificName "Mucoromycotina" ;
+    rdfs:subClassOf obo:NCBITaxon_4751 .
+
+obo:NCBITaxon_451864 a schema1:Taxon ;
+    rdfs:label "Dikarya" ;
+    dwc:scientificName "Dikarya" ;
+    rdfs:subClassOf obo:NCBITaxon_4751 .
+
+obo:NCBITaxon_451866 a schema1:Taxon ;
+    rdfs:label "Taphrinomycotina" ;
+    dwc:scientificName "Taphrinomycotina" ;
+    rdfs:subClassOf obo:NCBITaxon_4890 .
+
+obo:NCBITaxon_452284 a schema1:Taxon ;
+    rdfs:label "Ustilaginomycotina" ;
+    dwc:scientificName "Ustilaginomycotina" ;
+    rdfs:subClassOf obo:NCBITaxon_5204 .
+
+obo:NCBITaxon_464313 a schema1:Taxon ;
+    rdfs:label "Scapania aequiloba" ;
+    dwc:scientificName "Scapania aequiloba" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_466544 a schema1:Taxon ;
+    rdfs:label "Perdicinae" ;
+    dwc:scientificName "Perdicinae" ;
+    rdfs:subClassOf obo:NCBITaxon_9005 .
+
+obo:NCBITaxon_480117 a schema1:Taxon ;
+    rdfs:label "Cyclorrhapha" ;
+    dwc:scientificName "Cyclorrhapha" ;
+    rdfs:subClassOf obo:NCBITaxon_480118 .
+
+obo:NCBITaxon_480118 a schema1:Taxon ;
+    rdfs:label "Eremoneura" ;
+    dwc:scientificName "Eremoneura" ;
+    rdfs:subClassOf obo:NCBITaxon_43733 .
+
+obo:NCBITaxon_504568 a schema1:Taxon ;
+    rdfs:label "Salmoninae" ;
+    dwc:scientificName "Salmoninae" ;
+    rdfs:subClassOf obo:NCBITaxon_8015 .
+
+obo:NCBITaxon_506672 a schema1:Taxon ;
+    rdfs:label "Metaphire sieboldi" ;
+    dwc:scientificName "Metaphire sieboldi" ;
+    rdfs:subClassOf obo:NCBITaxon_298367 .
+
+obo:NCBITaxon_511145 a schema1:Taxon ;
+    rdfs:label "Escherichia coli str. K-12 substr. MG1655" ;
+    dwc:scientificName "Escherichia coli str. K-12 substr. MG1655" ;
+    rdfs:subClassOf obo:NCBITaxon_562 .
+
+obo:NCBITaxon_511693 a schema1:Taxon ;
+    rdfs:label "Escherichia coli BL21" ;
+    dwc:scientificName "Escherichia coli BL21" .
+
+obo:NCBITaxon_537844 a schema1:Taxon ;
+    rdfs:label "Scapania apiculata" ;
+    dwc:scientificName "Scapania apiculata" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537846 a schema1:Taxon ;
+    rdfs:label "Scapania calcicola" ;
+    dwc:scientificName "Scapania calcicola" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537847 a schema1:Taxon ;
+    rdfs:label "Scapania curta" ;
+    dwc:scientificName "Scapania curta" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537848 a schema1:Taxon ;
+    rdfs:label "Scapania degenii" ;
+    dwc:scientificName "Scapania degenii" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537849 a schema1:Taxon ;
+    rdfs:label "Scapania glaucocephala" ;
+    dwc:scientificName "Scapania glaucocephala" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537850 a schema1:Taxon ;
+    rdfs:label "Scapania gymnostomophila" ;
+    dwc:scientificName "Scapania gymnostomophila" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537851 a schema1:Taxon ;
+    rdfs:label "Scapania helvetica" ;
+    dwc:scientificName "Scapania helvetica" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537852 a schema1:Taxon ;
+    rdfs:label "Scapania irrigua" ;
+    dwc:scientificName "Scapania irrigua" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537853 a schema1:Taxon ;
+    rdfs:label "Scapania kaurinii" ;
+    dwc:scientificName "Scapania kaurinii" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537854 a schema1:Taxon ;
+    rdfs:label "Scapania mucronata" ;
+    dwc:scientificName "Scapania mucronata" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537855 a schema1:Taxon ;
+    rdfs:label "Scapania paludosa" ;
+    dwc:scientificName "Scapania paludosa" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537857 a schema1:Taxon ;
+    rdfs:label "Scapania simmonsii" ;
+    dwc:scientificName "Scapania simmonsii" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537858 a schema1:Taxon ;
+    rdfs:label "Scapania sphaerifera" ;
+    dwc:scientificName "Scapania sphaerifera" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537859 a schema1:Taxon ;
+    rdfs:label "Scapania spitsbergensis" ;
+    dwc:scientificName "Scapania spitsbergensis" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537860 a schema1:Taxon ;
+    rdfs:label "Scapania tundrae" ;
+    dwc:scientificName "Scapania tundrae" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537861 a schema1:Taxon ;
+    rdfs:label "Scapania uliginosa" ;
+    dwc:scientificName "Scapania uliginosa" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537862 a schema1:Taxon ;
+    rdfs:label "Scapania umbrosa" ;
+    dwc:scientificName "Scapania umbrosa" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_537863 a schema1:Taxon ;
+    rdfs:label "Scapania verrucosa" ;
+    dwc:scientificName "Scapania verrucosa" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_548681 a schema1:Taxon ;
+    rdfs:label "Herpesvirales" ;
+    dwc:scientificName "Herpesvirales" ;
+    rdfs:subClassOf obo:NCBITaxon_2731363 .
+
+obo:NCBITaxon_549203 a schema1:Taxon ;
+    rdfs:label "Priapulopsis" ;
+    dwc:scientificName "Priapulopsis" ;
+    rdfs:subClassOf obo:NCBITaxon_37891 .
+
+obo:NCBITaxon_549204 a schema1:Taxon ;
+    rdfs:label "Priapulopsis bicaudatus" ;
+    dwc:scientificName "Priapulopsis bicaudatus" ;
+    rdfs:subClassOf obo:NCBITaxon_549203 .
+
+obo:NCBITaxon_554915 a schema1:Taxon ;
+    rdfs:label "Amoebozoa" ;
+    dwc:scientificName "Amoebozoa" ;
+    rdfs:subClassOf obo:NCBITaxon_2759 .
+
+obo:NCBITaxon_576756 a schema1:Taxon ;
+    rdfs:label "Capitata" ;
+    dwc:scientificName "Capitata" ;
+    rdfs:subClassOf obo:NCBITaxon_406427 .
+
+obo:NCBITaxon_629395 a schema1:Taxon ;
+    rdfs:label "Bacteria Latreille et al. 1825" ;
+    dwc:scientificName "Bacteria Latreille et al. 1825" .
+
+obo:NCBITaxon_632957 a schema1:Taxon ;
+    rdfs:label "marine plankton environmental sample" ;
+    dwc:scientificName "marine plankton environmental sample" .
+
+obo:NCBITaxon_662077 a schema1:Taxon ;
+    rdfs:label "Coryne uchidai" ;
+    dwc:scientificName "Coryne uchidai" ;
+    rdfs:subClassOf obo:NCBITaxon_58816 .
+
+obo:NCBITaxon_692036 a schema1:Taxon ;
+    rdfs:label "Tuwongella immobilis" ;
+    dwc:scientificName "Tuwongella immobilis" ;
+    rdfs:subClassOf obo:NCBITaxon_2051044 .
+
+obo:NCBITaxon_694002 a schema1:Taxon ;
+    rdfs:label "Betacoronavirus" ;
+    dwc:scientificName "Betacoronavirus" ;
+    rdfs:subClassOf obo:NCBITaxon_2501931 .
+
+obo:NCBITaxon_694009 a schema1:Taxon ;
+    rdfs:label "Severe acute respiratory syndrome-related coronavirus" ;
+    dwc:scientificName "Severe acute respiratory syndrome-related coronavirus" ;
+    rdfs:subClassOf obo:NCBITaxon_2509511 .
+
+obo:NCBITaxon_703248 a schema1:Taxon ;
+    rdfs:label "Allieae" ;
+    dwc:scientificName "Allieae" ;
+    rdfs:subClassOf obo:NCBITaxon_40553 .
+
+obo:NCBITaxon_766764 a schema1:Taxon ;
+    rdfs:label "Debaryomycetaceae" ;
+    dwc:scientificName "Debaryomycetaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_4890 .
+
+obo:NCBITaxon_887134 a schema1:Taxon ;
+    rdfs:label "Rexea prometheoides" ;
+    dwc:scientificName "Rexea prometheoides" ;
+    rdfs:subClassOf obo:NCBITaxon_59945 .
+
+obo:NCBITaxon_980083 a schema1:Taxon ;
+    rdfs:label "Camelineae" ;
+    dwc:scientificName "Camelineae" ;
+    rdfs:subClassOf obo:NCBITaxon_3700 .
+
+obo:NCBITaxon_980193 a schema1:Taxon ;
+    rdfs:label "Cardamineae" ;
+    dwc:scientificName "Cardamineae" ;
+    rdfs:subClassOf obo:NCBITaxon_3700 .
+
+obo:NCBITaxon_981071 a schema1:Taxon ;
+    rdfs:label "Brassiceae" ;
+    dwc:scientificName "Brassiceae" ;
+    rdfs:subClassOf obo:NCBITaxon_3700 .
+
+obo:NCBITaxon_981396 a schema1:Taxon ;
+    rdfs:label "Lunulariales" ;
+    dwc:scientificName "Lunulariales" ;
+    rdfs:subClassOf obo:NCBITaxon_186774 .
+
+obo:NCBITaxon_983683 a schema1:Taxon ;
+    rdfs:label "Leptoplanoidea" ;
+    dwc:scientificName "Leptoplanoidea" ;
+    rdfs:subClassOf obo:NCBITaxon_166333 .
+
+obo:NCBITaxon_1003877 a schema1:Taxon ;
+    rdfs:label "Benincaseae" ;
+    dwc:scientificName "Benincaseae" ;
+    rdfs:subClassOf obo:NCBITaxon_3650 .
+
+obo:NCBITaxon_1056966 a schema1:Taxon ;
+    rdfs:label "Aedini" ;
+    dwc:scientificName "Aedini" ;
+    rdfs:subClassOf obo:NCBITaxon_43817 .
+
+obo:NCBITaxon_1133313 a schema1:Taxon ;
+    rdfs:label "Scapania nimbosa" ;
+    dwc:scientificName "Scapania nimbosa" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_1133317 a schema1:Taxon ;
+    rdfs:label "Scapania scandica" ;
+    dwc:scientificName "Scapania scandica" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_1206794 a schema1:Taxon ;
+    rdfs:label "Ecdysozoa" ;
+    dwc:scientificName "Ecdysozoa" ;
+    rdfs:subClassOf obo:NCBITaxon_33317 .
+
+obo:NCBITaxon_1206795 a schema1:Taxon ;
+    rdfs:label "Lophotrochozoa" ;
+    dwc:scientificName "Lophotrochozoa" ;
+    rdfs:subClassOf obo:NCBITaxon_33317 .
+
+obo:NCBITaxon_1230444 a schema1:Taxon ;
+    rdfs:label "Scapania ligulifolia" ;
+    dwc:scientificName "Scapania ligulifolia" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_1280412 a schema1:Taxon ;
+    rdfs:label "Conoidasida" ;
+    dwc:scientificName "Conoidasida" ;
+    rdfs:subClassOf obo:NCBITaxon_5794 .
+
+obo:NCBITaxon_1282292 a schema1:Taxon ;
+    rdfs:label "Scapania obscura" ;
+    dwc:scientificName "Scapania obscura" ;
+    rdfs:subClassOf obo:NCBITaxon_41847 .
+
+obo:NCBITaxon_1338369 a schema1:Taxon ;
+    rdfs:label "Dipnotetrapodomorpha" ;
+    dwc:scientificName "Dipnotetrapodomorpha" ;
+    rdfs:subClassOf obo:NCBITaxon_8287 .
+
+obo:NCBITaxon_1415167 a schema1:Taxon ;
+    rdfs:label "Bacillus subtilis PY79" ;
+    dwc:scientificName "Bacillus subtilis PY79" .
+
+obo:NCBITaxon_1427524 a schema1:Taxon ;
+    rdfs:label "mixed sample" ;
+    dwc:scientificName "mixed sample" .
+
+obo:NCBITaxon_1437010 a schema1:Taxon ;
+    rdfs:label "Boreoeutheria" ;
+    dwc:scientificName "Boreoeutheria" ;
+    rdfs:subClassOf obo:NCBITaxon_9347 .
+
+obo:NCBITaxon_1437180 a schema1:Taxon ;
+    rdfs:label "Acrogymnospermae" ;
+    dwc:scientificName "Acrogymnospermae" ;
+    rdfs:subClassOf obo:NCBITaxon_58024 .
+
+obo:NCBITaxon_1437183 a schema1:Taxon ;
+    rdfs:label "mesangiosperms" ;
+    dwc:scientificName "mesangiosperms" ;
+    rdfs:subClassOf obo:NCBITaxon_58024 .
+
+obo:NCBITaxon_1446380 a schema1:Taxon ;
+    rdfs:label "Pinales" ;
+    dwc:scientificName "Pinales" ;
+    rdfs:subClassOf obo:NCBITaxon_58019 .
+
+obo:NCBITaxon_1481960 a schema1:Taxon ;
+    rdfs:label "Peptoclostridium" ;
+    dwc:scientificName "Peptoclostridium" ;
+    rdfs:subClassOf obo:NCBITaxon_186804 .
+
+obo:NCBITaxon_1489341 a schema1:Taxon ;
+    rdfs:label "Osteoglossocephalai" ;
+    dwc:scientificName "Osteoglossocephalai" ;
+    rdfs:subClassOf obo:NCBITaxon_32443 .
+
+obo:NCBITaxon_1489388 a schema1:Taxon ;
+    rdfs:label "Euteleostei" ;
+    dwc:scientificName "Euteleostei" ;
+    rdfs:subClassOf obo:NCBITaxon_186625 .
+
+obo:NCBITaxon_1489460 a schema1:Taxon ;
+    rdfs:label "Clupeoidei" ;
+    dwc:scientificName "Clupeoidei" ;
+    rdfs:subClassOf obo:NCBITaxon_32446 .
+
+obo:NCBITaxon_1489838 a schema1:Taxon ;
+    rdfs:label "Paracanthopterygii" ;
+    dwc:scientificName "Paracanthopterygii" ;
+    rdfs:subClassOf obo:NCBITaxon_123368 .
+
+obo:NCBITaxon_1489841 a schema1:Taxon ;
+    rdfs:label "Zeiogadaria" ;
+    dwc:scientificName "Zeiogadaria" ;
+    rdfs:subClassOf obo:NCBITaxon_1489838 .
+
+obo:NCBITaxon_1489842 a schema1:Taxon ;
+    rdfs:label "Zeiariae" ;
+    dwc:scientificName "Zeiariae" ;
+    rdfs:subClassOf obo:NCBITaxon_1489841 .
+
+obo:NCBITaxon_1489872 a schema1:Taxon ;
+    rdfs:label "Percomorphaceae" ;
+    dwc:scientificName "Percomorphaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_123368 .
+
+obo:NCBITaxon_1489885 a schema1:Taxon ;
+    rdfs:label "Pelagiaria" ;
+    dwc:scientificName "Pelagiaria" ;
+    rdfs:subClassOf obo:NCBITaxon_1489872 .
+
+obo:NCBITaxon_1489894 a schema1:Taxon ;
+    rdfs:label "Scombriformes" ;
+    dwc:scientificName "Scombriformes" ;
+    rdfs:subClassOf obo:NCBITaxon_1489885 .
+
+obo:NCBITaxon_1489904 a schema1:Taxon ;
+    rdfs:label "Carangaria" ;
+    dwc:scientificName "Carangaria" ;
+    rdfs:subClassOf obo:NCBITaxon_1489872 .
+
+obo:NCBITaxon_1489907 a schema1:Taxon ;
+    rdfs:label "Carangiformes" ;
+    dwc:scientificName "Carangiformes" ;
+    rdfs:subClassOf obo:NCBITaxon_1489904 .
+
+obo:NCBITaxon_1489922 a schema1:Taxon ;
+    rdfs:label "Eupercaria" ;
+    dwc:scientificName "Eupercaria" ;
+    rdfs:subClassOf obo:NCBITaxon_1489872 .
+
+obo:NCBITaxon_1489928 a schema1:Taxon ;
+    rdfs:label "Labriformes" ;
+    dwc:scientificName "Labriformes" ;
+    rdfs:subClassOf obo:NCBITaxon_1489922 .
+
+obo:NCBITaxon_1489931 a schema1:Taxon ;
+    rdfs:label "Spariformes" ;
+    dwc:scientificName "Spariformes" ;
+    rdfs:subClassOf obo:NCBITaxon_1489922 .
+
+obo:NCBITaxon_1490018 a schema1:Taxon ;
+    rdfs:label "Platycephaloidei" ;
+    dwc:scientificName "Platycephaloidei" ;
+    rdfs:subClassOf obo:NCBITaxon_8091 .
+
+obo:NCBITaxon_1549675 a schema1:Taxon ;
+    rdfs:label "Galloanserae" ;
+    dwc:scientificName "Galloanserae" ;
+    rdfs:subClassOf obo:NCBITaxon_8825 .
+
+obo:NCBITaxon_1553900 a schema1:Taxon ;
+    rdfs:label "Oligoflexia" ;
+    dwc:scientificName "Oligoflexia" ;
+    rdfs:subClassOf obo:NCBITaxon_1224 .
+
+obo:NCBITaxon_1639119 a schema1:Taxon ;
+    rdfs:label "Plasmodiidae" ;
+    dwc:scientificName "Plasmodiidae" ;
+    rdfs:subClassOf obo:NCBITaxon_5819 .
+
+obo:NCBITaxon_1641604 a schema1:Taxon ;
+    rdfs:label "Notoplanidae" ;
+    dwc:scientificName "Notoplanidae" ;
+    rdfs:subClassOf obo:NCBITaxon_983683 .
+
+obo:NCBITaxon_1641630 a schema1:Taxon ;
+    rdfs:label "Notocomplana" ;
+    dwc:scientificName "Notocomplana" ;
+    rdfs:subClassOf obo:NCBITaxon_1641604 .
+
+obo:NCBITaxon_1641631 a schema1:Taxon ;
+    rdfs:label "Notocomplana humilis" ;
+    dwc:scientificName "Notocomplana humilis" ;
+    rdfs:subClassOf obo:NCBITaxon_1641630 .
+
+obo:NCBITaxon_1643685 a schema1:Taxon ;
+    rdfs:label "Borreliaceae" ;
+    dwc:scientificName "Borreliaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_136 .
+
+obo:NCBITaxon_1648029 a schema1:Taxon ;
+    rdfs:label "Tripsacinae" ;
+    dwc:scientificName "Tripsacinae" ;
+    rdfs:subClassOf obo:NCBITaxon_147429 .
+
+obo:NCBITaxon_1648038 a schema1:Taxon ;
+    rdfs:label "Triticodae" ;
+    dwc:scientificName "Triticodae" ;
+    rdfs:subClassOf obo:NCBITaxon_147368 .
+
+obo:NCBITaxon_1736657 a schema1:Taxon ;
+    rdfs:label "Oryza sativa temperate japonica subgroup" ;
+    dwc:scientificName "Oryza sativa temperate japonica subgroup" .
+
+obo:NCBITaxon_1764971 a schema1:Taxon ;
+    rdfs:label "Prorocentrum nux" ;
+    dwc:scientificName "Prorocentrum nux" ;
+    rdfs:subClassOf obo:NCBITaxon_2942 .
+
+obo:NCBITaxon_1774208 a schema1:Taxon ;
+    rdfs:label "Ciona robusta" ;
+    dwc:scientificName "Ciona robusta" ;
+    rdfs:subClassOf obo:NCBITaxon_7718 .
+
+obo:NCBITaxon_1783272 a schema1:Taxon ;
+    rdfs:label "Bacillati" ;
+    dwc:scientificName "Bacillati" ;
+    rdfs:subClassOf obo:NCBITaxon_2 .
+
+obo:NCBITaxon_1890449 a schema1:Taxon ;
+    rdfs:label "Microcystaceae" ;
+    dwc:scientificName "Microcystaceae" ;
+    rdfs:subClassOf obo:NCBITaxon_1118 .
+
+obo:NCBITaxon_1913191 a schema1:Taxon ;
+    rdfs:label "Macroramphosus sagifue" ;
+    dwc:scientificName "Macroramphosus sagifue" .
+
+obo:NCBITaxon_1914233 a schema1:Taxon ;
+    rdfs:label "Gemmataceae" ;
+    dwc:scientificName "Gemmataceae" ;
+    rdfs:subClassOf obo:NCBITaxon_203683 .
+
+obo:NCBITaxon_1914413 a schema1:Taxon ;
+    rdfs:label "Riccia subbifurca" ;
+    dwc:scientificName "Riccia subbifurca" ;
+    rdfs:subClassOf obo:NCBITaxon_41843 .
+
+obo:NCBITaxon_1963758 a schema1:Taxon ;
+    rdfs:label "Myomorpha" ;
+    dwc:scientificName "Myomorpha" ;
+    rdfs:subClassOf obo:NCBITaxon_9989 .
+
+obo:NCBITaxon_2051044 a schema1:Taxon ;
+    rdfs:label "Tuwongella" ;
+    dwc:scientificName "Tuwongella" ;
+    rdfs:subClassOf obo:NCBITaxon_1914233 .
+
+obo:NCBITaxon_2115979 a schema1:Taxon ;
+    rdfs:label "Clevea" ;
+    dwc:scientificName "Clevea" ;
+    rdfs:subClassOf obo:NCBITaxon_122613 .
+
+obo:NCBITaxon_2212631 a schema1:Taxon ;
+    rdfs:label "Diplophyllum obtusatum" ;
+    dwc:scientificName "Diplophyllum obtusatum" ;
+    rdfs:subClassOf obo:NCBITaxon_248353 .
+
+obo:NCBITaxon_2212703 a schema1:Taxon ;
+    rdfs:label "Mucoromycetes" ;
+    dwc:scientificName "Mucoromycetes" ;
+    rdfs:subClassOf obo:NCBITaxon_451507 .
+
+obo:NCBITaxon_2497569 a schema1:Taxon ;
+    rdfs:label "Negarnaviricota" ;
+    dwc:scientificName "Negarnaviricota" ;
+    rdfs:subClassOf obo:NCBITaxon_2732396 .
+
+obo:NCBITaxon_2497571 a schema1:Taxon ;
+    rdfs:label "Polyploviricotina" ;
+    dwc:scientificName "Polyploviricotina" ;
+    rdfs:subClassOf obo:NCBITaxon_2497569 .
+
+obo:NCBITaxon_2497577 a schema1:Taxon ;
+    rdfs:label "Insthoviricetes" ;
+    dwc:scientificName "Insthoviricetes" ;
+    rdfs:subClassOf obo:NCBITaxon_2497571 .
+
+obo:NCBITaxon_2499411 a schema1:Taxon ;
+    rdfs:label "Articulavirales" ;
+    dwc:scientificName "Articulavirales" ;
+    rdfs:subClassOf obo:NCBITaxon_2497577 .
+
+obo:NCBITaxon_2501931 a schema1:Taxon ;
+    rdfs:label "Orthocoronavirinae" ;
+    dwc:scientificName "Orthocoronavirinae" ;
+    rdfs:subClassOf obo:NCBITaxon_11118 .
+
+obo:NCBITaxon_2509511 a schema1:Taxon ;
+    rdfs:label "Sarbecovirus" ;
+    dwc:scientificName "Sarbecovirus" ;
+    rdfs:subClassOf obo:NCBITaxon_694002 .
+
+obo:NCBITaxon_2578417 a schema1:Taxon ;
+    rdfs:label "Sanguina" ;
+    dwc:scientificName "Sanguina" ;
+    rdfs:subClassOf obo:NCBITaxon_3051 .
+
+obo:NCBITaxon_2578421 a schema1:Taxon ;
+    rdfs:label "Sanguina nivaloides" ;
+    dwc:scientificName "Sanguina nivaloides" ;
+    rdfs:subClassOf obo:NCBITaxon_2578417 .
+
+obo:NCBITaxon_2697049 a schema1:Taxon ;
+    rdfs:label "Severe acute respiratory syndrome coronavirus 2" ;
+    dwc:scientificName "Severe acute respiratory syndrome coronavirus 2" ;
+    rdfs:subClassOf obo:NCBITaxon_227859, obo:NCBITaxon_694009 .
+
+obo:NCBITaxon_2731341 a schema1:Taxon ;
+    rdfs:label "Duplodnaviria" ;
+    dwc:scientificName "Duplodnaviria" ;
+    rdfs:subClassOf obo:NCBITaxon_10239 .
+
+obo:NCBITaxon_2731360 a schema1:Taxon ;
+    rdfs:label "Heunggongvirae" ;
+    dwc:scientificName "Heunggongvirae" ;
+    rdfs:subClassOf obo:NCBITaxon_2731341 .
+
+obo:NCBITaxon_2731361 a schema1:Taxon ;
+    rdfs:label "Peploviricota" ;
+    dwc:scientificName "Peploviricota" ;
+    rdfs:subClassOf obo:NCBITaxon_2731360 .
+
+obo:NCBITaxon_2731363 a schema1:Taxon ;
+    rdfs:label "Herviviricetes" ;
+    dwc:scientificName "Herviviricetes" ;
+    rdfs:subClassOf obo:NCBITaxon_2731361 .
+
+obo:NCBITaxon_2732396 a schema1:Taxon ;
+    rdfs:label "Orthornavirae" ;
+    dwc:scientificName "Orthornavirae" ;
+    rdfs:subClassOf obo:NCBITaxon_10239 .
+
+obo:NCBITaxon_2732408 a schema1:Taxon ;
+    rdfs:label "Pisuviricota" ;
+    dwc:scientificName "Pisuviricota" ;
+    rdfs:subClassOf obo:NCBITaxon_2732396 .
+
+obo:NCBITaxon_2732506 a schema1:Taxon ;
+    rdfs:label "Pisoniviricetes" ;
+    dwc:scientificName "Pisoniviricetes" ;
+    rdfs:subClassOf obo:NCBITaxon_2732408 .
+
+obo:NCBITaxon_2743709 a schema1:Taxon ;
+    rdfs:label "Danionidae" ;
+    dwc:scientificName "Danionidae" ;
+    rdfs:subClassOf obo:NCBITaxon_30727 .
+
+obo:NCBITaxon_2743711 a schema1:Taxon ;
+    rdfs:label "Danioninae" ;
+    dwc:scientificName "Danioninae" ;
+    rdfs:subClassOf obo:NCBITaxon_2743709 .
+
+obo:NCBITaxon_2779757 a schema1:Taxon ;
+    rdfs:label "Riccia bifurca" ;
+    dwc:scientificName "Riccia bifurca" ;
+    rdfs:subClassOf obo:NCBITaxon_41843 .
+
+obo:NCBITaxon_2779758 a schema1:Taxon ;
+    rdfs:label "Riccia canaliculata" ;
+    dwc:scientificName "Riccia canaliculata" ;
+    rdfs:subClassOf obo:NCBITaxon_41843 .
+
+obo:NCBITaxon_2785018 a schema1:Taxon ;
+    rdfs:label "Camarodonta" ;
+    dwc:scientificName "Camarodonta" ;
+    rdfs:subClassOf obo:NCBITaxon_7674 .
+
+obo:NCBITaxon_2803884 a schema1:Taxon ;
+    rdfs:label "Crassiclitellata" ;
+    dwc:scientificName "Crassiclitellata" ;
+    rdfs:subClassOf obo:NCBITaxon_6382 .
+
+obo:NCBITaxon_2803885 a schema1:Taxon ;
+    rdfs:label "Megascolecida" ;
+    dwc:scientificName "Megascolecida" ;
+    rdfs:subClassOf obo:NCBITaxon_2803884 .
+
+obo:NCBITaxon_2818505 a schema1:Taxon ;
+    rdfs:label "Myxococcota" ;
+    dwc:scientificName "Myxococcota" ;
+    rdfs:subClassOf obo:NCBITaxon_3379134 .
+
+obo:NCBITaxon_2998295 a schema1:Taxon ;
+    rdfs:label "Bryum sp." ;
+    dwc:scientificName "Bryum sp." .
+
+obo:NCBITaxon_3028117 a schema1:Taxon ;
+    rdfs:label "Cyanophyceae" ;
+    dwc:scientificName "Cyanophyceae" ;
+    rdfs:subClassOf obo:NCBITaxon_1117 .
+
+obo:NCBITaxon_3051910 a schema1:Taxon ;
+    rdfs:label "Acropomatiformes" ;
+    dwc:scientificName "Acropomatiformes" ;
+    rdfs:subClassOf obo:NCBITaxon_123368 .
+
+obo:NCBITaxon_3108177 a schema1:Taxon .
+
+obo:NCBITaxon_3379134 a schema1:Taxon ;
+    rdfs:label "Pseudomonadati" ;
+    dwc:scientificName "Pseudomonadati" ;
+    rdfs:subClassOf obo:NCBITaxon_2 .
+
+obo:NCBITaxon_4277175 a schema1:Taxon ;
+    rdfs:label "Scapania parvifolia" ;
+    dwc:scientificName "Scapania parvifolia" .
+
+obo:NCBITaxon_4277188 a schema1:Taxon ;
+    rdfs:label "Scapania brevicaulis" ;
+    dwc:scientificName "Scapania brevicaulis" .
+
+obo:NCBITaxon_4277193 a schema1:Taxon ;
+    rdfs:label "Scapania praetervisa" ;
+    dwc:scientificName "Scapania praetervisa" .
+
+obo:NCBITaxon_5931123 a schema1:Taxon ;
+    rdfs:label "Riccia warnstorfii" ;
+    dwc:scientificName "Riccia warnstorfii" .
+
+obo:NCBITaxon_7420792 a schema1:Taxon ;
+    rdfs:label "Scapania irrigua subsp. irrigua" ;
+    dwc:scientificName "Scapania irrigua subsp. irrigua" .
+
+obo:NCBITaxon_7480007 a schema1:Taxon ;
+    rdfs:label "Scapania zemliae" ;
+    dwc:scientificName "Scapania zemliae" .
+
+obo:NCBITaxon_8087753 a schema1:Taxon ;
+    rdfs:label "Scapania irrigua subsp. rufescens" ;
+    dwc:scientificName "Scapania irrigua subsp. rufescens" .
+
+obo:NCBITaxon_8320028 a schema1:Taxon ;
+    rdfs:label "Scapania carinthiaca var. massalongi" ;
+    dwc:scientificName "Scapania carinthiaca var. massalongi" .
+
