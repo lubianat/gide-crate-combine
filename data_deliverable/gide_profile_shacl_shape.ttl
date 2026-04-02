@@ -1,0 +1,336 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
+@prefix bao: <http://www.bioassayontology.org/bao#> .
+@prefix gide: <https://w3id.org/gide/shacl/> .
+
+# ── Dataset ──────────────────────────────────────────────────────────────────
+
+gide:DatasetShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    # MUST
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Dataset MUST have exactly one schema:name" ;
+    ] ;
+    sh:property [
+        sh:path schema:description ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Dataset MUST have exactly one schema:description" ;
+    ] ;
+    sh:property [
+        sh:path schema:datePublished ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Dataset MUST have exactly one schema:datePublished" ;
+    ] ;
+    sh:property [
+        sh:path schema:license ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Dataset MUST have exactly one schema:license" ;
+    ] ;
+    sh:property [
+        sh:path schema:author ;
+        sh:minCount 1 ;
+        sh:message "Dataset MUST have at least one schema:author" ;
+    ] ;
+    sh:property [
+        sh:path schema:publisher ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Dataset MUST have exactly one schema:publisher" ;
+    ] ;
+    sh:property [
+        sh:path schema:about ;
+        sh:minCount 1 ;
+        sh:message "Dataset MUST have at least one schema:about" ;
+    ] ;
+    sh:property [
+        sh:path dwciri:measurementMethod ;
+        sh:minCount 1 ;
+        sh:message "Dataset MUST have at least one dwciri:measurementMethod" ;
+    ] ;
+
+    # SHOULD
+    sh:property [
+        sh:path schema:thumbnailUrl ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Dataset SHOULD have at least one schema:thumbnailUrl" ;
+    ] ;
+    sh:property [
+        sh:path schema:identifier ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Dataset SHOULD have exactly one schema:identifier" ;
+    ] ;
+    # MAY
+    sh:property [
+        sh:path schema:keywords ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Dataset MAY have schema:keywords" ;
+    ] ;
+    sh:property [
+        sh:path schema:funder ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Dataset MAY have at least one schema:funder" ;
+    ] ;
+    sh:property [
+        sh:path rdf:seeAlso ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Dataset MAY have at least one rdf:seeAlso (ScholarlyArticle)" ;
+    ] ;
+
+    sh:property [
+        sh:path schema:size ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Dataset MAY have at least one schema:size (QuantitativeValue)" ;
+    ] .
+
+# ── Person ───────────────────────────────────────────────────────────────────
+
+gide:PersonShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Person ;
+    # MUST
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Person MUST have exactly one schema:name" ;
+    ] ;
+    # SHOULD
+    sh:property [
+        sh:path schema:affiliation ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Person SHOULD have at least one schema:affiliation" ;
+    ] ;
+    # MAY
+    sh:property [
+        sh:path schema:email ;
+        sh:maxCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Person MAY have at most one schema:email" ;
+    ] .
+
+# ── Organization ─────────────────────────────────────────────────────────────
+
+gide:OrganizationShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Organization ;
+    # MUST
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Organization MUST have exactly one schema:name" ;
+    ] ;
+    # MAY
+    sh:property [
+        sh:path schema:url ;
+        sh:maxCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Organization MAY have at most one schema:url" ;
+    ] ;
+    sh:property [
+        sh:path schema:address ;
+        sh:maxCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Organization MAY have at most one schema:address" ;
+    ] .
+
+# ── DefinedTerm ──────────────────────────────────────────────────────────────
+
+gide:DefinedTermShape
+    a sh:NodeShape ;
+    sh:targetClass schema:DefinedTerm ;
+    # MUST
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "DefinedTerm MUST have exactly one schema:name" ;
+    ] .
+
+# ── Taxon ────────────────────────────────────────────────────────────────────
+
+gide:TaxonShape
+    a sh:NodeShape ;
+    sh:targetClass dwc:Taxon ;
+    # MUST
+    sh:property [
+        sh:path dwc:scientificName ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Taxon MUST have exactly one dwc:scientificName" ;
+    ] ;
+    # MAY
+    sh:property [
+        sh:path dwc:vernacularName ;
+        sh:maxCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Taxon MAY have at most one dwc:vernacularName" ;
+    ] .
+
+# ── BioSample ────────────────────────────────────────────────────────────────
+
+gide:BioSampleShape
+    a sh:NodeShape ;
+    sh:targetClass schema:BioSample ;
+    # MUST
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "BioSample MUST have exactly one schema:name" ;
+    ] ;
+    sh:property [
+        sh:path schema:description ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "BioSample MUST have exactly one schema:description" ;
+    ] ;
+    # SHOULD
+    sh:property [
+        sh:path schema:taxonomicRange ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "BioSample SHOULD have at least one schema:taxonomicRange" ;
+    ] ;
+    # MAY
+    sh:property [
+        sh:path bao:BAO_0002004 ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "BioSample MAY have at least one bao:hasCellLine" ;
+    ] .
+
+# ── LabProtocol ──────────────────────────────────────────────────────────────
+
+gide:LabProtocolShape
+    a sh:NodeShape ;
+    sh:targetClass schema:LabProtocol ;
+    # MUST
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "LabProtocol MUST have exactly one schema:name" ;
+    ] ;
+    sh:property [
+        sh:path schema:description ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "LabProtocol MUST have exactly one schema:description" ;
+    ] ;
+    # SHOULD
+    sh:property [
+        sh:path schema:labEquipment ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "LabProtocol SHOULD have at least one schema:labEquipment" ;
+    ] ;
+    sh:property [
+        sh:path schema:measurementTechnique ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "LabProtocol SHOULD have at least one schema:measurementTechnique" ;
+    ] .
+
+# ── QuantitativeValue ────────────────────────────────────────────────────────
+
+gide:QuantitativeValueShape
+    a sh:NodeShape ;
+    sh:targetClass schema:QuantitativeValue ;
+    # MUST
+    sh:property [
+        sh:path schema:value ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "QuantitativeValue MUST have exactly one schema:value" ;
+    ] ;
+    sh:property [
+        sh:path schema:unitCode ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "QuantitativeValue MUST have exactly one schema:unitCode" ;
+    ] ;
+    sh:property [
+        sh:path schema:unitText ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "QuantitativeValue MUST have exactly one schema:unitText" ;
+    ] .
+
+# ── Grant ────────────────────────────────────────────────────────────────────
+
+gide:GrantShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Grant ;
+    # MUST
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Grant MUST have exactly one schema:name" ;
+    ] ;
+    # MAY
+    sh:property [
+        sh:path schema:identifier ;
+        sh:maxCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Grant MAY have at most one schema:identifier" ;
+    ] ;
+    sh:property [
+        sh:path schema:url ;
+        sh:maxCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Grant MAY have at most one schema:url" ;
+    ] .
+
+# ── ScholarlyArticle ────────────────────────────────────────────────────────
+
+gide:ScholarlyArticleShape
+    a sh:NodeShape ;
+    sh:targetClass schema:ScholarlyArticle ;
+    # MUST
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "ScholarlyArticle MUST have exactly one schema:name" ;
+    ] ;
+    # SHOULD
+    sh:property [
+        sh:path schema:datePublished ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "ScholarlyArticle SHOULD have exactly one schema:datePublished" ;
+    ] .
